@@ -237,6 +237,45 @@
             min-width: 40px;
         }
         
+        /* Collapsible section styles */
+        .collapsible-section {
+            transition: all 0.3s ease;
+        }
+        
+        .collapsible-toggle {
+            cursor: pointer;
+            position: relative;
+            padding-right: 40px;
+        }
+        
+        .collapsible-toggle::after {
+            content: "▼";
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.8em;
+            color: #718096;
+            transition: transform 0.3s ease;
+        }
+        
+        .collapsible-toggle.collapsed::after {
+            content: "▶";
+            transform: translateY(-50%);
+        }
+        
+        .collapsible-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+            max-height: 2000px;
+            opacity: 1;
+        }
+        
+        .collapsible-content.collapsed {
+            max-height: 0;
+            opacity: 0;
+        }
+        
         .footer {
             text-align: center;
             color: white;
@@ -376,8 +415,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Six Nations Fantasy: GW1</h1>
-            <p>Optimal XI • Supersubs Excluded • Budget Unconstrained</p>
+            <h1>Six Nations Fantasy Team of the Week: GW1</h1>
+            <p>Optimal XV • Supersubs Excluded • Budget Unconstrained</p>
         </div>
         
         <div class="team-section">
@@ -385,15 +424,15 @@
             
             <div class="team-stats">
                 <div class="stat">
-                    <div class="stat-label">Total</div>
+                    <div class="stat-label">Total Points</div>
                     <div class="stat-value">643</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-label">Average</div>
+                    <div class="stat-label">Average Points</div>
                     <div class="stat-value">42.9</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-label">Highest</div>
+                    <div class="stat-label">Highest Points  (G. Ford)</div>
                     <div class="stat-value">55.0</div>
                 </div>
             </div>
@@ -446,261 +485,283 @@
                     
                 </div>
             </div>
-                <h2 class="team-title">Gameweek 1: Optimal Fantasy XV</h2>
-                <p>Best team selected using optimisation algorithm. Excludes supersub.</p>
-           <div class="players-container">
-                <div class="players-column">
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">1</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                S. Ferrari
-                                
+                <div class="collapsible-section">
+                    <h2 class="team-title collapsible-toggle">Gameweek 1: Optimal Fantasy XV</h2>
+                    <p>Best team selected using optimisation algorithm. Excludes supersub. Max 4 players per nation.</p>
+                    <div class="collapsible-content">
+                        <div class="players-container">
+                        <div class="players-column">
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">1</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        S. Ferrari
+                                        
+                                    </div>
+                                    <div class="player-position">Prop</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #5095ff; color: #fff;">
+                                    ITA
+                                </div>
+                                <div class="player-points">33.0</div>
                             </div>
-                            <div class="player-position">Prop</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #5095ff; color: #fff;">
-                            ITA
-                        </div>
-                        <div class="player-points">33.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">2</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                G. Nicotera
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">2</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        G. Nicotera
+                                        
+                                    </div>
+                                    <div class="player-position">Hooker</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #5095ff; color: #fff;">
+                                    ITA
+                                </div>
+                                <div class="player-points">20.0</div>
                             </div>
-                            <div class="player-position">Hooker</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #5095ff; color: #fff;">
-                            ITA
-                        </div>
-                        <div class="player-points">20.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">3</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                M. Milne
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">3</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        M. Milne
+                                        
+                                    </div>
+                                    <div class="player-position">Prop</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #00a194; color: #fff;">
+                                    IRE
+                                </div>
+                                <div class="player-points">18.0</div>
                             </div>
-                            <div class="player-position">Prop</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #00a194; color: #fff;">
-                            IRE
-                        </div>
-                        <div class="player-points">18.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">4</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                M. Guillard
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">4</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        M. Guillard
+                                        
+                                    </div>
+                                    <div class="player-position">Second Row</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #0062be; color: #fff;">
+                                    FRA
+                                </div>
+                                <div class="player-points">42.0</div>
                             </div>
-                            <div class="player-position">Second Row</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #0062be; color: #fff;">
-                            FRA
-                        </div>
-                        <div class="player-points">42.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">5</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                T. Beirne
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">5</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        T. Beirne
+                                        
+                                    </div>
+                                    <div class="player-position">Second Row</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #00a194; color: #fff;">
+                                    IRE
+                                </div>
+                                <div class="player-points">39.0</div>
                             </div>
-                            <div class="player-position">Second Row</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #00a194; color: #fff;">
-                            IRE
-                        </div>
-                        <div class="player-points">39.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">6</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                L. Cannone
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">6</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        L. Cannone
+                                        
+                                    </div>
+                                    <div class="player-position">Back Row</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #5095ff; color: #fff;">
+                                    ITA
+                                </div>
+                                <div class="player-points">44.0</div>
                             </div>
-                            <div class="player-position">Back Row</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #5095ff; color: #fff;">
-                            ITA
-                        </div>
-                        <div class="player-points">44.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">7</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                B. Earl
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">7</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        B. Earl
+                                        
+                                    </div>
+                                    <div class="player-position">Back Row</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #f0f0f0; color: #1a202c;">
+                                    ENG
+                                </div>
+                                <div class="player-points">50.0</div>
                             </div>
-                            <div class="player-position">Back Row</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #f0f0f0; color: #1a202c;">
-                            ENG
-                        </div>
-                        <div class="player-points">50.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">8</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                J. Dempsey
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">8</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        J. Dempsey
+                                        
+                                    </div>
+                                    <div class="player-position">Back Row</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #2d326a; color: #fff;">
+                                    SCO
+                                </div>
+                                <div class="player-points">40.0</div>
                             </div>
-                            <div class="player-position">Back Row</div>
+                            
                         </div>
-                        <div class="player-nation" style="background-color: #2d326a; color: #fff;">
-                            SCO
-                        </div>
-                        <div class="player-points">40.0</div>
-                    </div>
-                    
-                </div>
-                <div class="players-column">
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">9</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                A. Dupont
-                                
+                        <div class="players-column">
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">9</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        A. Dupont
+                                        
+                                    </div>
+                                    <div class="player-position">Scrum Half</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #0062be; color: #fff;">
+                                    FRA
+                                </div>
+                                <div class="player-points">30.0</div>
                             </div>
-                            <div class="player-position">Scrum Half</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #0062be; color: #fff;">
-                            FRA
-                        </div>
-                        <div class="player-points">30.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card captain-card">
-                        <div class="player-number">10</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                G. Ford
-                                <span class="captain-badge">C</span>
+                            
+                            
+                            <div class="player-card captain-card">
+                                <div class="player-number">10</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        G. Ford
+                                        <span class="captain-badge">C</span>
+                                    </div>
+                                    <div class="player-position">Fly Half</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #f0f0f0; color: #1a202c;">
+                                    ENG
+                                </div>
+                                <div class="player-points">55.0</div>
                             </div>
-                            <div class="player-position">Fly Half</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #f0f0f0; color: #1a202c;">
-                            ENG
-                        </div>
-                        <div class="player-points">55.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">11</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                T. Freeman
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">11</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        T. Freeman
+                                        
+                                    </div>
+                                    <div class="player-position">Back Three</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #f0f0f0; color: #1a202c;">
+                                    ENG
+                                </div>
+                                <div class="player-points">50.0</div>
                             </div>
-                            <div class="player-position">Back Three</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #f0f0f0; color: #1a202c;">
-                            ENG
-                        </div>
-                        <div class="player-points">50.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">12</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                N. Depoortere
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">12</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        N. Depoortere
+                                        
+                                    </div>
+                                    <div class="player-position">Centre</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #0062be; color: #fff;">
+                                    FRA
+                                </div>
+                                <div class="player-points">36.0</div>
                             </div>
-                            <div class="player-position">Centre</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #0062be; color: #fff;">
-                            FRA
-                        </div>
-                        <div class="player-points">36.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">13</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                T. Menoncello
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">13</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        T. Menoncello
+                                        
+                                    </div>
+                                    <div class="player-position">Centre</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #5095ff; color: #fff;">
+                                    ITA
+                                </div>
+                                <div class="player-points">34.0</div>
                             </div>
-                            <div class="player-position">Centre</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #5095ff; color: #fff;">
-                            ITA
-                        </div>
-                        <div class="player-points">34.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">14</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                L. Bielle-Biarrey
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">14</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        L. Bielle-Biarrey
+                                        
+                                    </div>
+                                    <div class="player-position">Back Three</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #0062be; color: #fff;">
+                                    FRA
+                                </div>
+                                <div class="player-points">51.0</div>
                             </div>
-                            <div class="player-position">Back Three</div>
-                        </div>
-                        <div class="player-nation" style="background-color: #0062be; color: #fff;">
-                            FRA
-                        </div>
-                        <div class="player-points">51.0</div>
-                    </div>
-                    
-                    
-                    <div class="player-card">
-                        <div class="player-number">15</div>
-                        <div class="player-info">
-                            <div class="player-name">
-                                H. Arundell
-                                
+                            
+                            
+                            <div class="player-card">
+                                <div class="player-number">15</div>
+                                <div class="player-info">
+                                    <div class="player-name">
+                                        H. Arundell
+                                        
+                                    </div>
+                                    <div class="player-position">Back Three</div>
+                                </div>
+                                <div class="player-nation" style="background-color: #f0f0f0; color: #1a202c;">
+                                    ENG
+                                </div>
+                                <div class="player-points">46.0</div>
                             </div>
-                            <div class="player-position">Back Three</div>
+                            
                         </div>
-                        <div class="player-nation" style="background-color: #f0f0f0; color: #1a202c;">
-                            ENG
-                        </div>
-                        <div class="player-points">46.0</div>
                     </div>
-                    
                 </div>
             </div>
-        </div>
         
         <div class="footer">
             <p>Captain (G. Ford) earns 2× points</p>
         </div>
     </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.querySelector('.collapsible-toggle');
+            const content = document.querySelector('.collapsible-content');
+            
+            if (toggle && content) {
+                toggle.addEventListener('click', function() {
+                    // Toggle collapsed class on both elements
+                    toggle.classList.toggle('collapsed');
+                    content.classList.toggle('collapsed');
+                });
+                
+                // Start expanded (default state)
+                toggle.classList.remove('collapsed');
+                content.classList.remove('collapsed');
+            }
+        });
+    </script>
 </body>
 </html>
