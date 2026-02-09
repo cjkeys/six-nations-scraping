@@ -138,9 +138,15 @@
         }
         
         /* Compact player cards for mobile */
-        .players-grid {
+        .players-container {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        
+        .players-column {
+            display: flex;
+            flex-direction: column;
             gap: 8px;
         }
         
@@ -322,14 +328,9 @@
                 font-size: 2em;
             }
             
-            .players-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 12px;
-            }
-            
             .player-card {
-                padding: 16px;
-                gap: 16px;
+                padding: 12px;
+                gap: 12px;
             }
             
             .player-number {
@@ -376,11 +377,11 @@
     <div class="container">
         <div class="header">
             <h1>Six Nations Fantasy: GW1</h1>
-            <p>Optimal XI • Supersubs Excluded • Budget Unconstrained</p>
+            <p>Optimal XV • Supersubs Excluded • Budget Unconstrained</p>
         </div>
         
         <div class="team-section">
-            <h2 class="team-title">Team Performance</h2>
+            <h2 class="team-title">Summary</h2>
             
             <div class="team-stats">
                 <div class="stat">
@@ -405,31 +406,52 @@
                         <div class="nation-name" style="color: {% if nation == 'England' %}#1a202c{% else %}#fff{% endif %};">
                             {{ nation[:3] | upper }}
                         </div>
-                        <div class="nation-count">{{ nation_counts[nation] }}</div>
+                        <div class="nation-count" style="color: {% if nation == 'England' %}#1a202c{% else %}#fff{% endif %};">{{ nation_counts[nation] }}</div>
                     </div>
                     {% endfor %}
                 </div>
             </div>
-            
-            <h2 class="team-title">Starting XV</h2>
-            <div class="players-grid">
-                {% for player in sorted_team %}
-                {% set is_captain = captain and captain.ID == player.ID %}
-                <div class="player-card{% if is_captain %} captain-card{% endif %}">
-                    <div class="player-number">{{ loop.index }}</div>
-                    <div class="player-info">
-                        <div class="player-name">
-                            {{ player.Name }}
-                            {% if is_captain %}<span class="captain-badge">C</span>{% endif %}
+                <h2 class="team-title">Gameweek 1: Optimal Fantasy XV</h2>
+                <p>Best team selected using optimisation algorithm. Excludes supersub. Max 4 players per nation.</p>
+           <div class="players-container">
+                <div class="players-column">
+                    {% for player in sorted_team[:8] %}
+                    {% set is_captain = captain and captain.ID == player.ID %}
+                    <div class="player-card{% if is_captain %} captain-card{% endif %}">
+                        <div class="player-number">{{ loop.index }}</div>
+                        <div class="player-info">
+                            <div class="player-name">
+                                {{ player.Name }}
+                                {% if is_captain %}<span class="captain-badge">C</span>{% endif %}
+                            </div>
+                            <div class="player-position">{{ player['Position Name'] }}</div>
                         </div>
-                        <div class="player-position">{{ player['Position Name'] }}</div>
+                        <div class="player-nation" style="background-color: {{ nation_colors[player.Club] }}; color: {% if player.Club == 'England' %}#1a202c{% else %}#fff{% endif %};">
+                            {{ player.Club[:3] | upper }}
+                        </div>
+                        <div class="player-points">{{ player.avg_points | round(1) }}</div>
                     </div>
-                    <div class="player-nation" style="background-color: {{ nation_colors[player.Club] }}; color: {% if player.Club == 'England' %}#1a202c{% else %}#fff{% endif %};">
-                        {{ player.Club[:3] | upper }}
-                    </div>
-                    <div class="player-points">{{ player.avg_points | round(1) }}</div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
+                <div class="players-column">
+                    {% for player in sorted_team[8:] %}
+                    {% set is_captain = captain and captain.ID == player.ID %}
+                    <div class="player-card{% if is_captain %} captain-card{% endif %}">
+                        <div class="player-number">{{ loop.index + 8 }}</div>
+                        <div class="player-info">
+                            <div class="player-name">
+                                {{ player.Name }}
+                                {% if is_captain %}<span class="captain-badge">C</span>{% endif %}
+                            </div>
+                            <div class="player-position">{{ player['Position Name'] }}</div>
+                        </div>
+                        <div class="player-nation" style="background-color: {{ nation_colors[player.Club] }}; color: {% if player.Club == 'England' %}#1a202c{% else %}#fff{% endif %};">
+                            {{ player.Club[:3] | upper }}
+                        </div>
+                        <div class="player-points">{{ player.avg_points | round(1) }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
         

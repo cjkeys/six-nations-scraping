@@ -54,7 +54,7 @@ def read_players_from_csv(filename: str = "data/six_nations_stats2.csv") -> List
         return []
 
 
-def build_optimal_team(players: List[Dict[str, Any]], excluded_ids: set = None) -> Dict[str, Any]:
+def build_optimal_team(players: List[Dict[str, Any]], excluded_ids: set = None, limit_nations: bool = True) -> Dict[str, Any]:
     """
     Build an optimal fantasy rugby team using linear programming.
     
@@ -117,10 +117,11 @@ def build_optimal_team(players: List[Dict[str, Any]], excluded_ids: set = None) 
         prob += pulp.lpSum([player_vars[i] for i in position_players]) == count_needed, f"position_{position}"
     
     # Constraint: max 4 players per club
-    clubs = set(p.get("Club", "Unknown") for p in players if p.get("ID") not in excluded_ids)
-    for club in clubs:
-        club_players = [i for i in player_vars if players[i].get("Club") == club]
-        prob += pulp.lpSum([player_vars[i] for i in club_players]) <= 4, f"club_{club}"
+    if limit_nations:
+        clubs = set(p.get("Club", "Unknown") for p in players if p.get("ID") not in excluded_ids)
+        for club in clubs:
+            club_players = [i for i in player_vars if players[i].get("Club") == club]
+            prob += pulp.lpSum([player_vars[i] for i in club_players]) <= 4, f"club_{club}"
     
     # Solve the problem
     prob.solve(pulp.PULP_CBC_CMD(msg=0))
@@ -296,6 +297,10 @@ def main():
     excluded_ids = set(p.get("ID") for p in team1_result['team'])
     team2_result = build_optimal_team(players, excluded_ids=excluded_ids)
     display_team(team2_result, team_number=2)
+
+    #build team without nation limit
+    team3_result = build_optimal_team(players, limit_nations=False)
+    display_team(team3_result, team_number=3)
     
     # Summary comparison
     print("\n" + "=" * 80)
@@ -307,7 +312,7 @@ def main():
     print("=" * 80)
     
     # Save teams to CSV and HTML
-    save_teams_to_csv(team1_result, team2_result, "data/selected_teams.csv")
+    save_teams_to_csv(team1_result, team3_result, "data/selected_teams.csv")
     save_teams_to_html(team1_result, team2_result, "data/selected_teams.html")
     save_team_to_html_table(team1_result, "data/selected_team_table.html")
 

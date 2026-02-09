@@ -43,24 +43,36 @@ def save_team_to_html_table(team_result: Dict[str, Any], filename: str = "data/s
         if nation not in nation_counts:
             nation_counts[nation] = 0
     
-    # Custom sort: Prop, Hooker, Prop, then Second Row, Back Row, Scrum Half, Fly Half, Centre, Back Three
+    # Custom sort with proper rugby numbering
     position_order = {
         "Second Row": 0,
         "Back Row": 1,
         "Scrum Half": 2,
         "Fly Half": 3,
-        "Centre": 4,
-        "Back Three": 5,
+        "Back Three": 4,  # One will be 11
+        "Centre": 5,      # 12, 13
+        # Remaining Back Three will be 14, 15
     }
     
     props = [p for p in team_result['team'] if p.get('Position Name') == 'Prop']
     hookers = [p for p in team_result['team'] if p.get('Position Name') == 'Hooker']
+    back_three = [p for p in team_result['team'] if p.get('Position Name') == 'Back Three']
+    centres = [p for p in team_result['team'] if p.get('Position Name') == 'Centre']
+    
     rest = sorted(
-        [p for p in team_result['team'] if p.get('Position Name') not in ['Prop', 'Hooker']],
+        [p for p in team_result['team'] if p.get('Position Name') not in ['Prop', 'Hooker', 'Back Three', 'Centre']],
         key=lambda p: position_order.get(p.get('Position Name', 'Unknown'), 999)
     )
     
-    sorted_team = props[:1] + hookers + props[1:] + rest
+    # Build team: 1-3 (front row), 4-5 (second row), 6-8 (back row), 
+    # 9 (scrum half), 10 (fly half), 11 (back three), 12-13 (centres), 14-15 (back three)
+    sorted_team = (
+        props[:1] + hookers + props[1:] +  # 1, 2, 3
+        rest +                              # 4-10 (second row, back row, scrum half, fly half)
+        back_three[:1] +                    # 11 (one back three)
+        centres +                           # 12, 13
+        back_three[1:]                      # 14, 15 (remaining back three)
+    )
     
     # Set up Jinja2 environment
     template_dir = Path(__file__).parent
