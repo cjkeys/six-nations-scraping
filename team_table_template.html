@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Six Nations Fantasy Team - Gameweek 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+            color: #1a202c;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 2.8em;
+            font-weight: 800;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header p {
+            font-size: 1.05em;
+            opacity: 0.95;
+            font-weight: 400;
+        }
+        
+        .team-section {
+            background: white;
+            border-radius: 12px;
+            padding: 48px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+        }
+        
+        .team-title {
+            font-size: 1.75em;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #e2e8f0;
+            letter-spacing: -0.3px;
+        }
+        
+        .team-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+        
+        .stat {
+            text-align: center;
+            padding: 24px;
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .stat:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stat-label {
+            font-size: 0.8em;
+            color: #718096;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            font-weight: 600;
+        }
+        
+        .stat-value {
+            font-size: 2.8em;
+            font-weight: 800;
+            color: #2d3748;
+            line-height: 1;
+        }
+        
+        .nation-breakdown {
+            padding: 32px;
+            background: #f7fafc;
+            border-radius: 8px;
+            margin-bottom: 48px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .nation-breakdown h3 {
+            font-size: 0.8em;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .nation-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .nation-table th {
+            padding: 16px;
+            font-weight: 700;
+            text-align: center;
+            font-size: 0.9em;
+            letter-spacing: 0.5px;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .nation-table th:last-child {
+            border-right: none;
+        }
+        
+        .nation-table td {
+            padding: 20px 16px;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+            font-weight: 700;
+            font-size: 1.5em;
+            color: #2d3748;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 8px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-top: 20px;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+        }
+        
+        th {
+            padding: 16px;
+            text-align: left;
+            font-weight: 700;
+            color: white;
+            font-size: 0.8em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        tbody tr {
+            background: white;
+        }
+        
+        tbody tr:nth-child(even) {
+            background: #f7fafc;
+        }
+        
+        td {
+            padding: 16px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 0.95em;
+        }
+        
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .player-number {
+            text-align: center;
+            font-weight: 700;
+            color: #a0aec0;
+            width: 60px;
+            font-size: 0.9em;
+        }
+        
+        .player-name {
+            font-weight: 600;
+            color: #1a202c;
+            font-size: 1.05em;
+        }
+        
+        .captain-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #1a202c;
+            border-radius: 50%;
+            width: 26px;
+            height: 26px;
+            text-align: center;
+            line-height: 26px;
+            font-size: 0.7em;
+            font-weight: 800;
+            margin-left: 10px;
+            vertical-align: middle;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .player-position {
+            color: #4a5568;
+            font-weight: 600;
+            text-align: left;
+            font-size: 0.9em;
+        }
+        
+        .player-nation {
+            text-align: center;
+            font-weight: 700;
+            font-size: 0.85em;
+            letter-spacing: 0.5px;
+        }
+        
+        .player-points {
+            text-align: center;
+            font-weight: 800;
+            color: #2d3748;
+            font-size: 1.1em;
+        }
+        
+        .player-row {
+            transition: all 0.2s ease;
+        }
+        
+        /* .player-row:hover {
+            background-color: #edf2f7 !important;
+            transform: scale(1.01);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        } */
+        
+        .captain-row {
+            background: linear-gradient(90deg, #fffbeb 0%, #fef3c7 100%) !important;
+        }
+        
+        /* .captain-row:hover {
+            background: linear-gradient(90deg, #fef3c7 0%, #fde68a 100%) !important;
+        } */
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 32px;
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .footer p {
+            background: rgba(255, 255, 255, 0.1);
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 12px;
+            }
+            
+            .team-section {
+                padding: 24px;
+                border-radius: 8px;
+            }
+            
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .team-stats {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+            
+            .stat-value {
+                font-size: 2.2em;
+            }
+            
+            table {
+                font-size: 0.85em;
+            }
+            
+            th, td {
+                padding: 12px 8px;
+            }
+            
+            .player-name {
+                font-size: 0.95em;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.5em;
+            }
+            
+            .header p {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px 6px;
+                font-size: 0.85em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Six Nations Fantasy: Gameweek 1</h1>
+            <p>Optimal XV Selection • Supersubs Excluded • Budget Unconstrained</p>
+        </div>
+        
+        <div class="team-section">
+            <h2 class="team-title">Team Performance Summary</h2>
+            
+            <div class="team-stats">
+                <div class="stat">
+                    <div class="stat-label">Total Points</div>
+                    <div class="stat-value">{{ total_points | int }}</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Average per Player</div>
+                    <div class="stat-value">{{ avg_points | round(1) }}</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Highest Scorer</div>
+                    <div class="stat-value">{{ max_points | round(1) }}</div>
+                </div>
+            </div>
+            
+            <div class="nation-breakdown">
+                <h3>Squad Composition by Nation</h3>
+                <table class="nation-table">
+                    <thead>
+                        <tr>
+                            {% for nation in all_nations %}
+                            <th style="background-color: {{ nation_colors[nation] }}; color: {% if nation == 'England' %}#1a202c{% else %}#fff{% endif %};">
+                                {{ nation }}
+                            </th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            {% for nation in all_nations %}
+                            <td>{{ nation_counts[nation] }}</td>
+                            {% endfor %}
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="table-wrapper">
+                <h2 class="team-title">Starting XV</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Player Name</th>
+                            <th>Position</th>
+                            <th>Nation</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for player in sorted_team %}
+                        {% set is_captain = captain and captain.ID == player.ID %}
+                        <tr class="player-row{% if is_captain %} captain-row{% endif %}">
+                            <td class="player-number">{{ loop.index }}</td>
+                            <td class="player-name">
+                                {{ player.Name }}
+                                {% if is_captain %}<span class="captain-badge">C</span>{% endif %}
+                            </td>
+                            <td class="player-position">
+                                {{ player['Position Name'] }}
+                            </td>
+                            <td class="player-nation" style="background-color: {{ nation_colors[player.Club] }}; color: {% if player.Club == 'England' %}#1a202c{% else %}#fff{% endif %};">
+                                {{ player.Club }}
+                            </td>
+                            <td class="player-points">{{ player.avg_points | round(1) }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Captain{% if captain %} ({{ captain.Name }}){% endif %} earns 2× points multiplier in total score</p>
+        </div>
+    </div>
+</body>
+</html>

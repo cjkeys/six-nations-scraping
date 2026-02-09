@@ -1,0 +1,10 @@
+Max of 4 players from any one club
+Need to pick this many of each of the following positions:
+Back Three: 3
+Centre: 2
+Fly Half: 1
+Scrum Half: 1
+Back Row: 3
+Second Row: 2
+Prop: 2
+Hooker: 1

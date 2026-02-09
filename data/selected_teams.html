@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Six Nations Fantasy Teams - Field View</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .teams-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        @media (max-width: 1200px) {
+            .teams-wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .team-section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .team-title {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+        
+        .team-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .field-container {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .field-container svg {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Six Nations Fantasy Teams - Field Formation</h1>
+            <p>Generated on February 09, 2026</p>
+        </div>
+        
+        <div class="teams-wrapper">
+            <div class="team-section">
+                <h2 class="team-title">TEAM 1 - PRIMARY</h2>
+                <div class="team-stats">
+                    <div class="stat">
+                        <div class="stat-label">Total Points</div>
+                        <div class="stat-value">643</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Avg per Player</div>
+                        <div class="stat-value">42.9</div>
+                    </div>
+                </div>
+                <div class="field-container">
+
+        <svg width="800" height="900" viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+            <!-- Field background -->
+            <rect width="800" height="900" fill="#1a5c1a"/>
+            
+            <!-- Field lines -->
+            <line x1="50" y1="0" x2="50" y2="900" stroke="white" stroke-width="3"/>
+            <line x1="750" y1="0" x2="750" y2="900" stroke="white" stroke-width="3"/>
+            <line x1="0" y1="50" x2="800" y2="50" stroke="white" stroke-width="2"/>
+            <line x1="0" y1="450" x2="800" y2="450" stroke="white" stroke-width="3"/>
+            <line x1="0" y1="850" x2="800" y2="850" stroke="white" stroke-width="2"/>
+            
+            <!-- 22m lines -->
+            <line x1="0" y1="200" x2="800" y2="200" stroke="white" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="0" y1="700" x2="800" y2="700" stroke="white" stroke-width="1" stroke-dasharray="5,5"/>
+            
+            <!-- Halfway line circle -->
+            <circle cx="400" cy="450" r="30" fill="none" stroke="white" stroke-width="2"/>
+            <circle cx="400" cy="450" r="3" fill="white"/>
+        
+            <!-- Player 0 -->
+            <circle cx="100" cy="80" r="35" fill="#001f3f" stroke="white" stroke-width="2"/>
+            <text x="100" y="80" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">BIELLE-BIARREY</text>
+
+            <rect x="55" y="120" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="100" y="132" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                L. Bielle-Biarr
+            </text>
+            <text x="100" y="148" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                51 pts
+            </text>
+
+            <!-- Player 1 -->
+            <circle cx="400" cy="50" r="35" fill="#15549F" stroke="white" stroke-width="2"/>
+            <text x="400" y="50" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">FREEMAN</text>
+
+            <rect x="355" y="90" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="400" y="102" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                T. Freeman
+            </text>
+            <text x="400" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                50 pts
+            </text>
+
+            <!-- Player 2 -->
+            <circle cx="700" cy="80" r="35" fill="#15549F" stroke="white" stroke-width="2"/>
+            <text x="700" y="80" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">ARUNDELL</text>
+
+            <rect x="655" y="120" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="700" y="132" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                H. Arundell
+            </text>
+            <text x="700" y="148" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                46 pts
+            </text>
+
+            <!-- Player 3 -->
+            <circle cx="200" cy="180" r="35" fill="#001f3f" stroke="white" stroke-width="2"/>
+            <text x="200" y="180" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">DEPOORTERE</text>
+
+            <rect x="155" y="220" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="200" y="232" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                N. Depoortere
+            </text>
+            <text x="200" y="248" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                36 pts
+            </text>
+
+            <!-- Player 4 -->
+            <circle cx="600" cy="180" r="35" fill="#0066cc" stroke="white" stroke-width="2"/>
+            <text x="600" y="180" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">MENONCELLO</text>
+
+            <rect x="555" y="220" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="600" y="232" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                T. Menoncello
+            </text>
+            <text x="600" y="248" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                34 pts
+            </text>
+
+            <!-- Player 5 -->
+            <circle cx="450" cy="280" r="35" fill="#15549F" stroke="white" stroke-width="2"/>
+            <text x="450" y="280" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">FORD</text>
+
+            <circle cx="475" cy="255" r="12" fill="#f39c12" stroke="white" stroke-width="1.5"/>
+            <text x="475" y="260" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="10" font-weight="bold">C</text>
+
+            <rect x="405" y="320" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="450" y="332" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                G. Ford
+            </text>
+            <text x="450" y="348" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                55 pts
+            </text>
+
+            <!-- Player 6 -->
+            <circle cx="450" cy="380" r="35" fill="#001f3f" stroke="white" stroke-width="2"/>
+            <text x="450" y="380" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">DUPONT</text>
+
+            <rect x="405" y="420" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="450" y="432" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                A. Dupont
+            </text>
+            <text x="450" y="448" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                30 pts
+            </text>
+
+            <!-- Player 7 -->
+            <circle cx="250" cy="500" r="35" fill="#15549F" stroke="white" stroke-width="2"/>
+            <text x="250" y="500" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">EARL</text>
+
+            <rect x="205" y="540" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="250" y="552" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                B. Earl
+            </text>
+            <text x="250" y="568" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                50 pts
+            </text>
+
+            <!-- Player 8 -->
+            <circle cx="450" cy="550" r="35" fill="#0066cc" stroke="white" stroke-width="2"/>
+            <text x="450" y="550" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">CANNONE</text>
+
+            <rect x="405" y="590" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="450" y="602" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                L. Cannone
+            </text>
+            <text x="450" y="618" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                44 pts
+            </text>
+
+            <!-- Player 9 -->
+            <circle cx="650" cy="500" r="35" fill="#00005c" stroke="white" stroke-width="2"/>
+            <text x="650" y="500" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">DEMPSEY</text>
+
+            <rect x="605" y="540" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="650" y="552" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                J. Dempsey
+            </text>
+            <text x="650" y="568" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                40 pts
+            </text>
+
+            <!-- Player 10 -->
+            <circle cx="350" cy="620" r="35" fill="#001f3f" stroke="white" stroke-width="2"/>
+            <text x="350" y="620" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">GUILLARD</text>
+
+            <rect x="305" y="660" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="350" y="672" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                M. Guillard
+            </text>
+            <text x="350" y="688" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                42 pts
+            </text>
+
+            <!-- Player 11 -->
+            <circle cx="550" cy="620" r="35" fill="#003366" stroke="white" stroke-width="2"/>
+            <text x="550" y="620" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">BEIRNE</text>
+
+            <rect x="505" y="660" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="550" y="672" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                T. Beirne
+            </text>
+            <text x="550" y="688" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                39 pts
+            </text>
+
+            <!-- Player 12 -->
+            <circle cx="300" cy="720" r="35" fill="#0066cc" stroke="white" stroke-width="2"/>
+            <text x="300" y="720" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">FERRARI</text>
+
+            <rect x="255" y="760" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="300" y="772" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                S. Ferrari
+            </text>
+            <text x="300" y="788" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                33 pts
+            </text>
+
+            <!-- Player 13 -->
+            <circle cx="600" cy="720" r="35" fill="#003366" stroke="white" stroke-width="2"/>
+            <text x="600" y="720" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">MILNE</text>
+
+            <rect x="555" y="760" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="600" y="772" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                M. Milne
+            </text>
+            <text x="600" y="788" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                18 pts
+            </text>
+
+            <!-- Player 14 -->
+            <circle cx="450" cy="800" r="35" fill="#0066cc" stroke="white" stroke-width="2"/>
+            <text x="450" y="800" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">NICOTERA</text>
+
+            <rect x="405" y="840" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="450" y="852" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                G. Nicotera
+            </text>
+            <text x="450" y="868" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                20 pts
+            </text>
+
+        </svg>
+        
+                </div>
+            </div>
+            
+            <div class="team-section">
+                <h2 class="team-title">TEAM 2 - BACKUP</h2>
+                <div class="team-stats">
+                    <div class="stat">
+                        <div class="stat-label">Total Points</div>
+                        <div class="stat-value">497</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Avg per Player</div>
+                        <div class="stat-value">33.1</div>
+                    </div>
+                </div>
+                <div class="field-container">
+
+        <svg width="800" height="900" viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+            <!-- Field background -->
+            <rect width="800" height="900" fill="#1a5c1a"/>
+            
+            <!-- Field lines -->
+            <line x1="50" y1="0" x2="50" y2="900" stroke="white" stroke-width="3"/>
+            <line x1="750" y1="0" x2="750" y2="900" stroke="white" stroke-width="3"/>
+            <line x1="0" y1="50" x2="800" y2="50" stroke="white" stroke-width="2"/>
+            <line x1="0" y1="450" x2="800" y2="450" stroke="white" stroke-width="3"/>
+            <line x1="0" y1="850" x2="800" y2="850" stroke="white" stroke-width="2"/>
+            
+            <!-- 22m lines -->
+            <line x1="0" y1="200" x2="800" y2="200" stroke="white" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="0" y1="700" x2="800" y2="700" stroke="white" stroke-width="1" stroke-dasharray="5,5"/>
+            
+            <!-- Halfway line circle -->
+            <circle cx="400" cy="450" r="30" fill="none" stroke="white" stroke-width="2"/>
+            <circle cx="400" cy="450" r="3" fill="white"/>
+        
+            <!-- Player 0 -->
+            <circle cx="100" cy="80" r="35" fill="#001f3f" stroke="white" stroke-width="2"/>
+            <text x="100" y="80" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">RAMOS</text>
+
+            <rect x="55" y="120" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="100" y="132" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                T. Ramos
+            </text>
+            <text x="100" y="148" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                46 pts
+            </text>
+
+            <!-- Player 1 -->
+            <circle cx="400" cy="50" r="35" fill="#001f3f" stroke="white" stroke-width="2"/>
+            <text x="400" y="50" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">ATTISSOGBE</text>
+
+            <rect x="355" y="90" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="400" y="102" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                T. Attissogbe
+            </text>
+            <text x="400" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                32 pts
+            </text>
+
+            <!-- Player 2 -->
+            <circle cx="700" cy="80" r="35" fill="#003366" stroke="white" stroke-width="2"/>
+            <text x="700" y="80" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">OSBORNE</text>
+
+            <rect x="655" y="120" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="700" y="132" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                J. Osborne
+            </text>
+            <text x="700" y="148" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                21 pts
+            </text>
+
+            <!-- Player 3 -->
+            <circle cx="200" cy="180" r="35" fill="#003366" stroke="white" stroke-width="2"/>
+            <text x="200" y="180" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">MCCLOSKEY</text>
+
+            <rect x="155" y="220" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="200" y="232" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                S. McCloskey
+            </text>
+            <text x="200" y="248" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                27 pts
+            </text>
+
+            <!-- Player 4 -->
+            <circle cx="600" cy="180" r="35" fill="#15549F" stroke="white" stroke-width="2"/>
+            <text x="600" y="180" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">DINGWALL</text>
+
+            <rect x="555" y="220" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="600" y="232" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                F. Dingwall
+            </text>
+            <text x="600" y="248" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                20 pts
+            </text>
+
+            <!-- Player 5 -->
+            <circle cx="450" cy="280" r="35" fill="#001f3f" stroke="white" stroke-width="2"/>
+            <text x="450" y="280" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">JALIBERT</text>
+
+            <circle cx="475" cy="255" r="12" fill="#f39c12" stroke="white" stroke-width="1.5"/>
+            <text x="475" y="260" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="10" font-weight="bold">C</text>
+
+            <rect x="405" y="320" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="450" y="332" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                M. Jalibert
+            </text>
+            <text x="450" y="348" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                52 pts
+            </text>
+
+            <!-- Player 6 -->
+            <circle cx="450" cy="380" r="35" fill="#00005c" stroke="white" stroke-width="2"/>
+            <text x="450" y="380" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">WHITE</text>
+
+            <rect x="405" y="420" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="450" y="432" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                B. White
+            </text>
+            <text x="450" y="448" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                26 pts
+            </text>
+
+            <!-- Player 7 -->
+            <circle cx="250" cy="500" r="35" fill="#0066cc" stroke="white" stroke-width="2"/>
+            <text x="250" y="500" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">LAMARO</text>
+
+            <rect x="205" y="540" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="250" y="552" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                M. Lamaro
+            </text>
+            <text x="250" y="568" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                37 pts
+            </text>
+
+            <!-- Player 8 -->
+            <circle cx="450" cy="550" r="35" fill="#003366" stroke="white" stroke-width="2"/>
+            <text x="450" y="550" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">DORIS</text>
+
+            <rect x="405" y="590" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="450" y="602" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                C. Doris
+            </text>
+            <text x="450" y="618" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                34 pts
+            </text>
+
+            <!-- Player 9 -->
+            <circle cx="650" cy="500" r="35" fill="#003366" stroke="white" stroke-width="2"/>
+            <text x="650" y="500" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">TIMONEY</text>
+
+            <rect x="605" y="540" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="650" y="552" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                N. Timoney
+            </text>
+            <text x="650" y="568" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                33 pts
+            </text>
+
+            <!-- Player 10 -->
+            <circle cx="350" cy="620" r="35" fill="#0066cc" stroke="white" stroke-width="2"/>
+            <text x="350" y="620" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">CANNONE</text>
+
+            <rect x="305" y="660" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="350" y="672" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                N. Cannone
+            </text>
+            <text x="350" y="688" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                31 pts
+            </text>
+
+            <!-- Player 11 -->
+            <circle cx="550" cy="620" r="35" fill="#15549F" stroke="white" stroke-width="2"/>
+            <text x="550" y="620" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">CHESSUM</text>
+
+            <rect x="505" y="660" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="550" y="672" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                O. Chessum
+            </text>
+            <text x="550" y="688" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                30 pts
+            </text>
+
+            <!-- Player 12 -->
+            <circle cx="300" cy="720" r="35" fill="#0066cc" stroke="white" stroke-width="2"/>
+            <text x="300" y="720" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">FISCHETTI</text>
+
+            <rect x="255" y="760" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="300" y="772" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                D. Fischetti
+            </text>
+            <text x="300" y="788" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                19 pts
+            </text>
+
+            <!-- Player 13 -->
+            <circle cx="600" cy="720" r="35" fill="#15549F" stroke="white" stroke-width="2"/>
+            <text x="600" y="720" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">RODD</text>
+
+            <rect x="555" y="760" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="600" y="772" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                B. Rodd
+            </text>
+            <text x="600" y="788" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                17 pts
+            </text>
+
+            <!-- Player 14 -->
+            <circle cx="450" cy="800" r="35" fill="#001f3f" stroke="white" stroke-width="2"/>
+            <text x="450" y="800" text-anchor="middle" dominant-baseline="middle" 
+                  fill="white" font-size="11" font-weight="bold">MAUVAKA</text>
+
+            <rect x="405" y="840" width="90" height="45" fill="white" stroke="white" stroke-width="1" rx="3"/>
+            <text x="450" y="852" text-anchor="middle" font-size="10" font-weight="bold" fill="#333" dominant-baseline="middle">
+                P. Mauvaka
+            </text>
+            <text x="450" y="868" text-anchor="middle" font-size="11" font-weight="bold" fill="#f39c12" dominant-baseline="middle">
+                20 pts
+            </text>
+
+        </svg>
+        
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Combined Total Points: 1140</p>
+        </div>
+    </div>
+</body>
+</html>
