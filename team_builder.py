@@ -8,6 +8,7 @@ import csv
 from typing import List, Dict, Any
 from pathlib import Path
 import pulp
+import pandas as pd
 
 from html_generator import save_teams_to_html
 from html_table_generator import save_team_to_html_table
@@ -25,7 +26,7 @@ POSITION_NAMES = {
 }
 
 
-def read_players_from_csv(filename: str = "data/six_nations_stats2.csv") -> List[Dict[str, Any]]:
+def read_players_from_csv(filename: str = "data/six_nations_stats.csv") -> List[Dict[str, Any]]:
     """
     Read player data from CSV file
     
@@ -90,7 +91,7 @@ def build_optimal_team(players: List[Dict[str, Any]], excluded_ids: set = None, 
     for player in players:
         # Use only the "Average points" column
         try:
-            avg_points = float(player.get("Average points", 0)) if player.get("Average points") else 0
+            avg_points = float(player.get("Pts", 0)) if player.get("Pts") else 0
         except (ValueError, TypeError):
             avg_points = 0
         player["avg_points"] = avg_points
@@ -213,15 +214,7 @@ def display_team(team_result: Dict[str, Any], team_number: int = 1):
     print("=" * 80)
 
 
-def save_teams_to_csv(team1_result: Dict[str, Any], team2_result: Dict[str, Any], filename: str = "data/selected_teams.csv"):
-    """
-    Save both teams to CSV file
-    
-    Args:
-        team1_result: First team result dictionary
-        team2_result: Second team result dictionary
-        filename: Output CSV filename
-    """
+def save_teams_to_csv(team_results: List[Dict[str, Any]], filename: str = "data/selected_teams.csv"):
     position_order = {
         "Prop": 0,
         "Hooker": 1,
@@ -233,35 +226,22 @@ def save_teams_to_csv(team1_result: Dict[str, Any], team2_result: Dict[str, Any]
         "Back Three": 7,
     }
     
-    # Prepare data for both teams
     all_team_data = []
     
-    # Team 1
-    for player in team1_result['team']:
-        all_team_data.append({
-            "Position": player.get('Position Name', 'Unknown'),
-            "Name": player.get('Name', 'Unknown'),
-            "Nation": player.get('Club', 'Unknown'),
-            "Points": f"{player.get('avg_points', 0):.2f}",
-            "Team": "1st",
-            "Captain": "Yes" if team1_result['captain'] and team1_result['captain'].get('ID') == player.get('ID') else "No"
-        })
+    for i, team_result in enumerate(team_results, start=1):
+        label = f"GW{team_result.get('gameweek', i)}" if 'gameweek' in team_result else str(i)
+        for player in team_result['team']:
+            all_team_data.append({
+                "Position": player.get('Position Name', 'Unknown'),
+                "Name": player.get('Name', 'Unknown'),
+                "Nation": player.get('Club', 'Unknown'),
+                "Points": f"{player.get('avg_points', 0):.2f}",
+                "Gameweek": label,
+                "Captain": "Yes" if team_result['captain'] and team_result['captain'].get('ID') == player.get('ID') else "No"
+            })
     
-    # Team 2
-    for player in team2_result['team']:
-        all_team_data.append({
-            "Position": player.get('Position Name', 'Unknown'),
-            "Name": player.get('Name', 'Unknown'),
-            "Nation": player.get('Club', 'Unknown'),
-            "Points": f"{player.get('avg_points', 0):.2f}",
-            "Team": "2nd",
-            "Captain": "Yes" if team2_result['captain'] and team2_result['captain'].get('ID') == player.get('ID') else "No"
-        })
+    all_team_data.sort(key=lambda x: (x["Gameweek"], position_order.get(x["Position"], 999)))
     
-    # Sort by team and position
-    all_team_data.sort(key=lambda x: (x["Team"], position_order.get(x["Position"], 999)))
-    
-    # Write to CSV
     output_path = Path(filename)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
@@ -275,7 +255,6 @@ def save_teams_to_csv(team1_result: Dict[str, Any], team2_result: Dict[str, Any]
     except Exception as e:
         print(f"Error saving teams to CSV: {e}")
 
-
 def main():
     """Main execution"""
     print("=" * 80)
@@ -283,38 +262,38 @@ def main():
     print("=" * 80)
     
     # Read players from CSV
-    players = read_players_from_csv("data/six_nations_stats2.csv")
+    players = read_players_from_csv("data/six_nations_stats.csv")
     
     if not players:
         print("Failed to load player data")
         return
     
     # Build first optimal team
-    team1_result = build_optimal_team(players)
-    display_team(team1_result, team_number=1)
-    
-    # Build second team excluding players from first team
-    excluded_ids = set(p.get("ID") for p in team1_result['team'])
-    team2_result = build_optimal_team(players, excluded_ids=excluded_ids)
-    display_team(team2_result, team_number=2)
 
-    #build team without nation limit
-    team3_result = build_optimal_team(players, limit_nations=False)
-    display_team(team3_result, team_number=3)
+    gameweeks = [1,2,3]
+    all_weeks = []
+    for gw in gameweeks:
+        players_gw = [p for p in players if int(p['gameweek']) == gw]
+        result = build_optimal_team(players_gw)
+        print("Total Points:", result.get("total_points", 0))
+        result['gameweek'] = gw
+        all_weeks.append(result)
     
-    # Summary comparison
-    print("\n" + "=" * 80)
-    print("SUMMARY")
-    print("=" * 80)
-    print(f"Team 1 Total Points: {team1_result['total_points']:.2f}")
-    print(f"Team 2 Total Points: {team2_result['total_points']:.2f}")
-    print(f"Combined Total Points: {team1_result['total_points'] + team2_result['total_points']:.2f}")
-    print("=" * 80)
+    # # Build second team excluding players from first team
+    # excluded_ids = set(p.get("ID") for p in team1_result['team'])
+    # team2_result = build_optimal_team(players, excluded_ids=excluded_ids)
+    # display_team(team2_result, team_number=2)
+
+    # #build team without nation limit
+    # team3_result = build_optimal_team(players, limit_nations=False)
+    # display_team(team3_result, team_number=3)
+    
+
     
     # Save teams to CSV and HTML
-    save_teams_to_csv(team1_result, team3_result, "data/selected_teams.csv")
-    save_teams_to_html(team1_result, team2_result, "data/selected_teams.html")
-    save_team_to_html_table(team1_result, "data/selected_team_table.html")
+    save_teams_to_csv(all_weeks, "data/selected_teams.csv")
+    #save_teams_to_html(team1_result, team2_result, "data/selected_teams.html")
+    #save_team_to_html_table(team1_result, "data/selected_team_table.html")
 
 
 if __name__ == "__main__":

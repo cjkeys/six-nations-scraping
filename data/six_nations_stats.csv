@@ -1,39 +1,1417 @@
-Assists,Attacking scrum win,Average points,Breakdown steal,Club,Conceded penalty,Conversion,Defenders beaten,Drop goal,ID,Kick 50-22,Kicks recovered,Lineout steal,Man of the match,Matches played,Metres carried,Name,Offloads,Penalty,Position,Red cards ,Tackles,Try,Yellow cards
-,5,50.0,,England,1,,3,,209612,,,,,1,69,B. Earl,1,,10,,17,1,
-,5,32.0,,England,1,,2,,112684,,,1,,1,11,G. Pepper,1,,10,,14,,
-,5,30.0,,England,1,,,,144635,,,1,,1,41,O. Chessum,1,,11,,13,,
-,4,22.0,,England,,,,,173801,,,1,,1,10,A. Coles,,,11,,10,,
-,4,12.0,,England,,,,,160801,,,,,1,1,J. George,,,13,,8,,
-,4,10.0,,England,1,,,,104322,,,,,1,,S. Underhill,,,10,,7,,
-,4,9.0,,England,,,,,134796,,,,,1,,J. Heyes,,,12,,5,,
-,3,11.0,,England,2,,1,,165007,,,,,1,6,E. Genge,,,12,,8,,
-,2,17.0,,England,,,1,,158302,,,,,1,14,B. Rodd,1,,12,,10,,
-,1,50.0,,England,,,10,,156918,,,,,1,106,T. Freeman,1,,6,,8,1,
-,1,6.0,,England,,,,,102707,,,,,1,7,T. Davison,,,12,,5,,
-1,1,5.0,,England,1,,,,106142,,,,,1,7,L. Cowan-Dickie,,,13,,1,,
-,1,-1.0,,England,1,,,,222623,,,,,1,,T. Curry,,,10,,4,,1
-2,,55.0,,England,,4,2,,102642,,2,,1,1,82,G. Ford,,1,8,,5,,
-,,46.0,,England,,,2,,161516,,1,,,1,61,H. Arundell,,,6,,4,3,
-2,,20.0,,England,1,,,,200195,,1,,,1,21,F. Dingwall,2,,7,,5,,
-,,17.0,,England,1,,2,,149322,,,,,1,17,T. Roebuck,,,6,,3,1,
-1,,16.0,,England,,,3,,150081,,,,,1,28,F. Steward,1,,6,,2,,
-,,9.0,,England,,,3,,189326,,,,,1,38,M. Smith,,,8,,,,
-,,6.0,,England,1,,,,177559,,2,,,1,13,A. Mitchell,,,9,,2,,
-,,3.0,,England,,,,,239634,,,,,1,21,H. Pollock,,,10,,1,,
-,,3.0,,England,,,,,111662,,,,,1,2,B. Spencer,,,9,,3,,
-,,,1,England,1,,,,155409,,,,,1,1,M. Itoje,,,11,,1,,1
-,,,,England,,,,,233237,,,,,,,I. Feyi-Waboso,,,6,,,,
-,,,,England,,,,,240631,,,,,,,C. Cunningham-South,,,10,,,,
-,,,,England,,,,,175011,,,,,,,M. Ojomoh,,,7,,,,
-,,,,England,,,,,183874,,,,,,,E. Daly,,,6,,,,
-,,,,England,,,,,153646,,,,,,,G. Furbank,,,6,,,,
-,,,,England,,,,,113737,,,,,,,J. van Poortvliet,,,9,,,,
-,,,,England,,,,,110793,,,,,,,C. Murley,,,6,,,,
-,,,,England,,,,,138016,,,,,,,H. Slade,,,7,,,,
-,,,,England,,,,,111794,,,,,,,T. Dan,,,13,,,,
-,,,,England,,,,,109648,,,,,,,S. Atkinson,,,7,,,,
-,,,,England,,,,,170455,,,,,,,G. Fisilau,,,10,,,,
-,,,,England,,,,,175826,,,,,,,J. Kenningham,,,10,,,,
-,,,,England,,,,,124901,,,,,,,A. Clark,,,11,,,,
-,,,,England,,,,,187951,,,,,,,E. Iyogun,,,12,,,,
-,,,,England,,,,,239292,,,,,,,B. Sela,,,12,,,,
+Assists,Attacking scrum win,Breakdown steal,Club,Conceded penalty,Conversion,Defenders beaten,Drop goal,ID,Kick 50-22,Kicks recovered,Lineout steal,Man of the match,Metres carried,Minutes played,Name,Offloads,Penalty,Position,Position Name,Pts,Red cards ,Tackles,Try,Yellow cards,gameweek
+,7,,France,,,3,,244767,,,,,17,80,O. Jegou,1,,10,Back Row,31.0,,15,,,1
+,7,,France,,,1,,175065,,,,,5,80,A. Jelonch,2,,10,Back Row,30.0,,17,,,1
+,6,1,Italy,1,,4,,197335,,,,,50,80,L. Cannone,1,,10,Back Row,44.0,,19,,,1
+,6,,Italy,1,,,,208272,,,,,4,80,N. Cannone,,,11,Second Row,31.0,,26,,,1
+,5,,England,1,,3,,209612,,,,,69,80,B. Earl,1,,10,Back Row,50.0,,17,1,,1
+,5,,Scotland,,,4,,113000,,,,,46,80,J. Dempsey,,,10,Back Row,40.0,,8,1,,1
+,5,,England,1,,2,,112684,,,1,,11,80,G. Pepper,1,,10,Back Row,32.0,,14,,,1
+,5,,England,1,,,,144635,,,1,,41,80,O. Chessum,1,,11,Second Row,30.0,,13,,,1
+,5,,France,,,,,111408,,,,,7,62,F. Cros,,,10,Back Row,10.0,,5,,,1
+,5,,Scotland,,,,,210801,,,,,,80,S. Cummings,,,11,Second Row,9.0,,4,,,1
+1,4,,France,,,3,,177800,,,,1,43,50,M. Guillard,1,,11,Second Row,42.0,,7,,,1
+1,4,3,Ireland,,,,,147486,,,,,12,80,T. Beirne,,,11,Second Row,39.0,,15,,,1
+1,4,,Italy,1,,,,120191,,,2,,1,69,M. Lamaro,,,10,Back Row,37.0,,16,,,1
+,4,1,Ireland,,,3,,167132,,,,,29,80,C. Doris,1,,10,Back Row,34.0,,15,,,1
+,4,,Italy,2,,2,,161390,,,1,,4,66,M. Zuliani,,,10,Back Row,32.0,,19,,,1
+,4,,Italy,,,,,128750,,,1,,2,69,A. Zambonin,,,11,Second Row,30.0,,19,,,1
+,4,,France,,,,,198942,,,,,22,50,C. Ollivon,,,10,Back Row,23.0,,2,1,,1
+,4,2,Scotland,,,1,,187820,,,,,3,76,R. Darge,1,,10,Back Row,22.0,,4,,,1
+,4,,England,,,,,173801,,,1,,10,50,A. Coles,,,11,Second Row,22.0,,10,,,1
+,4,,Scotland,,,,,222920,,,1,,6,31,G. Brown,,,11,Second Row,14.0,,3,,,1
+,4,,Ireland,1,,,,174268,,,,,,59,J. Loughman,,,12,Prop,14.0,,11,,,1
+,4,,Ireland,,,2,,211240,,,,,12,62,D. Sheehan,,,13,Hooker,13.0,,4,,,1
+,4,,Italy,,,1,,174208,,,,,3,25,R. Favretto,,,11,Second Row,13.0,,7,,,1
+,4,,France,,,1,,150335,,,,,4,50,J. Marchand,,,13,Hooker,12.0,,6,,,1
+,4,,England,,,,,160801,,,,,1,50,J. George,,,13,Hooker,12.0,,8,,,1
+,4,,Italy,1,,,,236602,,,,,5,21,T. di Bartolomeo,,,13,Hooker,12.0,,9,,,1
+,4,,England,1,,,,104322,,,,,,50,S. Underhill,,,10,Back Row,10.0,,7,,,1
+,4,,England,,,,,134796,,,,,,50,J. Heyes,,,12,Prop,9.0,,5,,,1
+,4,,France,,,,,104627,,,,,4,50,J. Gros,,,12,Prop,9.0,,5,,,1
+,4,,Ireland,1,,,,196853,,,,,2,59,T. Clarkson,,,12,Prop,8.0,,5,,,1
+,4,,Italy,2,,,,172284,,,,,1,21,M. Hasa,,,12,Prop,7.0,,5,,,1
+,4,,France,1,,1,,158534,,,,,,50,D. Aldegheri,,,12,Prop,6.0,,1,,,1
+,4,,Italy,,,,,237231,,,,,,21,M. Spagnolo,,,12,Prop,5.0,,1,,,1
+,3,,Wales,1,,5,,119132,,,,,33,80,A. Wainwright,,,10,Back Row,24.0,,9,,,1
+,3,1,France,,,,,117303,,,,,4,30,P. Mauvaka,1,,13,Hooker,20.0,,10,,,1
+,3,,Wales,3,,,,237272,,,,,3,80,D. Jenkins,,,11,Second Row,14.0,,14,,,1
+,3,,France,1,,,,134112,,,,,,30,E. Meafou,1,,11,Second Row,11.0,,7,,,1
+,3,,England,2,,1,,165007,,,,,6,40,E. Genge,,,12,Prop,11.0,,8,,,1
+,3,,Scotland,,,,,214265,,,,,1,23,N. McBeth,,,12,Prop,6.0,,3,,,1
+,3,,France,,,,,175146,,,,,,30,R. Neti,,,12,Prop,5.0,,2,,,1
+,3,,Scotland,,,,,236957,,,,,5,16,M. Williamson,,,11,Second Row,3.0,,,,,1
+,3,,Scotland,2,,1,,175403,,,,,3,16,E. Millar-Mills,,,12,Prop,3.0,,,,,1
+,3,,Scotland,1,,,,218848,,,,,8,21,G. Turner,,,13,Hooker,-2.0,,1,,1,1
+,2,1,Ireland,,,2,,193134,,,,,38,30,N. Timoney,,,10,Back Row,33.0,,4,1,,1
+,2,,Italy,,,,,192476,,,,1,,59,S. Ferrari,,,12,Prop,33.0,,16,,,1
+,2,,Italy,,,,,118165,,,,,4,59,G. Nicotera,1,,13,Hooker,20.0,,16,,,1
+,2,,Italy,4,,2,,123723,,,,,13,59,D. Fischetti,,,12,Prop,19.0,,16,,,1
+,2,1,Wales,1,,,,124858,,,,,18,52,J. Macleod,,,10,Back Row,18.0,,11,,,1
+1,2,,Scotland,1,,1,,159599,,,,,14,64,M. Fagerson,,,10,Back Row,17.0,,9,,,1
+,2,,France,1,,1,,244170,,,,,23,18,L. Nouchi,,,10,Back Row,17.0,,12,,,1
+,2,,England,,,1,,158302,,,,,14,40,B. Rodd,1,,12,Prop,17.0,,10,,,1
+,2,,Ireland,,,,,198565,,,,,3,50,C. Prendergast,,,10,Back Row,15.0,,13,,,1
+,2,,Ireland,,,,,126800,,,,,15,50,J. van der Flier,,,10,Back Row,14.0,,11,,,1
+,2,,Scotland,1,,1,,141860,,,,,13,53,E. Ashman,1,,13,Hooker,14.0,,8,,,1
+,2,,Wales,,,,,105892,,,,,11,69,A. Beard,1,,11,Second Row,14.0,,9,,,1
+,2,,Wales,1,,1,,187169,,,,,,50,A. Griffin,,,12,Prop,14.0,,11,,,1
+,2,,Scotland,2,,1,,196669,,,,,11,64,Z. Fagerson,,,12,Prop,13.0,,10,,,1
+,2,,Ireland,1,,1,,223413,,,,,2,50,J. McCarthy,,,11,Second Row,12.0,,9,,,1
+,2,,Scotland,1,,1,,196773,,,,,5,57,P. Schoeman,,,12,Prop,10.0,,7,,,1
+,2,,Ireland,,,1,,203381,,,,,7,30,J. Ryan,,,11,Second Row,9.0,,5,,,1
+,2,,Italy,1,,,,103440,,,,,,11,F. Ruzza,,,11,Second Row,8.0,,7,,,1
+,2,,Ireland,,,1,,105748,,,,,7,30,J. Conan,,,10,Back Row,5.0,,1,,,1
+,2,,Wales,1,,1,,119955,,,,,1,40,R. Carre,,,12,Prop,4.0,,1,,,1
+,2,,Wales,,,,,137071,,,,,,24,L. Belcher,,,13,Hooker,4.0,,2,,,1
+,1,,England,,,10,,156918,,,,,106,80,T. Freeman,1,,6,Back Three,50.0,,8,1,,1
+,1,,Wales,,,1,,235183,,,,,3,40,A. Mann,,,10,Back Row,13.0,,10,,,1
+,1,,Wales,1,,,,237266,,,,,26,28,H. Deaves,,,10,Back Row,13.0,,11,,,1
+,1,,Wales,1,,,,212902,,,,,12,56,D. Lake,,,13,Hooker,6.0,,10,,1,1
+,1,,England,,,,,102707,,,,,7,30,T. Davison,,,12,Prop,6.0,,5,,,1
+1,1,,England,1,,,,106142,,,,,7,30,L. Cowan-Dickie,,,13,Hooker,5.0,,1,,,1
+,1,,Wales,,,,,175275,,,,,,30,T. Francis,,,12,Prop,5.0,,4,,,1
+,1,,Wales,,,,,144545,,,,,,11,B. Carter,,,11,Second Row,3.0,,2,,,1
+,1,,Scotland,2,,,,156101,,,,,2,49,G. Gilchrist,,,11,Second Row,3.0,,4,,,1
+,1,,England,1,,,,222623,,,,,,26,T. Curry,,,10,Back Row,-1.0,,4,,1,1
+,1,,Wales,2,,,,110319,,,,,,39,N. Smith,,,12,Prop,-3.0,,3,,1,1
+2,,,England,,4,2,,102642,,2,,1,82,80,G. Ford,,1,8,Fly Half,55.0,,5,,,1
+1,,,France,,,5,,190344,,1,,,73,80,M. Jalibert,4,,8,Fly Half,52.0,,11,1,,1
+,,,France,,,5,,237223,,2,,,99,80,L. Bielle-Biarrey,,,6,Back Three,51.0,,8,2,,1
+1,,,France,,4,6,,175123,,1,,,116,80,T. Ramos,3,1,6,Back Three,46.0,,,,,1
+,,,England,,,2,,161516,,1,,,61,80,H. Arundell,,,6,Back Three,46.0,,4,3,,1
+,,,France,,,7,,241689,,,,,61,80,N. Depoortere,1,,7,Centre,36.0,,14,,,1
+,,,Italy,,,4,,229557,,,,,103,80,T. Menoncello,,,7,Centre,34.0,,6,1,,1
+,,,France,,,2,,244532,,,,,45,80,T. Attissogbe,3,,6,Back Three,32.0,,8,1,,1
+,,,Ireland,1,2,3,,241698,,2,,,23,80,S. Prendergast,2,,8,Fly Half,32.0,,13,,,1
+1,,,France,1,,3,,137493,,5,,,35,74,A. Dupont,1,,9,Scrum Half,30.0,,6,,,1
+1,,,Ireland,,,3,,172351,,,,,30,80,S. McCloskey,2,,7,Centre,27.0,,10,,,1
+,,,Scotland,,,2,,188057,,7,,,4,64,B. White,2,,9,Scrum Half,26.0,,4,,,1
+,,,Wales,1,,5,,120767,,,,,87,80,L. Rees-Zammit,,,6,Back Three,21.0,,4,,,1
+,,,Ireland,1,,1,,229826,1,2,,,68,73,J. Osborne,,,6,Back Three,21.0,,3,,,1
+,,,Wales,,,,,133163,,5,,,13,79,T. Williams,,,9,Scrum Half,20.0,,9,,,1
+1,,,Italy,1,,1,,130487,,1,,,5,80,N. Brex,,,7,Centre,20.0,,13,,,1
+2,,,England,1,,,,200195,,1,,,21,80,F. Dingwall,2,,7,Centre,20.0,,5,,,1
+,,,Wales,,,1,,137453,,,,,25,80,J. Adams,,,6,Back Three,20.0,,6,1,,1
+,,,Ireland,,,,,198451,,,,,4,21,M. Milne,,,12,Prop,18.0,,3,1,,1
+,,,Italy,,,1,,174318,,,,,48,80,M. Ioane,2,,6,Back Three,17.0,,7,,,1
+1,,,Wales,,1,,,240455,,1,,,24,80,D. Edwards,,,8,Fly Half,17.0,,7,,,1
+,,,Italy,1,,,,209105,,,,,12,80,L. Lynagh,,,6,Back Three,17.0,,7,1,,1
+,,,England,1,,2,,149322,,,,,17,65,T. Roebuck,,,6,Back Three,17.0,,3,1,,1
+1,,,England,,,3,,150081,,,,,28,65,F. Steward,1,,6,Back Three,16.0,,2,,,1
+,,,Italy,1,1,1,,156253,,,,,9,80,P. Garbisi,,2,8,Fly Half,15.0,,6,,,1
+1,,,France,,,1,,222388,,,,,22,50,Y. Moefana,2,,7,Centre,15.0,,3,,,1
+,,,Scotland,,,1,,224905,,1,,,4,16,G. Horne,,,9,Scrum Half,15.0,,1,1,,1
+,,,Scotland,,1,,,157863,,,,,16,80,F. Russell,1,1,8,Fly Half,14.0,,6,,,1
+,,,Ireland,,,3,,122020,,,,,33,80,J. Stockdale,,,6,Back Three,13.0,,4,,,1
+,,,Ireland,,,1,,216173,,3,,,4,80,J. Gibson-Park,,,9,Scrum Half,12.0,,4,,,1
+,,,Scotland,,,3,,110170,,,,,8,80,K. Steyn,,,6,Back Three,12.0,,6,,,1
+,,,Ireland,,,2,,219828,,,,,34,80,G. Ringrose,1,,7,Centre,12.0,,3,,,1
+,,,Scotland,1,,3,,146480,,,,,15,80,S. Tuipulotu,,,7,Centre,11.0,,5,,,1
+,,,Italy,,,,,134407,,3,,,,61,A. Fusco,,,9,Scrum Half,11.0,,5,,,1
+,,1,Wales,,,,,237271,,,,,19,69,E. James,,,7,Centre,11.0,,5,,,1
+,,,England,,,3,,189326,,,,,38,15,M. Smith,,,8,Fly Half,9.0,,,,,1
+,,,Italy,,,1,,236606,,,,,25,73,L. Marin,2,,8,Fly Half,9.0,,1,,,1
+,,,Wales,1,,,,249307,,,,,,52,E. Mee,,,6,Back Three,8.0,,9,,,1
+,,,Scotland,,,1,,153489,,,,,18,80,H. Jones,1,,7,Centre,7.0,,2,,,1
+,,,Ireland,1,,,,107434,,,,,15,50,T. O'Brien,,,6,Back Three,7.0,,7,,,1
+,,,Ireland,,,,,100659,,,,,23,30,J. Crowley,,,8,Fly Half,6.0,,4,,,1
+,,,England,1,,,,177559,,2,,,13,67,A. Mitchell,,,9,Scrum Half,6.0,,2,,,1
+,,,Scotland,,,2,,243508,,,,,20,80,T. Jordan,,,7,Centre,6.0,,,,,1
+,,,France,,,,,249797,,,,,18,30,K. Gourgues,1,,7,Centre,6.0,,3,,,1
+,,,France,,,2,,138386,,,,,22,6,B. Serin,,,9,Scrum Half,6.0,,,,,1
+,,,Wales,,,2,,103056,,,,,4,28,M. Grady,,,7,Centre,6.0,,2,,,1
+,,,Italy,,,,,236573,,1,,,,19,A. Garbisi,,,9,Scrum Half,5.0,,3,,,1
+,,,Ireland,,,,,118531,,,,,1,18,R. Kelleher,,,13,Hooker,4.0,,4,,,1
+,,,England,,,,,239634,,,,,21,15,H. Pollock,,,10,Back Row,3.0,,1,,,1
+,,,England,,,,,111662,,,,,2,13,B. Spencer,,,9,Scrum Half,3.0,,3,,,1
+,,,Italy,,,,,236609,,,,,,7,L. Pani,,,6,Back Three,2.0,,2,,,1
+,,,Scotland,,,,,164150,,,,,1,31,D. Graham,,,6,Back Three,1.0,,1,,,1
+,,,Ireland,,,,,105642,,,,,,7,C. Casey,,,9,Scrum Half,1.0,,1,,,1
+,,1,England,1,,,,155409,,,,,1,18,M. Itoje,,,11,Second Row,,,1,,1,1
+,,,Wales,2,,1,,225777,,,,,4,70,B. Thomas,,,7,Centre,,,5,,1,1
+,,,Ireland,,,,,115762,,,,,3,21,F. Bealham,,,12,Prop,,,,,,1
+,,,Wales,,,,,190215,,,,,,1,K. Hardy,,,9,Scrum Half,,,,,,1
+,,,Ireland,,,,,109852,,,,,,,J. Lowe,,,6,Back Three,,,,,,1
+,,,Scotland,,,,,221466,,,,,,,B. Kinghorn,,,6,Back Three,,,,,,1
+,,,Scotland,,,,,172455,,,,,,,D. van der Merwe,,,6,Back Three,,,,,,1
+,,,England,,,,,131724,,,,,,,O. Lawrence,,,7,Centre,,,,,,1
+,,,Italy,,,,,120989,,,,,,,A. Capuozzo,,,6,Back Three,,,,,,1
+,,,France,,,,,237225,,,,,,,E. Gailleton,,,7,Centre,,,,,,1
+,,,England,,,,,137626,,,,,,,F. Smith,,,8,Fly Half,,,,,,1
+,,,Ireland,,,,,175150,,,,,,,R. Baloucoune,,,6,Back Three,,,,,,1
+,,,Ireland,,,,,157406,,,,,,,B. Aki,,,7,Centre,,,,,,1
+,,,Wales,,,,,243190,,,,,,,B. Murray,,,6,Back Three,,,,,,1
+,,,England,,,,,240631,,,,,,,C. Cunningham-South,,,10,Back Row,,,,,,1
+,,,Ireland,,,,,145361,,,,,,,H. Keenan,,,6,Back Three,,,,,,1
+,,,Italy,,,,,130282,,,,,,,T. Allan,,,8,Fly Half,,,,,,1
+,,,Italy,,,,,136875,,,,,,,G. Lucchesi,,,13,Hooker,,,,,,1
+,,,France,,,,,250067,,,,,,,F. Brau-Boirie,,,7,Centre,,,,,,1
+,,,Scotland,,,,,100192,,,,,,,J. Bayliss,,,10,Back Row,,,,,,1
+,,,Ireland,,,,,113444,,,,,,,T. Furlong,,,12,Prop,,,,,,1
+,,,France,,,,,176585,,,,,,,T. Flament,,,11,Second Row,,,,,,1
+,,,Wales,,,,,218331,,,,,,,J. Evans,,,8,Fly Half,,,,,,1
+,,,France,,,,,182885,,,,,,,P. Barassi,,,7,Centre,,,,,,1
+,,,Scotland,,,,,133065,,,,,,,A. Hastings,,,8,Fly Half,,,,,,1
+,,,England,,,,,183874,,,,,,,E. Daly,,,6,Back Three,,,,,,1
+,,,France,,,,,216116,,,,,,,P. Boudehent,,,10,Back Row,,,,,,1
+,,,France,,,,,109697,,,,,,,N. le Garrec,,,9,Scrum Half,,,,,,1
+,,,France,,,,,206243,,,,,,,L. Barre,,,6,Back Three,,,,,,1
+,,,Ireland,,,,,144570,,,,,,,J. O'Brien,,,6,Back Three,,,,,,1
+,,,England,,,,,113737,,,,,,,J. van Poortvliet,,,9,Scrum Half,,,,,,1
+,,,France,,,,,187175,,,,,,,G. Villiere,,,6,Back Three,,,,,,1
+,,,Ireland,,,,,199383,,,,,,,C. Frawley,,,8,Fly Half,,,,,,1
+,,,England,,,,,138016,,,,,,,H. Slade,,,7,Centre,,,,,,1
+,,,England,,,,,110793,,,,,,,C. Murley,,,6,Back Three,,,,,,1
+,,,England,,,,,153646,,,,,,,G. Furbank,,,6,Back Three,,,,,,1
+,,,Wales,,,,,118619,,,,,,,S. Costelow,,,8,Fly Half,,,,,,1
+,,,France,,,,,179735,,,,,,,C. Woki,,,10,Back Row,,,,,,1
+,,,France,,,,,243604,,,,,,,G. Drean,,,6,Back Three,,,,,,1
+,,,Wales,,,,,125946,,,,,,,T. Rogers,,,6,Back Three,,,,,,1
+,,,France,,,,,244412,,,,,,,G. Arfeuil,,,6,Back Three,,,,,,1
+,,,France,,,,,253274,,,,,,,U. Seunes,,,8,Fly Half,,,,,,1
+,,,Ireland,,,,,229863,,,,,,,C. Izuchukwu,,,11,Second Row,,,,,,1
+,,,Wales,,,,,182170,,,,,,,R. Elias,,,13,Hooker,,,,,,1
+,,,Italy,,,,,236566,,,,,,,S. Gesi,,,6,Back Three,,,,,,1
+,,,Italy,,,,,229647,,,,,,,M. Page-Relo,,,9,Scrum Half,,,,,,1
+,,,Wales,,,,,139232,,,,,,,G. Thomas,,,12,Prop,,,,,,1
+,,,Scotland,,,,,156550,,,,,,,M. Bradbury,,,10,Back Row,,,,,,1
+,,,Scotland,,,,,109816,,,,,,,R. Hutchinson,,,7,Centre,,,,,,1
+,,,Scotland,,,,,144180,,,,,,,O. Smith,,,7,Centre,,,,,,1
+,,,Scotland,,,,,129286,,,,,,,D. Cherry,,,13,Hooker,,,,,,1
+,,,Scotland,,,,,240478,,,,,,,G. Hiddleston,,,13,Hooker,,,,,,1
+,,,Italy,,,,,206390,,,,,,,P. Dimcheff,,,13,Hooker,,,,,,1
+,,,France,,,,,189190,,,,,,,M. Lamothe,,,13,Hooker,,,,,,1
+,,,France,,,,,190812,,,,,,,G. Colombe,,,12,Prop,,,,,,1
+,,,Italy,,,,,123396,,,,,,,G. Bertaccini,,,7,Centre,,,,,,1
+,,,Wales,,,,,214124,,,,,,,J. Botham,,,10,Back Row,,,,,,1
+,,,France,,,,,165194,,,,,,,A. Roumat,,,10,Back Row,,,,,,1
+,,,France,,,,,186184,,,,,,,J. Brennan,,,11,Second Row,,,,,,1
+,,,Ireland,,,,,197246,,,,,,,T. Stewart,,,13,Hooker,,,,,,1
+,,,Ireland,,,,,159083,,,,,,,T. Farrell,,,7,Centre,,,,,,1
+,,,Ireland,,,,,188115,,,,,,,H. Byrne,,,8,Fly Half,,,,,,1
+,,,Italy,,,,,110891,,,,,,,S. Varney,,,9,Scrum Half,,,,,,1
+,,,Italy,,,,,201405,,,,,,,G. da Re,,,8,Fly Half,,,,,,1
+,,,Scotland,,,,,171323,,,,,,,J. Gray,,,11,Second Row,,,,,,1
+,,,Scotland,,,,,180778,,,,,,,K. Rowe,,,6,Back Three,,,,,,1
+,,,Scotland,,,,,149746,,,,,,,S. McDowall,,,7,Centre,,,,,,1
+,,,Scotland,,,,,136509,,,,,,,F. Burke,,,8,Fly Half,,,,,,1
+,,,Ireland,,,,,224426,,,,,,,T. O'Toole,,,12,Prop,,,,,,1
+,,,Wales,,,,,216823,,,,,,,O. Cracknell,,,10,Back Row,,,,,,1
+,,,Wales,,,,,197546,,,,,,,J. Hawkins,,,7,Centre,,,,,,1
+,,,Italy,,,,,153725,,,,,,,P. Odogwu,,,6,Back Three,,,,,,1
+,,,Ireland,,,,,243648,,,,,,,E. Edogbo,,,11,Second Row,,,,,,1
+,,,Italy,,,,,174824,,,,,,,G. Zilocchi,,,12,Prop,,,,,,1
+,,,England,,,,,160844,,,,,,,R. Quirke,,,9,Scrum Half,,,,,,1
+,,,France,,,,,207407,,,,,,,D. Bamba,,,12,Prop,,,,,,1
+,,,France,,,,,200911,,,,,,,T. Laclayat,,,12,Prop,,,,,,1
+,,,Italy,,,,,238037,,,,,,,D. Odiase,,,10,Back Row,,,,,,1
+,,,Wales,,,,,240573,,,,,,,R. Woodman,,,10,Back Row,,,,,,1
+,,,England,,,,,111794,,,,,,,T. Dan,,,13,Hooker,,,,,,1
+,,,England,,,,,109648,,,,,,,S. Atkinson,,,7,Centre,,,,,,1
+,,,England,,,,,170455,,,,,,,G. Fisilau,,,10,Back Row,,,,,,1
+,,,England,,,,,175826,,,,,,,J. Kenningham,,,10,Back Row,,,,,,1
+,,,France,,,,,174159,,,,,,,D. Priso,,,12,Prop,,,,,,1
+,,,France,,,,,244152,,,,,,,T. Matiu,,,10,Back Row,,,,,,1
+,,,Ireland,,,,,176354,,,,,,,N. Doak,,,9,Scrum Half,,,,,,1
+,,,Ireland,,,,,237244,,,,,,,J. Postlethwaite,,,7,Centre,,,,,,1
+,,,Italy,,,,,216977,,,,,,,A. Izekor,,,10,Back Row,,,,,,1
+,,,Italy,,,,,159960,,,,,,,M. Gallagher,,,6,Back Three,,,,,,1
+,,,Italy,,,,,207699,,,,,,,D. Mazza,,,7,Centre,,,,,,1
+,,,Italy,,,,,238030,,,,,,,S. Locatelli,,,10,Back Row,,,,,,1
+,,,Scotland,,,,,153525,,,,,,,R. Sutherland,,,12,Prop,,,,,,1
+,,,Scotland,,,,,250743,,,,,,,F. Douglas,,,10,Back Row,,,,,,1
+,,,Scotland,,,,,100557,,,,,,,G. Warr,,,9,Scrum Half,,,,,,1
+,,,Wales,,,,,125247,,,,,,,O. Watkin,,,7,Centre,,,,,,1
+,,,Wales,,,,,202399,,,,,,,K. Assiratti,,,12,Prop,,,,,,1
+,,,Wales,,,,,119506,,,,,,,R. Morgan-Williams,,,9,Scrum Half,,,,,,1
+,,,Wales,,,,,165885,,,,,,,G. Hamer-Webb,,,6,Back Three,,,,,,1
+,,,Wales,,,,,233245,,,,,,,L. Hennessey,,,7,Centre,,,,,,1
+,,,England,,,,,163209,,,,,,,G. Kloska,,,12,Prop,,,,,,1
+,,,Ireland,,,,,250771,,,,,,,B. Ward,,,10,Back Row,,,,,,1
+,,,Wales,,,,,196875,,,,,,,F. Thomas,,,11,Second Row,,,,,,1
+,,,England,,,,,124901,,,,,,,A. Clark,,,11,Second Row,,,,,,1
+,,,England,,,,,187951,,,,,,,E. Iyogun,,,12,Prop,,,,,,1
+,,,France,,,,,202570,,,,,,,T. Staniforth,,,11,Second Row,,,,,,1
+,,,Scotland,,,,,172959,,,,,,,D. Rae,,,12,Prop,,,,,,1
+,,,Scotland,,,,,207013,,,,,,,A. Craig,,,11,Second Row,,,,,,1
+,,,Wales,,,,,167563,,,,,,,S. Wainwright,,,12,Prop,,,,,,1
+,7,2,Scotland,,,,,187820,,,,,5,80,R. Darge,,,10,Back Row,38.0,,21,,,2
+,7,1,Scotland,,,,,222920,,,,,2,80,G. Brown,,,11,Second Row,25.0,,13,,,2
+,7,,Scotland,1,,,,210801,,,,,,80,S. Cummings,,,11,Second Row,23.0,,17,,,2
+,6,,Wales,,,3,,119132,,,,,53,80,A. Wainwright,,,10,Back Row,28.0,,11,,,2
+,6,,Wales,1,,1,,235183,,,,,10,80,A. Mann,1,,10,Back Row,27.0,,17,,,2
+,6,1,Wales,1,,,,237272,,,,,8,80,D. Jenkins,,,11,Second Row,21.0,,11,,,2
+,5,,Ireland,,,1,,105748,,,,,31,80,J. Conan,,,10,Back Row,43.0,,18,1,,2
+,5,1,Italy,,,3,,161390,,,1,,28,80,M. Zuliani,1,,10,Back Row,41.0,,14,,,2
+1,5,1,Ireland,1,,4,,167132,,,,,35,80,C. Doris,,,10,Back Row,38.0,,14,,,2
+,5,1,Italy,,,,,120191,,,,,2,80,M. Lamaro,,,10,Back Row,22.0,,12,,,2
+1,5,,Scotland,,,,,159599,,,,,12,40,M. Fagerson,,,10,Back Row,19.0,,9,,,2
+,5,,Wales,,,,,105892,,,,,1,62,A. Beard,,,11,Second Row,14.0,,9,,,2
+,5,,Scotland,,,,,196773,,,,,9,31,P. Schoeman,,,12,Prop,10.0,,5,,,2
+,4,,Wales,,,1,,119955,,,,,8,50,R. Carre,,,12,Prop,29.0,,8,1,,2
+,4,,Italy,,,2,,197335,,,,,25,66,L. Cannone,,,10,Back Row,28.0,,18,,,2
+,4,,Wales,,,1,,212902,,,,,21,50,D. Lake,2,,13,Hooker,21.0,,9,,,2
+,4,,Ireland,1,,,,229863,,,1,,19,59,C. Izuchukwu,1,,11,Second Row,20.0,,7,,,2
+,4,,Italy,,,1,,208272,,,,,,66,N. Cannone,,,11,Second Row,15.0,,9,,,2
+,4,,Wales,1,,,,216823,,,,,22,50,O. Cracknell,1,,10,Back Row,15.0,,8,,,2
+,4,,Scotland,1,,,,175403,,,,,,30,E. Millar-Mills,,,12,Prop,11.0,,8,,,2
+,4,,Ireland,,,,,203381,,,,,10,70,J. Ryan,,,11,Second Row,10.0,,5,,,2
+,4,,Wales,2,,,,175275,,,,,13,50,T. Francis,,,12,Prop,10.0,,7,,,2
+,4,,Ireland,,,,,174268,,,,,5,66,J. Loughman,,,12,Prop,8.0,,4,,,2
+,4,,Scotland,,,,,129286,,,,,3,30,D. Cherry,,,13,Hooker,7.0,,3,,,2
+,4,,Scotland,,,,,236957,,,,,,24,M. Williamson,,,11,Second Row,5.0,,1,,,2
+,3,,England,,,1,,209612,,,,,68,80,B. Earl,,,10,Back Row,40.0,,14,1,,2
+1,3,,France,,,,,198942,,,,,52,80,C. Ollivon,1,,10,Back Row,39.0,,10,1,,2
+,3,2,France,,,1,,177800,,,,,25,68,M. Guillard,1,,11,Second Row,31.0,,12,,,2
+,3,,Italy,,,,,118165,,,,,3,58,G. Nicotera,,,13,Hooker,31.0,,13,1,,2
+,3,,France,,,,,244767,,,,,16,80,O. Jegou,1,,10,Back Row,25.0,,19,,,2
+,3,,Scotland,,,1,,113000,,,,,7,56,J. Dempsey,,,10,Back Row,16.0,,11,,,2
+,3,,England,,,,,144635,,,,,20,80,O. Chessum,,,11,Second Row,16.0,,11,,,2
+,3,,Italy,,,,,128750,,,,,1,60,A. Zambonin,,,11,Second Row,16.0,,13,,,2
+,3,1,Scotland,,,,,218848,,,,,4,50,G. Turner,,,13,Hooker,15.0,,7,,,2
+,3,,Italy,,,,,192476,,,,,1,58,S. Ferrari,,,12,Prop,14.0,,11,,,2
+,3,,Italy,1,,1,,123723,,,,,4,58,D. Fischetti,,,12,Prop,12.0,,8,,,2
+,3,,Ireland,,,1,,223413,,,,,15,52,J. McCarthy,,,11,Second Row,11.0,,5,,,2
+,3,,Ireland,2,,1,,196853,,,,,3,40,T. Clarkson,,,12,Prop,11.0,,8,,,2
+,3,,England,,,,,222623,,,,,2,40,T. Curry,,,10,Back Row,9.0,,6,,,2
+,3,,Scotland,2,,,,196669,,,,,1,50,Z. Fagerson,,,12,Prop,8.0,,7,,,2
+,3,,Ireland,2,,,,211240,,,,,17,52,D. Sheehan,,,13,Hooker,4.0,,2,,,2
+,2,1,England,,,2,,239634,,,,,47,24,H. Pollock,,,10,Back Row,22.0,,7,,,2
+,2,,France,,,2,,244170,,,,,29,29,L. Nouchi,,,10,Back Row,16.0,,8,,,2
+,2,,Wales,,,1,,187169,,,,,10,30,A. Griffin,,,12,Prop,13.0,,8,,,2
+,2,,Ireland,,,,,118531,,,,,14,28,R. Kelleher,,,13,Hooker,12.0,,9,,,2
+,2,,Ireland,,,,,147486,,,,,,28,T. Beirne,,,11,Second Row,11.0,,9,,,2
+,2,,England,1,,,,134796,,,,,1,68,J. Heyes,1,,12,Prop,11.0,,8,,,2
+,2,,France,,,1,,176585,,,,,2,29,T. Flament,,,11,Second Row,11.0,,7,,,2
+,2,,Wales,,,,,182170,,,,,29,30,R. Elias,,,13,Hooker,10.0,,6,,,2
+,2,,France,1,,,,189190,,,,,5,30,M. Lamothe,,,13,Hooker,10.0,,9,,,2
+,2,,England,1,,,,158302,,,,,,24,B. Rodd,,,12,Prop,9.0,,8,,,2
+,2,,Scotland,2,,,,214265,,,,,,49,N. McBeth,,,12,Prop,8.0,,8,,,2
+,2,,England,,,,,160801,,,,,,24,J. George,,,13,Hooker,7.0,,5,,,2
+,2,,Ireland,1,,1,,113444,,,,,7,40,T. Furlong,,,12,Prop,7.0,,4,,,2
+,2,,France,,,,,175146,,,,,1,30,R. Neti,,,12,Prop,7.0,,5,,,2
+,2,,Wales,,,,,110319,,,,,,30,N. Smith,,,12,Prop,6.0,,4,,,2
+,2,,Italy,,,,,236602,,,,,1,22,T. di Bartolomeo,,,13,Hooker,6.0,,4,,,2
+,2,,Italy,,,,,237231,,,,,2,22,M. Spagnolo,,,12,Prop,6.0,,4,,,2
+,2,,England,1,,,,173801,,,,,,24,A. Coles,,,11,Second Row,5.0,,4,,,2
+,2,,Italy,1,,,,103440,,,,,6,20,F. Ruzza,1,,11,Second Row,4.0,,1,,,2
+,2,,Italy,,,,,172284,,,,,1,22,M. Hasa,,,12,Prop,4.0,,2,,,2
+,1,,France,,,1,,150335,,,,,22,50,J. Marchand,,,13,Hooker,31.0,,11,1,,2
+,1,,France,,,,,175065,,,,,12,51,A. Jelonch,1,,10,Back Row,18.0,,14,,,2
+,1,,France,,,,,111408,,,,,7,51,F. Cros,,,10,Back Row,15.0,,14,,,2
+,1,,England,,,1,,155409,,,,,12,56,M. Itoje,,,11,Second Row,11.0,,7,,,2
+,1,1,England,1,,,,106142,,,,,6,56,L. Cowan-Dickie,,,13,Hooker,11.0,,6,,,2
+,1,,France,,,,,104627,,,,,6,50,J. Gros,,,12,Prop,11.0,,10,,,2
+,1,,Ireland,,,,,224426,,,,,,14,T. O'Toole,,,12,Prop,10.0,,9,,,2
+,1,,France,,,,,158534,,,,,,50,D. Aldegheri,,,12,Prop,9.0,,8,,,2
+,1,,Ireland,1,,,,243648,,,,,,10,E. Edogbo,,,11,Second Row,8.0,,8,,,2
+,1,,England,2,,,,112684,,,,,15,56,G. Pepper,,,10,Back Row,7.0,,7,,,2
+,1,,Ireland,,,1,,193134,,,,,19,21,N. Timoney,,,10,Back Row,7.0,,3,,,2
+,1,,Wales,,,1,,144545,,,,,6,18,B. Carter,,,11,Second Row,5.0,,2,,,2
+,1,,England,,,1,,165007,,,,,9,56,E. Genge,,,12,Prop,4.0,,1,,,2
+,1,,Italy,,,,,238037,,,,,13,14,D. Odiase,,,10,Back Row,4.0,,2,,,2
+,1,,Italy,,,,,174208,,,,,,14,R. Favretto,,,11,Second Row,2.0,,1,,,2
+,1,,England,,,,,102707,,,,,,12,T. Davison,,,12,Prop,2.0,,1,,,2
+3,,,France,,,5,,190344,,6,,1,95,80,M. Jalibert,6,,8,Fly Half,87.0,,7,1,,2
+,,,France,,,7,,250067,,,,,100,80,F. Brau-Boirie,1,,7,Centre,56.0,,20,1,,2
+,,,Scotland,,,4,,153489,,,,,114,80,H. Jones,1,,7,Centre,49.0,,8,2,,2
+1,,,France,1,,3,,244532,,,,,103,80,T. Attissogbe,1,,6,Back Three,49.0,,8,2,,2
+,,,France,,7,3,,175123,,2,,,105,80,T. Ramos,5,,6,Back Three,48.0,,4,,,2
+,,,Ireland,,,9,,109852,,2,,,138,80,J. Lowe,3,,6,Back Three,47.0,,6,,,2
+,,,Ireland,,,5,,175150,,,,1,38,80,R. Baloucoune,1,,6,Back Three,45.0,,5,1,,2
+,,,Scotland,,,7,,110170,,,,1,79,80,K. Steyn,1,,6,Back Three,44.0,,6,,,2
+2,,1,Ireland,,,2,,172351,,,,,27,80,S. McCloskey,2,,7,Centre,40.0,,17,,,2
+1,,,France,,,3,,237223,,,,,83,80,L. Bielle-Biarrey,2,,6,Back Three,39.0,,7,1,,2
+1,,,Wales,,,5,,120767,,,,,151,80,L. Rees-Zammit,3,,6,Back Three,37.0,,2,,,2
+1,,,Scotland,,4,5,,157863,,1,,,37,80,F. Russell,,1,8,Fly Half,36.0,,6,,,2
+,,,France,1,,3,,137493,,1,,,93,59,A. Dupont,4,,9,Scrum Half,33.0,,9,,,2
+,,1,France,1,,,,237225,,,,,43,67,E. Gailleton,1,,7,Centre,33.0,,13,1,,2
+,,,Italy,,,5,,174318,,,,,86,80,M. Ioane,3,,6,Back Three,32.0,,8,,,2
+1,,,England,,2,2,,102642,,1,,,39,80,G. Ford,,2,8,Fly Half,29.0,,6,,,2
+,,,Ireland,,,4,,229826,,,,,47,80,J. Osborne,1,,6,Back Three,29.0,,5,1,,2
+,,,Scotland,,,,,188057,,3,,,15,57,B. White,1,,9,Scrum Half,28.0,,9,1,,2
+,,,Italy,,1,2,,156253,,1,,,24,80,P. Garbisi,,2,8,Fly Half,25.0,,9,,,2
+,,,Italy,2,,4,,229557,,1,,,39,80,T. Menoncello,,,7,Centre,24.0,,13,,,2
+,,,England,,,3,,150081,,,,,87,80,F. Steward,2,,6,Back Three,21.0,,3,,,2
+,,,Italy,,,3,,236609,,,,,97,80,L. Pani,,,6,Back Three,19.0,,4,,,2
+,,,Wales,1,,2,,237271,,,,,80,80,E. James,,,7,Centre,19.0,,8,,,2
+1,,,Scotland,1,,4,,146480,,,,,10,80,S. Tuipulotu,,,7,Centre,18.0,,6,,,2
+,,,Wales,1,,1,,197546,,1,,,30,80,J. Hawkins,1,,7,Centre,17.0,,9,,,2
+1,,,Wales,,,,,133163,,,,,10,70,T. Williams,2,,9,Scrum Half,15.0,,6,,,2
+,,,Italy,,,1,,236606,,,,,5,66,L. Marin,2,,8,Fly Half,15.0,,9,,,2
+,,,Ireland,1,,1,,219828,,,,,21,80,G. Ringrose,1,,7,Centre,14.0,,9,,,2
+,,,England,,,3,,177559,,1,,,36,68,A. Mitchell,,,9,Scrum Half,14.0,,3,,,2
+,,,Italy,1,,3,,134407,,,,,19,63,A. Fusco,,,9,Scrum Half,13.0,,7,,,2
+1,,,France,,,2,,138386,,,,,30,21,B. Serin,,,9,Scrum Half,13.0,,2,,,2
+,,,Wales,1,,1,,103056,,,,,8,25,M. Grady,,,7,Centre,13.0,,2,1,,2
+1,,,England,,,,,200195,,,,,2,80,F. Dingwall,1,,7,Centre,12.0,,6,,,2
+,,,Wales,1,,2,,137453,,,,,37,80,J. Adams,2,,6,Back Three,12.0,,2,,,2
+,,,Ireland,,,,,241698,,1,,,6,56,S. Prendergast,,,8,Fly Half,10.0,,8,,,2
+,,,Wales,,1,,,240455,,2,,,21,55,D. Edwards,,,8,Fly Half,10.0,,2,,,2
+,,,Italy,1,,,,209105,,,,,55,69,L. Lynagh,2,,6,Back Three,10.0,,7,,1,2
+,,,Wales,,,2,,249307,,,,,34,55,E. Mee,,,6,Back Three,10.0,,3,,,2
+,,,Ireland,,1,,,100659,,,,,,24,J. Crowley,,1,8,Fly Half,9.0,,4,,,2
+,,,England,,,,,156918,,,,,29,80,T. Freeman,,,6,Back Three,8.0,,6,,,2
+,,,Scotland,,,,,224905,,3,,,1,23,G. Horne,,,9,Scrum Half,8.0,,2,,,2
+,,,England,,,1,,104322,,,,,9,40,S. Underhill,,,10,Back Row,6.0,,4,,,2
+,,,Scotland,1,,1,,164150,,,,,32,12,D. Graham,,,6,Back Three,5.0,,1,,,2
+,,,Ireland,,,,,216173,,,,,,28,J. Gibson-Park,,,9,Scrum Half,4.0,,4,,,2
+,,,France,,,1,,134112,,,,,7,12,E. Meafou,,,11,Second Row,4.0,,2,,,2
+,,,Scotland,,,,,243508,,,,,12,68,T. Jordan,1,,7,Centre,4.0,,1,,,2
+,,,Ireland,1,,3,,105642,,2,,,6,43,C. Casey,,,9,Scrum Half,4.0,,,,1,2
+,,,Italy,,,1,,153725,,,,,26,14,P. Odogwu,,,6,Back Three,4.0,,,,,2
+,,,England,,,,,137626,,,,,1,23,F. Smith,,,8,Fly Half,3.0,,3,,,2
+,,,Wales,,,,,218331,,,,,8,25,J. Evans,,,8,Fly Half,3.0,,3,,,2
+,,,England,,,,,111662,,1,,,,12,B. Spencer,,,9,Scrum Half,2.0,,,,,2
+,,,England,,,,,149322,,,,,5,80,T. Roebuck,,,6,Back Three,2.0,,2,,,2
+,,,Scotland,,,,,133065,,,,,,5,A. Hastings,,,8,Fly Half,,,,,,2
+,,,Wales,,,,,190215,,,,,8,10,K. Hardy,,,9,Scrum Half,,,,,,2
+,,,Italy,,,,,236573,,,,,3,17,A. Garbisi,,,9,Scrum Half,,,,,,2
+,,,England,2,,1,,161516,,,,,1,26,H. Arundell,,,6,Back Three,-1.0,1,2,1,1,2
+,,,Scotland,,,,,221466,,,,,,,B. Kinghorn,,,6,Back Three,,,,,,2
+,,,Ireland,,,,,126800,,,,,,,J. van der Flier,,,10,Back Row,,,,,,2
+,,,Scotland,,,,,172455,,,,,,,D. van der Merwe,,,6,Back Three,,,,,,2
+,,,England,,,,,189326,,,,,,,M. Smith,,,8,Fly Half,,,,,,2
+,,,England,,,,,131724,,,,,,,O. Lawrence,,,7,Centre,,,,,,2
+,,,Italy,,,,,120989,,,,,,,A. Capuozzo,,,6,Back Three,,,,,,2
+,,,France,,,,,117303,,,,,,,P. Mauvaka,,,13,Hooker,,,,,,2
+,,,France,,,,,222388,,,,,,,Y. Moefana,,,7,Centre,,,,,,2
+,,,France,,,,,241689,,,,,,,N. Depoortere,,,7,Centre,,,,,,2
+,,,Scotland,,,,,141860,,,,,,,E. Ashman,,,13,Hooker,,,,,,2
+,,,Ireland,,,,,107434,,,,,,,T. O'Brien,,,6,Back Three,,,,,,2
+,,,Ireland,,,,,157406,,,,,,,B. Aki,,,7,Centre,,,,,,2
+,,,Wales,,,,,225777,,,,,,,B. Thomas,,,7,Centre,,,,,,2
+,,,Italy,,,,,130487,,,,,,,N. Brex,,,7,Centre,,,,,,2
+,,,Wales,,,,,243190,,,,,,,B. Murray,,,6,Back Three,,,,,,2
+,,,England,,,,,240631,,,,,,,C. Cunningham-South,,,10,Back Row,,,,,,2
+,,,Italy,,,,,130282,,,,,,,T. Allan,,,8,Fly Half,,,,,,2
+,,,Italy,,,,,130282,,,,,,,T. Allan,,,8,Fly Half,,,,,,2
+,,,Italy,,,,,136875,,,,,,,G. Lucchesi,,,13,Hooker,,,,,,2
+,,,Scotland,,,,,100192,,,,,,,J. Bayliss,,,10,Back Row,,,,,,2
+,,,France,,,,,249797,,,,,,,K. Gourgues,,,7,Centre,,,,,,2
+,,,France,,,,,182885,,,,,,,P. Barassi,,,7,Centre,,,,,,2
+,,,Ireland,,,,,115762,,,,,,,F. Bealham,,,12,Prop,,,,,,2
+,,,England,,,,,183874,,,,,,,E. Daly,,,6,Back Three,,,,,,2
+,,,France,,,,,216116,,,,,,,P. Boudehent,,,10,Back Row,,,,,,2
+,,,France,,,,,109697,,,,,,,N. le Garrec,,,9,Scrum Half,,,,,,2
+,,,France,,,,,206243,,,,,,,L. Barre,,,6,Back Three,,,,,,2
+,,,Ireland,,,,,144570,,,,,,,J. O'Brien,,,6,Back Three,,,,,,2
+,,,England,,,,,113737,,,,,,,J. van Poortvliet,,,9,Scrum Half,,,,,,2
+,,,France,,,,,187175,,,,,,,G. Villiere,,,6,Back Three,,,,,,2
+,,,Ireland,,,,,122020,,,,,,,J. Stockdale,,,6,Back Three,,,,,,2
+,,,Ireland,,,,,198565,,,,,,,C. Prendergast,,,10,Back Row,,,,,,2
+,,,Ireland,,,,,199383,,,,,,,C. Frawley,,,8,Fly Half,,,,,,2
+,,,England,,,,,138016,,,,,,,H. Slade,,,7,Centre,,,,,,2
+,,,England,,,,,110793,,,,,,,C. Murley,,,6,Back Three,,,,,,2
+,,,England,,,,,153646,,,,,,,G. Furbank,,,6,Back Three,,,,,,2
+,,,Wales,,,,,118619,,,,,,,S. Costelow,,,8,Fly Half,,,,,,2
+,,,France,,,,,179735,,,,,,,C. Woki,,,10,Back Row,,,,,,2
+,,,France,,,,,243604,,,,,,,G. Drean,,,6,Back Three,,,,,,2
+,,,Wales,,,,,125946,,,,,,,T. Rogers,,,6,Back Three,,,,,,2
+,,,France,,,,,244412,,,,,,,G. Arfeuil,,,6,Back Three,,,,,,2
+,,,France,,,,,253274,,,,,,,U. Seunes,,,8,Fly Half,,,,,,2
+,,,Italy,,,,,236566,,,,,,,S. Gesi,,,6,Back Three,,,,,,2
+,,,Italy,,,,,229647,,,,,,,M. Page-Relo,,,9,Scrum Half,,,,,,2
+,,,Wales,,,,,139232,,,,,,,G. Thomas,,,12,Prop,,,,,,2
+,,,Scotland,,,,,156550,,,,,,,M. Bradbury,,,10,Back Row,,,,,,2
+,,,Scotland,,,,,109816,,,,,,,R. Hutchinson,,,7,Centre,,,,,,2
+,,,Scotland,,,,,144180,,,,,,,O. Smith,,,7,Centre,,,,,,2
+,,,Scotland,,,,,240478,,,,,,,G. Hiddleston,,,13,Hooker,,,,,,2
+,,,Italy,,,,,206390,,,,,,,P. Dimcheff,,,13,Hooker,,,,,,2
+,,,France,,,,,190812,,,,,,,G. Colombe,,,12,Prop,,,,,,2
+,,,Italy,,,,,123396,,,,,,,G. Bertaccini,,,7,Centre,,,,,,2
+,,,Wales,,,,,214124,,,,,,,J. Botham,,,10,Back Row,,,,,,2
+,,,Scotland,,,,,156101,,,,,,,G. Gilchrist,,,11,Second Row,,,,,,2
+,,,France,,,,,165194,,,,,,,A. Roumat,,,10,Back Row,,,,,,2
+,,,France,,,,,186184,,,,,,,J. Brennan,,,11,Second Row,,,,,,2
+,,,Ireland,,,,,197246,,,,,,,T. Stewart,,,13,Hooker,,,,,,2
+,,,Ireland,,,,,159083,,,,,,,T. Farrell,,,7,Centre,,,,,,2
+,,,Ireland,,,,,188115,,,,,,,H. Byrne,,,8,Fly Half,,,,,,2
+,,,Italy,,,,,110891,,,,,,,S. Varney,,,9,Scrum Half,,,,,,2
+,,,Italy,,,,,201405,,,,,,,G. da Re,,,8,Fly Half,,,,,,2
+,,,Scotland,,,,,171323,,,,,,,J. Gray,,,11,Second Row,,,,,,2
+,,,Scotland,,,,,180778,,,,,,,K. Rowe,,,6,Back Three,,,,,,2
+,,,Scotland,,,,,149746,,,,,,,S. McDowall,,,7,Centre,,,,,,2
+,,,Scotland,,,,,136509,,,,,,,F. Burke,,,8,Fly Half,,,,,,2
+,,,Wales,,,,,124858,,,,,,,J. Macleod,,,10,Back Row,,,,,,2
+,,,Wales,,,,,237266,,,,,,,H. Deaves,,,10,Back Row,,,,,,2
+,,,Italy,,,,,174824,,,,,,,G. Zilocchi,,,12,Prop,,,,,,2
+,,,England,,,,,160844,,,,,,,R. Quirke,,,9,Scrum Half,,,,,,2
+,,,France,,,,,207407,,,,,,,D. Bamba,,,12,Prop,,,,,,2
+,,,France,,,,,200911,,,,,,,T. Laclayat,,,12,Prop,,,,,,2
+,,,Wales,,,,,240573,,,,,,,R. Woodman,,,10,Back Row,,,,,,2
+,,,England,,,,,111794,,,,,,,T. Dan,,,13,Hooker,,,,,,2
+,,,England,,,,,109648,,,,,,,S. Atkinson,,,7,Centre,,,,,,2
+,,,England,,,,,170455,,,,,,,G. Fisilau,,,10,Back Row,,,,,,2
+,,,England,,,,,175826,,,,,,,J. Kenningham,,,10,Back Row,,,,,,2
+,,,France,,,,,174159,,,,,,,D. Priso,,,12,Prop,,,,,,2
+,,,France,,,,,244152,,,,,,,T. Matiu,,,10,Back Row,,,,,,2
+,,,Ireland,,,,,198451,,,,,,,M. Milne,,,12,Prop,,,,,,2
+,,,Ireland,,,,,176354,,,,,,,N. Doak,,,9,Scrum Half,,,,,,2
+,,,Ireland,,,,,237244,,,,,,,J. Postlethwaite,,,7,Centre,,,,,,2
+,,,Italy,,,,,216977,,,,,,,A. Izekor,,,10,Back Row,,,,,,2
+,,,Italy,,,,,159960,,,,,,,M. Gallagher,,,6,Back Three,,,,,,2
+,,,Italy,,,,,207699,,,,,,,D. Mazza,,,7,Centre,,,,,,2
+,,,Italy,,,,,238030,,,,,,,S. Locatelli,,,10,Back Row,,,,,,2
+,,,Scotland,,,,,153525,,,,,,,R. Sutherland,,,12,Prop,,,,,,2
+,,,Scotland,,,,,250743,,,,,,,F. Douglas,,,10,Back Row,,,,,,2
+,,,Scotland,,,,,100557,,,,,,,G. Warr,,,9,Scrum Half,,,,,,2
+,,,Wales,,,,,125247,,,,,,,O. Watkin,,,7,Centre,,,,,,2
+,,,Wales,,,,,202399,,,,,,,K. Assiratti,,,12,Prop,,,,,,2
+,,,Wales,,,,,119506,,,,,,,R. Morgan-Williams,,,9,Scrum Half,,,,,,2
+,,,Wales,,,,,165885,,,,,,,G. Hamer-Webb,,,6,Back Three,,,,,,2
+,,,Wales,,,,,233245,,,,,,,L. Hennessey,,,7,Centre,,,,,,2
+,,,Wales,,,,,137071,,,,,,,L. Belcher,,,13,Hooker,,,,,,2
+,,,England,,,,,163209,,,,,,,G. Kloska,,,12,Prop,,,,,,2
+,,,Ireland,,,,,250771,,,,,,,B. Ward,,,10,Back Row,,,,,,2
+,,,Wales,,,,,196875,,,,,,,F. Thomas,,,11,Second Row,,,,,,2
+,,,England,,,,,124901,,,,,,,A. Clark,,,11,Second Row,,,,,,2
+,,,England,,,,,187951,,,,,,,E. Iyogun,,,12,Prop,,,,,,2
+,,,France,,,,,202570,,,,,,,T. Staniforth,,,11,Second Row,,,,,,2
+,,,Scotland,,,,,172959,,,,,,,D. Rae,,,12,Prop,,,,,,2
+,,,Scotland,,,,,207013,,,,,,,A. Craig,,,11,Second Row,,,,,,2
+,,,Wales,,,,,167563,,,,,,,S. Wainwright,,,12,Prop,,,,,,2
+,7,,France,,,5,,134112,,,,1,35,80,E. Meafou,,,11,Second Row,61.0,,11,1,,3
+,7,,France,,,,,176585,,,1,,12,80,T. Flament,2,,11,Second Row,27.0,,8,,,3
+,6,1,Ireland,2,,3,,167132,,,,,47,80,C. Doris,1,,10,Back Row,38.0,,17,,,3
+,6,1,Ireland,,,,,147486,,,1,,1,80,T. Beirne,,,11,Second Row,35.0,,17,,,3
+,6,1,France,,,2,,175065,,,,,30,74,A. Jelonch,,,10,Back Row,27.0,,9,,,3
+,6,1,Italy,,,,,197335,,,,,6,80,L. Cannone,1,,10,Back Row,25.0,,12,,,3
+,6,,France,1,,2,,244767,,,,,30,55,O. Jegou,,,10,Back Row,22.0,,10,,,3
+,6,,Italy,,,1,,161390,,,,,12,80,M. Zuliani,,,10,Back Row,18.0,,9,,,3
+,6,,Ireland,1,,,,223413,,,,,6,63,J. McCarthy,1,,11,Second Row,17.0,,10,,,3
+,6,,Italy,,,,,120191,,,,,2,80,M. Lamaro,,,10,Back Row,15.0,,9,,,3
+,6,,Ireland,2,,1,,203381,,,,,2,80,J. Ryan,,,11,Second Row,15.0,,9,,,3
+,6,,France,,,,,111408,,,,,,55,F. Cros,,,10,Back Row,11.0,,5,,,3
+,6,,France,2,,,,158534,,,,,,54,D. Aldegheri,,,12,Prop,10.0,,6,,,3
+,6,,France,1,,,,150335,,,,,5,58,J. Marchand,,,13,Hooker,9.0,,4,,,3
+,4,,Ireland,,,4,,211240,,,1,,9,56,D. Sheehan,,,13,Hooker,43.0,,9,1,,3
+,4,1,Wales,3,,3,,235183,,,1,,13,80,A. Mann,,,10,Back Row,36.0,,16,,,3
+,4,,Wales,,,3,,119132,,,,,25,80,A. Wainwright,,,10,Back Row,29.0,,17,,,3
+,4,,Ireland,,,3,,126800,,,,,43,49,J. van der Flier,,,10,Back Row,27.0,,13,,,3
+,4,,Wales,,,,,144545,,,,,3,80,B. Carter,,,11,Second Row,27.0,,23,,,3
+,4,2,Wales,,,,,214124,,,,,6,70,J. Botham,,,10,Back Row,27.0,,13,,,3
+,4,,Wales,1,,,,237272,,,,,8,76,D. Jenkins,,,11,Second Row,24.0,,21,,,3
+,4,,Wales,,,2,,212902,,,,,19,55,D. Lake,,,13,Hooker,19.0,,10,,,3
+,4,1,Italy,,,1,,103440,,,,,5,26,F. Ruzza,,,11,Second Row,17.0,,6,,,3
+,4,,England,,,,,144635,,,,,9,80,O. Chessum,,,11,Second Row,14.0,,10,,,3
+,4,,Ireland,1,,,,113444,,,,,2,46,T. Furlong,,,12,Prop,13.0,,10,,,3
+,4,,Wales,,,,,175275,,,,,,51,T. Francis,,,12,Prop,12.0,,8,,,3
+,4,,France,,,1,,104627,,,,,3,38,J. Gros,,,12,Prop,11.0,,5,,,3
+,4,,Italy,1,,,,206390,,,,,,26,P. Dimcheff,,,13,Hooker,11.0,,8,,,3
+,4,,Italy,,,,,237231,,,,,1,26,M. Spagnolo,,,12,Prop,11.0,,7,,,3
+,4,,Italy,,,,,174208,,,,,1,26,R. Favretto,,,11,Second Row,9.0,,5,,,3
+,4,,Italy,,,,,174824,,,,,,26,G. Zilocchi,,,12,Prop,8.0,,4,,,3
+,4,,Ireland,1,,,,174268,,,,,8,46,J. Loughman,,,12,Prop,8.0,,5,,,3
+,3,1,Wales,1,,1,,119955,,,,,8,44,R. Carre,1,,12,Prop,29.0,,3,1,,3
+,3,1,England,1,,5,,239634,,,,,33,70,H. Pollock,1,,10,Back Row,26.0,,9,,1,3
+,3,,England,,,3,,134796,,,,,8,73,J. Heyes,,,12,Prop,21.0,,12,,,3
+,3,,England,,,1,,155409,,,,,6,55,M. Itoje,,,11,Second Row,16.0,,11,,,3
+,3,,England,,,2,,165007,,,,,15,51,E. Genge,,,12,Prop,13.0,,5,,,3
+,3,,England,,,,,209612,,,,,39,70,B. Earl,,,10,Back Row,12.0,,6,,,3
+,3,,France,,,,,175146,,,,,3,42,R. Neti,,,12,Prop,12.0,,9,,,3
+,3,,England,2,,,,160801,,,,,4,51,J. George,1,,13,Hooker,11.0,,8,,,3
+,3,,England,1,,,,222623,,,,,4,51,T. Curry,,,10,Back Row,9.0,,7,,,3
+,2,,Ireland,,,3,,193134,,,,,13,31,N. Timoney,,,10,Back Row,16.0,,7,,,3
+,2,,Italy,,,,,208272,,,,,3,54,N. Cannone,,,11,Second Row,10.0,,8,,,3
+,2,,Italy,,,,,118165,,,,,,54,G. Nicotera,,,13,Hooker,7.0,,5,,,3
+,2,,Ireland,,,,,224426,,,,,1,34,T. O'Toole,,,12,Prop,7.0,,5,,,3
+,2,,Italy,,,,,123723,,,,,1,54,D. Fischetti,,,12,Prop,6.0,,4,,,3
+,2,,Ireland,,,1,,118531,,,,,,24,R. Kelleher,,,13,Hooker,6.0,,2,,,3
+,2,,Italy,,,,,128750,,,,,,54,A. Zambonin,,,11,Second Row,5.0,,3,,,3
+,2,,Italy,2,,,,192476,,,,,,54,S. Ferrari,,,12,Prop,4.0,,4,,,3
+,2,,Ireland,4,,,,115762,,,,,5,34,F. Bealham,,,12,Prop,2.0,,4,,,3
+,1,2,Scotland,,,1,,187820,,,,1,14,80,R. Darge,,,10,Back Row,45.0,,16,,,3
+,1,2,Wales,,,1,,110319,,,,,3,36,N. Smith,,,12,Prop,24.0,,11,,,3
+,1,,England,,,1,,104322,,,,,6,10,S. Underhill,,,10,Back Row,19.0,,1,1,,3
+,1,,Scotland,1,,,,196669,,,,,6,55,Z. Fagerson,,,12,Prop,19.0,,19,,,3
+1,1,,England,,,3,,156918,,,,,57,80,T. Freeman,,,6,Back Three,18.0,,3,,,3
+,1,,Scotland,2,,,,159599,,,,,29,80,M. Fagerson,,,10,Back Row,18.0,,17,,,3
+,1,,Scotland,1,,1,,222920,,,,,11,80,G. Brown,,,11,Second Row,16.0,,13,,,3
+,1,,Scotland,1,,,,210801,,,,,1,67,S. Cummings,,,11,Second Row,14.0,,14,,,3
+,1,,Scotland,2,,,,129286,,,,,1,55,D. Cherry,,,13,Hooker,14.0,,15,,,3
+,1,,France,,,,,117303,,,,,11,22,P. Mauvaka,,,13,Hooker,9.0,,7,,,3
+,1,,France,,,1,,244170,,,,,13,25,L. Nouchi,,,10,Back Row,9.0,,5,,,3
+,1,,France,1,,,,198942,,,,,,25,C. Ollivon,,,10,Back Row,8.0,,8,,,3
+,1,,England,1,,,,158302,,,,,1,29,B. Rodd,,,12,Prop,8.0,,8,,,3
+,1,,Scotland,,,,,214265,,,,,1,34,N. McBeth,,,12,Prop,8.0,,7,,,3
+,1,,France,,,,,177800,,,,,6,6,M. Guillard,1,,11,Second Row,7.0,,4,,,3
+,1,,England,,,,,106142,,,,,3,29,L. Cowan-Dickie,,,13,Hooker,6.0,,5,,,3
+,1,,Scotland,,,,,236957,,,,,3,34,M. Williamson,,,11,Second Row,6.0,,5,,,3
+,1,,England,2,,1,,112684,,,,,6,29,G. Pepper,,,10,Back Row,5.0,,4,,,3
+,1,,France,1,,,,190812,,,,,3,26,G. Colombe,,,12,Prop,5.0,,5,,,3
+,1,,England,,,,,173801,,,,,7,25,A. Coles,,,11,Second Row,4.0,,3,,,3
+,1,,England,,,,,102707,,,,,,7,T. Davison,,,12,Prop,2.0,,1,,,3
+1,,2,Ireland,,,2,,216173,,3,,1,48,71,J. Gibson-Park,1,,9,Scrum Half,63.0,,8,1,,3
+2,,,France,,4,4,,175123,1,2,,,45,80,T. Ramos,1,,6,Back Three,56.0,,5,1,,3
+1,,,France,1,,8,,237225,,,,,86,73,E. Gailleton,1,,7,Centre,45.0,,6,1,,3
+2,,1,France,,,6,,137493,,3,,,21,75,A. Dupont,1,,9,Scrum Half,41.0,,6,,,3
+1,,,Ireland,,4,,,100659,,1,,,23,80,J. Crowley,2,3,8,Fly Half,41.0,,12,,,3
+1,,1,Ireland,,,2,,175150,,,,,42,80,R. Baloucoune,1,,6,Back Three,41.0,,12,1,,3
+,,,Scotland,,,6,,110170,,,,,67,80,K. Steyn,,,6,Back Three,36.0,,8,1,,3
+1,,,Scotland,1,3,2,,157863,,,,,32,80,F. Russell,1,,8,Fly Half,35.0,,7,1,,3
+,,,Ireland,,,5,,172351,,,,,68,80,S. McCloskey,2,,7,Centre,35.0,,15,,,3
+,,,England,,3,1,,102642,,2,,,86,80,G. Ford,,,8,Fly Half,31.0,,11,,,3
+,,,England,1,,6,,131724,,,,,27,80,O. Lawrence,,,7,Centre,31.0,,8,1,,3
+,,3,Italy,,,1,,229557,,,,,26,80,T. Menoncello,,,7,Centre,28.0,,9,,,3
+,,,France,,,3,,237223,,2,,,41,80,L. Bielle-Biarrey,,,6,Back Three,27.0,,3,1,,3
+,,,Italy,,,2,,120989,,1,,,72,72,A. Capuozzo,,,6,Back Three,26.0,,3,1,,3
+,,1,Italy,,,2,,236606,,,,,34,80,L. Marin,4,,8,Fly Half,26.0,,6,,,3
+,,,Scotland,1,,2,,146480,,,,,43,80,S. Tuipulotu,1,,7,Centre,23.0,,14,,,3
+,,,Ireland,1,,2,,107434,,,,,64,62,T. O'Brien,,,6,Back Three,22.0,,3,1,,3
+,,,France,,,2,,250067,,,,,20,66,F. Brau-Boirie,2,,7,Centre,22.0,,12,,,3
+,,,England,1,,,,200195,,,,,24,80,F. Dingwall,1,,7,Centre,22.0,,9,1,,3
+,,,France,,,1,,243604,,,,,35,80,G. Drean,1,,6,Back Three,22.0,,5,1,,3
+,,,France,,,4,,244532,,,,,67,80,T. Attissogbe,2,,6,Back Three,20.0,,2,,,3
+1,,,Wales,,2,,,118619,,1,,,2,55,S. Costelow,,2,8,Fly Half,20.0,,4,,,3
+1,,,Scotland,1,,1,,221466,,,,,81,80,B. Kinghorn,2,,6,Back Three,19.0,,2,,,3
+,,,Scotland,,,3,,100192,,,,,30,46,J. Bayliss,,,10,Back Row,19.0,,10,,,3
+1,,,England,2,,3,,189326,,,,,80,40,M. Smith,,,8,Fly Half,18.0,,2,,,3
+,,,Ireland,,,2,,229826,,,,,41,70,J. Osborne,,,6,Back Three,18.0,,5,1,1,3
+,,,Wales,,,,,137453,,,,,4,80,J. Adams,1,,6,Back Three,18.0,,6,1,,3
+,,,Scotland,1,,,,218848,,,,,3,25,G. Turner,,,13,Hooker,17.0,,3,1,,3
+,,,Wales,,,1,,237271,,,,,50,80,E. James,,,7,Centre,17.0,,10,,,3
+,,,Italy,,,,,156253,,,,,20,80,P. Garbisi,,1,8,Fly Half,15.0,,10,,,3
+,,,Scotland,,,3,,153489,,,,,36,67,H. Jones,1,,7,Centre,14.0,,3,,,3
+,,,Wales,1,,2,,120767,,,,,54,80,L. Rees-Zammit,,,6,Back Three,14.0,,6,,,3
+,,,Scotland,,,1,,164150,,,,,21,25,D. Graham,,,6,Back Three,14.0,,,1,,3
+1,,,Scotland,,,1,,188057,,,,,11,55,B. White,,,9,Scrum Half,12.0,,5,,,3
+,,,England,1,,,,161516,,,,,79,80,H. Arundell,2,,6,Back Three,12.0,,2,,,3
+,,,Italy,,,2,,134407,,2,,,1,59,A. Fusco,,,9,Scrum Half,12.0,,4,,,3
+1,,,Wales,1,,1,,133163,,1,,,17,80,T. Williams,,,9,Scrum Half,11.0,,3,,,3
+1,,,England,1,,1,,113737,,2,,,15,56,J. van Poortvliet,,,9,Scrum Half,11.0,,1,,,3
+,,,Wales,1,,,,187169,,,,,1,29,A. Griffin,,,12,Prop,10.0,,11,,,3
+,,,Italy,,,1,,174318,,,,,14,68,M. Ioane,1,,6,Back Three,8.0,,3,,,3
+,,,Scotland,,,,,196773,,,,,5,46,P. Schoeman,,,12,Prop,8.0,,8,,,3
+,,,Ireland,,,,,219828,,,,,,54,G. Ringrose,,,7,Centre,8.0,,8,,,3
+,,,Wales,,,1,,182170,,,,,2,25,R. Elias,,,13,Hooker,8.0,,6,,,3
+,,,Ireland,,,,,109852,,,,,4,18,J. Lowe,1,,6,Back Three,7.0,,5,,,3
+,,,Italy,,,1,,153725,,,,,26,12,P. Odogwu,,,6,Back Three,7.0,,3,,,3
+,,,Wales,,,,,218331,,,,,,25,J. Evans,,1,8,Fly Half,6.0,,3,,,3
+,,1,Ireland,,,,,198565,,,,,3,17,C. Prendergast,,,10,Back Row,6.0,,1,,,3
+,,,Wales,2,,1,,197546,,,,,17,70,J. Hawkins,,,7,Centre,6.0,,10,,1,3
+,,,Scotland,,,,,175403,,,,,5,25,E. Millar-Mills,,,12,Prop,6.0,,6,,,3
+,,,Scotland,,,1,,172455,,,,,24,55,D. van der Merwe,,,6,Back Three,5.0,,1,,,3
+,,,Italy,2,,1,,209105,,,,,33,70,L. Lynagh,1,,6,Back Three,5.0,,5,,1,3
+,,,Scotland,1,,,,224905,,,,,25,25,G. Horne,1,,9,Scrum Half,5.0,,2,,,3
+,,,Italy,,,,,236573,,1,,,3,21,A. Garbisi,,,9,Scrum Half,5.0,,3,,,3
+,,,Wales,,,,,165885,,,,,10,54,G. Hamer-Webb,,,6,Back Three,4.0,,3,,,3
+,,,Wales,,,1,,243190,,,,,2,26,B. Murray,,,6,Back Three,3.0,,1,,,3
+,,,England,,,2,,150081,,,,,29,29,F. Steward,,,6,Back Three,3.0,,2,,1,3
+,,,France,,,,,182885,,,,,,22,P. Barassi,,,7,Centre,3.0,,3,,,3
+,,,Ireland,,,,,199383,,,,,,26,C. Frawley,1,,8,Fly Half,2.0,,,,,3
+,,,England,,,,,177559,,,,,8,24,A. Mitchell,,,9,Scrum Half,1.0,,1,,,3
+,,,France,,,,,138386,,,,,,5,B. Serin,,,9,Scrum Half,1.0,,1,,,3
+,,,Italy,,,,,238037,,,,,,8,D. Odiase,,,10,Back Row,1.0,,1,,,3
+,,,Scotland,,,,,243508,,,,,3,13,T. Jordan,,,7,Centre,,,,,,3
+,,,Ireland,,,,,105642,,,,,,9,C. Casey,,,9,Scrum Half,,,,,,3
+,,,Scotland,,,,,156101,,,,,,13,G. Gilchrist,,,11,Second Row,,,,,,3
+,,,Wales,,,,,196875,,,,,,4,F. Thomas,,,11,Second Row,,,,,,3
+,,,France,,,,,190344,,,,,,,M. Jalibert,,,8,Fly Half,,,,,,3
+,,,Ireland,,,,,105748,,,,,,,J. Conan,,,10,Back Row,,,,,,3
+,,,Scotland,,,,,113000,,,,,,,J. Dempsey,,,10,Back Row,,,,,,3
+,,,Scotland,,,,,141860,,,,,,,E. Ashman,,,13,Hooker,,,,,,3
+,,,France,,,,,222388,,,,,,,Y. Moefana,,,7,Centre,,,,,,3
+,,,France,,,,,241689,,,,,,,N. Depoortere,,,7,Centre,,,,,,3
+,,,Ireland,,,,,241698,,,,,,,S. Prendergast,,,8,Fly Half,,,,,,3
+,,,England,,,,,137626,,,,,,,F. Smith,,,8,Fly Half,,,,,,3
+,,,Ireland,,,,,157406,,,,,,,B. Aki,,,7,Centre,,,,,,3
+,,,Wales,,,,,225777,,,,,,,B. Thomas,,,7,Centre,,,,,,3
+,,,Wales,,,,,240455,,,,,,,D. Edwards,,,8,Fly Half,,,,,,3
+,,,Italy,,,,,130487,,,,,,,N. Brex,,,7,Centre,,,,,,3
+,,,England,,,,,240631,,,,,,,C. Cunningham-South,,,10,Back Row,,,,,,3
+,,,Italy,,,,,130282,,,,,,,T. Allan,,,8,Fly Half,,,,,,3
+,,,Italy,,,,,130282,,,,,,,T. Allan,,,8,Fly Half,,,,,,3
+,,,Italy,,,,,136875,,,,,,,G. Lucchesi,,,13,Hooker,,,,,,3
+,,,England,,,,,111662,,,,,,,B. Spencer,,,9,Scrum Half,,,,,,3
+,,,France,,,,,249797,,,,,,,K. Gourgues,,,7,Centre,,,,,,3
+,,,Scotland,,,,,133065,,,,,,,A. Hastings,,,8,Fly Half,,,,,,3
+,,,England,,,,,183874,,,,,,,E. Daly,,,6,Back Three,,,,,,3
+,,,France,,,,,216116,,,,,,,P. Boudehent,,,10,Back Row,,,,,,3
+,,,France,,,,,109697,,,,,,,N. le Garrec,,,9,Scrum Half,,,,,,3
+,,,France,,,,,206243,,,,,,,L. Barre,,,6,Back Three,,,,,,3
+,,,Ireland,,,,,144570,,,,,,,J. O'Brien,,,6,Back Three,,,,,,3
+,,,Wales,,,,,105892,,,,,,,A. Beard,,,11,Second Row,,,,,,3
+,,,Italy,,,,,236609,,,,,,,L. Pani,,,6,Back Three,,,,,,3
+,,,England,,,,,149322,,,,,,,T. Roebuck,,,6,Back Three,,,,,,3
+,,,Wales,,,,,249307,,,,,,,E. Mee,,,6,Back Three,,,,,,3
+,,,France,,,,,187175,,,,,,,G. Villiere,,,6,Back Three,,,,,,3
+,,,Ireland,,,,,122020,,,,,,,J. Stockdale,,,6,Back Three,,,,,,3
+,,,Italy,,,,,236602,,,,,,,T. di Bartolomeo,,,13,Hooker,,,,,,3
+,,,England,,,,,138016,,,,,,,H. Slade,,,7,Centre,,,,,,3
+,,,England,,,,,110793,,,,,,,C. Murley,,,6,Back Three,,,,,,3
+,,,England,,,,,153646,,,,,,,G. Furbank,,,6,Back Three,,,,,,3
+,,,France,,,,,179735,,,,,,,C. Woki,,,10,Back Row,,,,,,3
+,,,France,,,,,244412,,,,,,,G. Arfeuil,,,6,Back Three,,,,,,3
+,,,France,,,,,253274,,,,,,,U. Seunes,,,8,Fly Half,,,,,,3
+,,,Ireland,,,,,229863,,,,,,,C. Izuchukwu,,,11,Second Row,,,,,,3
+,,,Italy,,,,,236566,,,,,,,S. Gesi,,,6,Back Three,,,,,,3
+,,,Italy,,,,,229647,,,,,,,M. Page-Relo,,,9,Scrum Half,,,,,,3
+,,,Wales,,,,,139232,,,,,,,G. Thomas,,,12,Prop,,,,,,3
+,,,Wales,,,,,125946,,,,,,,T. Rogers,,,6,Back Three,,,,,,3
+,,,Scotland,,,,,156550,,,,,,,M. Bradbury,,,10,Back Row,,,,,,3
+,,,Scotland,,,,,109816,,,,,,,R. Hutchinson,,,7,Centre,,,,,,3
+,,,Scotland,,,,,144180,,,,,,,O. Smith,,,7,Centre,,,,,,3
+,,,Scotland,,,,,240478,,,,,,,G. Hiddleston,,,13,Hooker,,,,,,3
+,,,France,,,,,189190,,,,,,,M. Lamothe,,,13,Hooker,,,,,,3
+,,,Wales,,,,,190215,,,,,,,K. Hardy,,,9,Scrum Half,,,,,,3
+,,,Italy,,,,,123396,,,,,,,G. Bertaccini,,,7,Centre,,,,,,3
+,,,Wales,,,,,103056,,,,,,,M. Grady,,,7,Centre,,,,,,3
+,,,France,,,,,165194,,,,,,,A. Roumat,,,10,Back Row,,,,,,3
+,,,France,,,,,186184,,,,,,,J. Brennan,,,11,Second Row,,,,,,3
+,,,Ireland,,,,,197246,,,,,,,T. Stewart,,,13,Hooker,,,,,,3
+,,,Ireland,,,,,159083,,,,,,,T. Farrell,,,7,Centre,,,,,,3
+,,,Ireland,,,,,188115,,,,,,,H. Byrne,,,8,Fly Half,,,,,,3
+,,,Italy,,,,,110891,,,,,,,S. Varney,,,9,Scrum Half,,,,,,3
+,,,Italy,,,,,201405,,,,,,,G. da Re,,,8,Fly Half,,,,,,3
+,,,Scotland,,,,,171323,,,,,,,J. Gray,,,11,Second Row,,,,,,3
+,,,Scotland,,,,,180778,,,,,,,K. Rowe,,,6,Back Three,,,,,,3
+,,,Scotland,,,,,149746,,,,,,,S. McDowall,,,7,Centre,,,,,,3
+,,,Scotland,,,,,136509,,,,,,,F. Burke,,,8,Fly Half,,,,,,3
+,,,Wales,,,,,124858,,,,,,,J. Macleod,,,10,Back Row,,,,,,3
+,,,Wales,,,,,216823,,,,,,,O. Cracknell,,,10,Back Row,,,,,,3
+,,,Ireland,,,,,196853,,,,,,,T. Clarkson,,,12,Prop,,,,,,3
+,,,Wales,,,,,237266,,,,,,,H. Deaves,,,10,Back Row,,,,,,3
+,,,Ireland,,,,,243648,,,,,,,E. Edogbo,,,11,Second Row,,,,,,3
+,,,England,,,,,160844,,,,,,,R. Quirke,,,9,Scrum Half,,,,,,3
+,,,France,,,,,207407,,,,,,,D. Bamba,,,12,Prop,,,,,,3
+,,,France,,,,,200911,,,,,,,T. Laclayat,,,12,Prop,,,,,,3
+,,,Wales,,,,,240573,,,,,,,R. Woodman,,,10,Back Row,,,,,,3
+,,,England,,,,,111794,,,,,,,T. Dan,,,13,Hooker,,,,,,3
+,,,England,,,,,109648,,,,,,,S. Atkinson,,,7,Centre,,,,,,3
+,,,England,,,,,170455,,,,,,,G. Fisilau,,,10,Back Row,,,,,,3
+,,,England,,,,,175826,,,,,,,J. Kenningham,,,10,Back Row,,,,,,3
+,,,France,,,,,174159,,,,,,,D. Priso,,,12,Prop,,,,,,3
+,,,France,,,,,244152,,,,,,,T. Matiu,,,10,Back Row,,,,,,3
+,,,Ireland,,,,,198451,,,,,,,M. Milne,,,12,Prop,,,,,,3
+,,,Ireland,,,,,176354,,,,,,,N. Doak,,,9,Scrum Half,,,,,,3
+,,,Ireland,,,,,237244,,,,,,,J. Postlethwaite,,,7,Centre,,,,,,3
+,,,Italy,,,,,216977,,,,,,,A. Izekor,,,10,Back Row,,,,,,3
+,,,Italy,,,,,159960,,,,,,,M. Gallagher,,,6,Back Three,,,,,,3
+,,,Italy,,,,,207699,,,,,,,D. Mazza,,,7,Centre,,,,,,3
+,,,Italy,,,,,238030,,,,,,,S. Locatelli,,,10,Back Row,,,,,,3
+,,,Scotland,,,,,153525,,,,,,,R. Sutherland,,,12,Prop,,,,,,3
+,,,Scotland,,,,,250743,,,,,,,F. Douglas,,,10,Back Row,,,,,,3
+,,,Scotland,,,,,100557,,,,,,,G. Warr,,,9,Scrum Half,,,,,,3
+,,,Wales,,,,,125247,,,,,,,O. Watkin,,,7,Centre,,,,,,3
+,,,Wales,,,,,202399,,,,,,,K. Assiratti,,,12,Prop,,,,,,3
+,,,Wales,,,,,119506,,,,,,,R. Morgan-Williams,,,9,Scrum Half,,,,,,3
+,,,Wales,,,,,233245,,,,,,,L. Hennessey,,,7,Centre,,,,,,3
+,,,Italy,,,,,172284,,,,,,,M. Hasa,,,12,Prop,,,,,,3
+,,,Wales,,,,,137071,,,,,,,L. Belcher,,,13,Hooker,,,,,,3
+,,,England,,,,,163209,,,,,,,G. Kloska,,,12,Prop,,,,,,3
+,,,Ireland,,,,,250771,,,,,,,B. Ward,,,10,Back Row,,,,,,3
+,,,England,,,,,124901,,,,,,,A. Clark,,,11,Second Row,,,,,,3
+,,,England,,,,,187951,,,,,,,E. Iyogun,,,12,Prop,,,,,,3
+,,,France,,,,,202570,,,,,,,T. Staniforth,,,11,Second Row,,,,,,3
+,,,Scotland,,,,,172959,,,,,,,D. Rae,,,12,Prop,,,,,,3
+,,,Scotland,,,,,207013,,,,,,,A. Craig,,,11,Second Row,,,,,,3
+,,,Wales,,,,,167563,,,,,,,S. Wainwright,,,12,Prop,,,,,,3
+,,,France,,,,,175123,,,,,,,T. Ramos,,,6,Back Three,,,,,,4
+,,,Ireland,,,,,167132,,,,,,,C. Doris,,,10,Back Row,,,,,,4
+,,,France,,,,,137493,,,,,,,A. Dupont,,,9,Scrum Half,,,,,,4
+,,,France,,,,,237223,,,,,,,L. Bielle-Biarrey,,,6,Back Three,,,,,,4
+,,,England,,,,,209612,,,,,,,B. Earl,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,211240,,,,,,,D. Sheehan,,,13,Hooker,,,,,,4
+,,,France,,,,,190344,,,,,,,M. Jalibert,,,8,Fly Half,,,,,,4
+,,,England,,,,,102642,,,,,,,G. Ford,,,8,Fly Half,,,,,,4
+,,,Italy,,,,,229557,,,,,,,T. Menoncello,,,7,Centre,,,,,,4
+,,,Italy,,,,,197335,,,,,,,L. Cannone,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,147486,,,,,,,T. Beirne,,,11,Second Row,,,,,,4
+,,,Scotland,,,,,153489,,,,,,,H. Jones,,,7,Centre,,,,,,4
+,,,England,,,,,156918,,,,,,,T. Freeman,,,6,Back Three,,,,,,4
+,,,England,,,,,104322,,,,,,,S. Underhill,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,216173,,,,,,,J. Gibson-Park,,,9,Scrum Half,,,,,,4
+,,,Scotland,,,,,187820,,,,,,,R. Darge,,,10,Back Row,,,,,,4
+,,,England,,,,,239634,,,,,,,H. Pollock,,,10,Back Row,,,,,,4
+,,,Scotland,,,,,157863,,,,,,,F. Russell,,,8,Fly Half,,,,,,4
+,,,Ireland,,,,,109852,,,,,,,J. Lowe,,,6,Back Three,,,,,,4
+,,,Italy,,,,,120191,,,,,,,M. Lamaro,,,10,Back Row,,,,,,4
+,,,France,,,,,150335,,,,,,,J. Marchand,,,13,Hooker,,,,,,4
+,,,Scotland,,,,,113000,,,,,,,J. Dempsey,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,105748,,,,,,,J. Conan,,,10,Back Row,,,,,,4
+,,,Wales,,,,,120767,,,,,,,L. Rees-Zammit,,,6,Back Three,,,,,,4
+,,,England,,,,,222623,,,,,,,T. Curry,,,10,Back Row,,,,,,4
+,,,Scotland,,,,,159599,,,,,,,M. Fagerson,,,10,Back Row,,,,,,4
+,,,Scotland,,,,,221466,,,,,,,B. Kinghorn,,,6,Back Three,,,,,,4
+,,,Wales,,,,,119132,,,,,,,A. Wainwright,,,10,Back Row,,,,,,4
+,,,France,,,,,198942,,,,,,,C. Ollivon,,,10,Back Row,,,,,,4
+,,,Scotland,,,,,164150,,,,,,,D. Graham,,,6,Back Three,,,,,,4
+,,,Scotland,,,,,172455,,,,,,,D. van der Merwe,,,6,Back Three,,,,,,4
+,,,Ireland,,,,,126800,,,,,,,J. van der Flier,,,10,Back Row,,,,,,4
+,,,France,,,,,177800,,,,,,,M. Guillard,,,11,Second Row,,,,,,4
+,,,Italy,,,,,161390,,,,,,,M. Zuliani,,,10,Back Row,,,,,,4
+,,,Scotland,,,,,110170,,,,,,,K. Steyn,,,6,Back Three,,,,,,4
+,,,Ireland,,,,,100659,,,,,,,J. Crowley,,,8,Fly Half,,,,,,4
+,,,France,,,,,111408,,,,,,,F. Cros,,,10,Back Row,,,,,,4
+,,,England,,,,,155409,,,,,,,M. Itoje,,,11,Second Row,,,,,,4
+,,,Italy,,,,,156253,,,,,,,P. Garbisi,,,8,Fly Half,,,,,,4
+,,,France,,,,,244532,,,,,,,T. Attissogbe,,,6,Back Three,,,,,,4
+,,,Ireland,,,,,172351,,,,,,,S. McCloskey,,,7,Centre,,,,,,4
+,,,Scotland,,,,,146480,,,,,,,S. Tuipulotu,,,7,Centre,,,,,,4
+,,,England,,,,,189326,,,,,,,M. Smith,,,8,Fly Half,,,,,,4
+,,,Scotland,,,,,188057,,,,,,,B. White,,,9,Scrum Half,,,,,,4
+,,,England,,,,,131724,,,,,,,O. Lawrence,,,7,Centre,,,,,,4
+,,,Wales,,,,,237272,,,,,,,D. Jenkins,,,11,Second Row,,,,,,4
+,,,Scotland,,,,,196669,,,,,,,Z. Fagerson,,,12,Prop,,,,,,4
+,,,Italy,,,,,118165,,,,,,,G. Nicotera,,,13,Hooker,,,,,,4
+,,,Italy,,,,,174318,,,,,,,M. Ioane,,,6,Back Three,,,,,,4
+,,,Italy,,,,,120989,,,,,,,A. Capuozzo,,,6,Back Three,,,,,,4
+,,,England,,,,,106142,,,,,,,L. Cowan-Dickie,,,13,Hooker,,,,,,4
+,,,Italy,,,,,123723,,,,,,,D. Fischetti,,,12,Prop,,,,,,4
+,,,France,,,,,175065,,,,,,,A. Jelonch,,,10,Back Row,,,,,,4
+,,,Wales,,,,,212902,,,,,,,D. Lake,,,13,Hooker,,,,,,4
+,,,France,,,,,237225,,,,,,,E. Gailleton,,,7,Centre,,,,,,4
+,,,France,,,,,134112,,,,,,,E. Meafou,,,11,Second Row,,,,,,4
+,,,England,,,,,165007,,,,,,,E. Genge,,,12,Prop,,,,,,4
+,,,England,,,,,161516,,,,,,,H. Arundell,,,6,Back Three,,,,,,4
+,,,England,,,,,112684,,,,,,,G. Pepper,,,10,Back Row,,,,,,4
+,,,France,,,,,117303,,,,,,,P. Mauvaka,,,13,Hooker,,,,,,4
+,,,England,,,,,144635,,,,,,,O. Chessum,,,11,Second Row,,,,,,4
+,,,France,,,,,222388,,,,,,,Y. Moefana,,,7,Centre,,,,,,4
+,,,France,,,,,241689,,,,,,,N. Depoortere,,,7,Centre,,,,,,4
+,,,Ireland,,,,,241698,,,,,,,S. Prendergast,,,8,Fly Half,,,,,,4
+,,,Scotland,,,,,141860,,,,,,,E. Ashman,,,13,Hooker,,,,,,4
+,,,Ireland,,,,,223413,,,,,,,J. McCarthy,,,11,Second Row,,,,,,4
+,,,France,,,,,244767,,,,,,,O. Jegou,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,118531,,,,,,,R. Kelleher,,,13,Hooker,,,,,,4
+,,,England,,,,,160801,,,,,,,J. George,,,13,Hooker,,,,,,4
+,,,England,,,,,137626,,,,,,,F. Smith,,,8,Fly Half,,,,,,4
+,,,Ireland,,,,,175150,,,,,,,R. Baloucoune,,,6,Back Three,,,,,,4
+,,,Wales,,,,,133163,,,,,,,T. Williams,,,9,Scrum Half,,,,,,4
+,,,Wales,,,,,235183,,,,,,,A. Mann,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,107434,,,,,,,T. O'Brien,,,6,Back Three,,,,,,4
+,,,Ireland,,,,,157406,,,,,,,B. Aki,,,7,Centre,,,,,,4
+,,,Scotland,,,,,196773,,,,,,,P. Schoeman,,,12,Prop,,,,,,4
+,,,Italy,,,,,208272,,,,,,,N. Cannone,,,11,Second Row,,,,,,4
+,,,Wales,,,,,225777,,,,,,,B. Thomas,,,7,Centre,,,,,,4
+,,,Ireland,,,,,219828,,,,,,,G. Ringrose,,,7,Centre,,,,,,4
+,,,Wales,,,,,240455,,,,,,,D. Edwards,,,8,Fly Half,,,,,,4
+,,,Italy,,,,,130487,,,,,,,N. Brex,,,7,Centre,,,,,,4
+,,,Italy,,,,,209105,,,,,,,L. Lynagh,,,6,Back Three,,,,,,4
+,,,Ireland,,,,,229826,,,,,,,J. Osborne,,,6,Back Three,,,,,,4
+,,,Italy,,,,,103440,,,,,,,F. Ruzza,,,11,Second Row,,,,,,4
+,,,England,,,,,177559,,,,,,,A. Mitchell,,,9,Scrum Half,,,,,,4
+,,,England,,,,,173801,,,,,,,A. Coles,,,11,Second Row,,,,,,4
+,,,Wales,,,,,243190,,,,,,,B. Murray,,,6,Back Three,,,,,,4
+,,,England,,,,,134796,,,,,,,J. Heyes,,,12,Prop,,,,,,4
+,,,Ireland,,,,,193134,,,,,,,N. Timoney,,,10,Back Row,,,,,,4
+,,,England,,,,,240631,,,,,,,C. Cunningham-South,,,10,Back Row,,,,,,4
+,,,Italy,,,,,136875,,,,,,,G. Lucchesi,,,13,Hooker,,,,,,4
+,,,Italy,,,,,130282,,,,,,,T. Allan,,,8,Fly Half,,,,,,4
+,,,Ireland,,,,,145361,,,,,,,H. Keenan,,,6,Back Three,,,,,,4
+,,,France,,,,,104627,,,,,,,J. Gros,,,12,Prop,,,,,,4
+,,,Scotland,,,,,243508,,,,,,,T. Jordan,,,7,Centre,,,,,,4
+,,,France,,,,,250067,,,,,,,F. Brau-Boirie,,,7,Centre,,,,,,4
+,,,England,,,,,200195,,,,,,,F. Dingwall,,,7,Centre,,,,,,4
+,,,Scotland,,,,,100192,,,,,,,J. Bayliss,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,113444,,,,,,,T. Furlong,,,12,Prop,,,,,,4
+,,,France,,,,,176585,,,,,,,T. Flament,,,11,Second Row,,,,,,4
+,,,Wales,,,,,137453,,,,,,,J. Adams,,,6,Back Three,,,,,,4
+,,,Scotland,,,,,210801,,,,,,,S. Cummings,,,11,Second Row,,,,,,4
+,,,Wales,,,,,218331,,,,,,,J. Evans,,,8,Fly Half,,,,,,4
+,,,England,,,,,150081,,,,,,,F. Steward,,,6,Back Three,,,,,,4
+,,,England,,,,,111662,,,,,,,B. Spencer,,,9,Scrum Half,,,,,,4
+,,,Scotland,,,,,222920,,,,,,,G. Brown,,,11,Second Row,,,,,,4
+,,,Wales,,,,,119955,,,,,,,R. Carre,,,12,Prop,,,,,,4
+,,,France,,,,,249797,,,,,,,K. Gourgues,,,7,Centre,,,,,,4
+,,,France,,,,,182885,,,,,,,P. Barassi,,,7,Centre,,,,,,4
+,,,Scotland,,,,,133065,,,,,,,A. Hastings,,,8,Fly Half,,,,,,4
+,,,Ireland,,,,,115762,,,,,,,F. Bealham,,,12,Prop,,,,,,4
+,,,Italy,,,,,192476,,,,,,,S. Ferrari,,,12,Prop,,,,,,4
+,,,England,,,,,183874,,,,,,,E. Daly,,,6,Back Three,,,,,,4
+,,,Wales,,,,,105892,,,,,,,A. Beard,,,11,Second Row,,,,,,4
+,,,Wales,,,,,144545,,,,,,,B. Carter,,,11,Second Row,,,,,,4
+,,,France,,,,,216116,,,,,,,P. Boudehent,,,10,Back Row,,,,,,4
+,,,France,,,,,109697,,,,,,,N. le Garrec,,,9,Scrum Half,,,,,,4
+,,,France,,,,,206243,,,,,,,L. Barre,,,6,Back Three,,,,,,4
+,,,Ireland,,,,,144570,,,,,,,J. O'Brien,,,6,Back Three,,,,,,4
+,,,Italy,,,,,134407,,,,,,,A. Fusco,,,9,Scrum Half,,,,,,4
+,,,Italy,,,,,128750,,,,,,,A. Zambonin,,,11,Second Row,,,,,,4
+,,,Ireland,,,,,203381,,,,,,,J. Ryan,,,11,Second Row,,,,,,4
+,,,Wales,,,,,110319,,,,,,,N. Smith,,,12,Prop,,,,,,4
+,,,Italy,,,,,236609,,,,,,,L. Pani,,,6,Back Three,,,,,,4
+,,,Scotland,,,,,224905,,,,,,,G. Horne,,,9,Scrum Half,,,,,,4
+,,,France,,,,,244170,,,,,,,L. Nouchi,,,10,Back Row,,,,,,4
+,,,England,,,,,113737,,,,,,,J. van Poortvliet,,,9,Scrum Half,,,,,,4
+,,,England,,,,,149322,,,,,,,T. Roebuck,,,6,Back Three,,,,,,4
+,,,Ireland,,,,,105642,,,,,,,C. Casey,,,9,Scrum Half,,,,,,4
+,,,Wales,,,,,249307,,,,,,,E. Mee,,,6,Back Three,,,,,,4
+,,,France,,,,,138386,,,,,,,B. Serin,,,9,Scrum Half,,,,,,4
+,,,France,,,,,187175,,,,,,,G. Villiere,,,6,Back Three,,,,,,4
+,,,Ireland,,,,,122020,,,,,,,J. Stockdale,,,6,Back Three,,,,,,4
+,,,Italy,,,,,236602,,,,,,,T. di Bartolomeo,,,13,Hooker,,,,,,4
+,,,Ireland,,,,,198565,,,,,,,C. Prendergast,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,199383,,,,,,,C. Frawley,,,8,Fly Half,,,,,,4
+,,,England,,,,,138016,,,,,,,H. Slade,,,7,Centre,,,,,,4
+,,,England,,,,,110793,,,,,,,C. Murley,,,6,Back Three,,,,,,4
+,,,France,,,,,179735,,,,,,,C. Woki,,,10,Back Row,,,,,,4
+,,,France,,,,,243604,,,,,,,G. Drean,,,6,Back Three,,,,,,4
+,,,Scotland,,,,,109816,,,,,,,R. Hutchinson,,,7,Centre,,,,,,4
+,,,France,,,,,244412,,,,,,,G. Arfeuil,,,6,Back Three,,,,,,4
+,,,France,,,,,253274,,,,,,,U. Seunes,,,8,Fly Half,,,,,,4
+,,,Ireland,,,,,229863,,,,,,,C. Izuchukwu,,,11,Second Row,,,,,,4
+,,,Scotland,,,,,144180,,,,,,,O. Smith,,,7,Centre,,,,,,4
+,,,Scotland,,,,,156550,,,,,,,M. Bradbury,,,10,Back Row,,,,,,4
+,,,Scotland,,,,,240478,,,,,,,G. Hiddleston,,,13,Hooker,,,,,,4
+,,,Italy,,,,,236566,,,,,,,S. Gesi,,,6,Back Three,,,,,,4
+,,,Wales,,,,,139232,,,,,,,G. Thomas,,,12,Prop,,,,,,4
+,,,Italy,,,,,229647,,,,,,,M. Page-Relo,,,9,Scrum Half,,,,,,4
+,,,Scotland,,,,,109816,,,,,,,R. Hutchinson,,,7,Centre,,,,,,4
+,,,Scotland,,,,,144180,,,,,,,O. Smith,,,7,Centre,,,,,,4
+,,,Scotland,,,,,129286,,,,,,,D. Cherry,,,13,Hooker,,,,,,4
+,,,Scotland,,,,,240478,,,,,,,G. Hiddleston,,,13,Hooker,,,,,,4
+,,,Wales,,,,,182170,,,,,,,R. Elias,,,13,Hooker,,,,,,4
+,,,England,,,,,158302,,,,,,,B. Rodd,,,12,Prop,,,,,,4
+,,,Italy,,,,,236606,,,,,,,L. Marin,,,8,Fly Half,,,,,,4
+,,,Wales,,,,,187169,,,,,,,A. Griffin,,,12,Prop,,,,,,4
+,,,Scotland,,,,,218848,,,,,,,G. Turner,,,13,Hooker,,,,,,4
+,,,Wales,,,,,237271,,,,,,,E. James,,,7,Centre,,,,,,4
+,,,Italy,,,,,206390,,,,,,,P. Dimcheff,,,13,Hooker,,,,,,4
+,,,France,,,,,189190,,,,,,,M. Lamothe,,,13,Hooker,,,,,,4
+,,,Wales,,,,,214124,,,,,,,J. Botham,,,10,Back Row,,,,,,4
+,,,Wales,,,,,190215,,,,,,,K. Hardy,,,9,Scrum Half,,,,,,4
+,,,France,,,,,190812,,,,,,,G. Colombe,,,12,Prop,,,,,,4
+,,,Italy,,,,,237231,,,,,,,M. Spagnolo,,,12,Prop,,,,,,4
+,,,Italy,,,,,123396,,,,,,,G. Bertaccini,,,7,Centre,,,,,,4
+,,,Scotland,,,,,156101,,,,,,,G. Gilchrist,,,11,Second Row,,,,,,4
+,,,Wales,,,,,175275,,,,,,,T. Francis,,,12,Prop,,,,,,4
+,,,France,,,,,165194,,,,,,,A. Roumat,,,10,Back Row,,,,,,4
+,,,Wales,,,,,103056,,,,,,,M. Grady,,,7,Centre,,,,,,4
+,,,France,,,,,186184,,,,,,,J. Brennan,,,11,Second Row,,,,,,4
+,,,Ireland,,,,,197246,,,,,,,T. Stewart,,,13,Hooker,,,,,,4
+,,,Ireland,,,,,159083,,,,,,,T. Farrell,,,7,Centre,,,,,,4
+,,,Ireland,,,,,188115,,,,,,,H. Byrne,,,8,Fly Half,,,,,,4
+,,,Italy,,,,,110891,,,,,,,S. Varney,,,9,Scrum Half,,,,,,4
+,,,Italy,,,,,201405,,,,,,,G. da Re,,,8,Fly Half,,,,,,4
+,,,Scotland,,,,,171323,,,,,,,J. Gray,,,11,Second Row,,,,,,4
+,,,Scotland,,,,,180778,,,,,,,K. Rowe,,,6,Back Three,,,,,,4
+,,,Scotland,,,,,149746,,,,,,,S. McDowall,,,7,Centre,,,,,,4
+,,,Scotland,,,,,136509,,,,,,,F. Burke,,,8,Fly Half,,,,,,4
+,,,Ireland,,,,,224426,,,,,,,T. O'Toole,,,12,Prop,,,,,,4
+,,,Wales,,,,,124858,,,,,,,J. Macleod,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,196853,,,,,,,T. Clarkson,,,12,Prop,,,,,,4
+,,,Wales,,,,,216823,,,,,,,O. Cracknell,,,10,Back Row,,,,,,4
+,,,Wales,,,,,237266,,,,,,,H. Deaves,,,10,Back Row,,,,,,4
+,,,Wales,,,,,197546,,,,,,,J. Hawkins,,,7,Centre,,,,,,4
+,,,Italy,,,,,153725,,,,,,,P. Odogwu,,,6,Back Three,,,,,,4
+,,,Scotland,,,,,236957,,,,,,,M. Williamson,,,11,Second Row,,,,,,4
+,,,Ireland,,,,,243648,,,,,,,E. Edogbo,,,11,Second Row,,,,,,4
+,,,Italy,,,,,174824,,,,,,,G. Zilocchi,,,12,Prop,,,,,,4
+,,,England,,,,,160844,,,,,,,R. Quirke,,,9,Scrum Half,,,,,,4
+,,,France,,,,,207407,,,,,,,D. Bamba,,,12,Prop,,,,,,4
+,,,France,,,,,200911,,,,,,,T. Laclayat,,,12,Prop,,,,,,4
+,,,Wales,,,,,240573,,,,,,,R. Woodman,,,10,Back Row,,,,,,4
+,,,Italy,,,,,174208,,,,,,,R. Favretto,,,11,Second Row,,,,,,4
+,,,Italy,,,,,238037,,,,,,,D. Odiase,,,10,Back Row,,,,,,4
+,,,Scotland,,,,,175403,,,,,,,E. Millar-Mills,,,12,Prop,,,,,,4
+,,,England,,,,,111794,,,,,,,T. Dan,,,13,Hooker,,,,,,4
+,,,Ireland,,,,,198451,,,,,,,M. Milne,,,12,Prop,,,,,,4
+,,,England,,,,,170455,,,,,,,G. Fisilau,,,10,Back Row,,,,,,4
+,,,England,,,,,175826,,,,,,,J. Kenningham,,,10,Back Row,,,,,,4
+,,,France,,,,,174159,,,,,,,D. Priso,,,12,Prop,,,,,,4
+,,,France,,,,,175146,,,,,,,R. Neti,,,12,Prop,,,,,,4
+,,,France,,,,,244152,,,,,,,T. Matiu,,,10,Back Row,,,,,,4
+,,,Ireland,,,,,198451,,,,,,,M. Milne,,,12,Prop,,,,,,4
+,,,Ireland,,,,,176354,,,,,,,N. Doak,,,9,Scrum Half,,,,,,4
+,,,Ireland,,,,,237244,,,,,,,J. Postlethwaite,,,7,Centre,,,,,,4
+,,,Italy,,,,,216977,,,,,,,A. Izekor,,,10,Back Row,,,,,,4
+,,,Italy,,,,,159960,,,,,,,M. Gallagher,,,6,Back Three,,,,,,4
+,,,Italy,,,,,207699,,,,,,,D. Mazza,,,7,Centre,,,,,,4
+,,,Italy,,,,,238030,,,,,,,S. Locatelli,,,10,Back Row,,,,,,4
+,,,Scotland,,,,,153525,,,,,,,R. Sutherland,,,12,Prop,,,,,,4
+,,,Scotland,,,,,250743,,,,,,,F. Douglas,,,10,Back Row,,,,,,4
+,,,Scotland,,,,,100557,,,,,,,G. Warr,,,9,Scrum Half,,,,,,4
+,,,Wales,,,,,125247,,,,,,,O. Watkin,,,7,Centre,,,,,,4
+,,,Wales,,,,,202399,,,,,,,K. Assiratti,,,12,Prop,,,,,,4
+,,,Wales,,,,,119506,,,,,,,R. Morgan-Williams,,,9,Scrum Half,,,,,,4
+,,,Wales,,,,,165885,,,,,,,G. Hamer-Webb,,,6,Back Three,,,,,,4
+,,,Wales,,,,,233245,,,,,,,L. Hennessey,,,7,Centre,,,,,,4
+,,,Ireland,,,,,174268,,,,,,,J. Loughman,,,12,Prop,,,,,,4
+,,,Scotland,,,,,214265,,,,,,,N. McBeth,,,12,Prop,,,,,,4
+,,,France,,,,,158534,,,,,,,D. Aldegheri,,,12,Prop,,,,,,4
+,,,England,,,,,102707,,,,,,,T. Davison,,,12,Prop,,,,,,4
+,,,Italy,,,,,236573,,,,,,,A. Garbisi,,,9,Scrum Half,,,,,,4
+,,,Italy,,,,,172284,,,,,,,M. Hasa,,,12,Prop,,,,,,4
+,,,Wales,,,,,137071,,,,,,,L. Belcher,,,13,Hooker,,,,,,4
+,,,England,,,,,163209,,,,,,,G. Kloska,,,12,Prop,,,,,,4
+,,,Ireland,,,,,250771,,,,,,,B. Ward,,,10,Back Row,,,,,,4
+,,,Wales,,,,,196875,,,,,,,F. Thomas,,,11,Second Row,,,,,,4
+,,,England,,,,,124901,,,,,,,A. Clark,,,11,Second Row,,,,,,4
+,,,England,,,,,187951,,,,,,,E. Iyogun,,,12,Prop,,,,,,4
+,,,France,,,,,202570,,,,,,,T. Staniforth,,,11,Second Row,,,,,,4
+,,,Scotland,,,,,172959,,,,,,,D. Rae,,,12,Prop,,,,,,4
+,,,Scotland,,,,,207013,,,,,,,A. Craig,,,11,Second Row,,,,,,4
+,,,Wales,,,,,167563,,,,,,,S. Wainwright,,,12,Prop,,,,,,4
+,,,France,,,,,175123,,,,,,,T. Ramos,,,6,Back Three,,,,,,5
+,,,Ireland,,,,,167132,,,,,,,C. Doris,,,10,Back Row,,,,,,5
+,,,France,,,,,137493,,,,,,,A. Dupont,,,9,Scrum Half,,,,,,5
+,,,France,,,,,237223,,,,,,,L. Bielle-Biarrey,,,6,Back Three,,,,,,5
+,,,England,,,,,209612,,,,,,,B. Earl,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,211240,,,,,,,D. Sheehan,,,13,Hooker,,,,,,5
+,,,France,,,,,190344,,,,,,,M. Jalibert,,,8,Fly Half,,,,,,5
+,,,England,,,,,102642,,,,,,,G. Ford,,,8,Fly Half,,,,,,5
+,,,Italy,,,,,229557,,,,,,,T. Menoncello,,,7,Centre,,,,,,5
+,,,Italy,,,,,197335,,,,,,,L. Cannone,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,147486,,,,,,,T. Beirne,,,11,Second Row,,,,,,5
+,,,Scotland,,,,,153489,,,,,,,H. Jones,,,7,Centre,,,,,,5
+,,,England,,,,,156918,,,,,,,T. Freeman,,,6,Back Three,,,,,,5
+,,,England,,,,,104322,,,,,,,S. Underhill,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,216173,,,,,,,J. Gibson-Park,,,9,Scrum Half,,,,,,5
+,,,Scotland,,,,,187820,,,,,,,R. Darge,,,10,Back Row,,,,,,5
+,,,England,,,,,239634,,,,,,,H. Pollock,,,10,Back Row,,,,,,5
+,,,Scotland,,,,,157863,,,,,,,F. Russell,,,8,Fly Half,,,,,,5
+,,,Ireland,,,,,109852,,,,,,,J. Lowe,,,6,Back Three,,,,,,5
+,,,Italy,,,,,120191,,,,,,,M. Lamaro,,,10,Back Row,,,,,,5
+,,,France,,,,,150335,,,,,,,J. Marchand,,,13,Hooker,,,,,,5
+,,,Scotland,,,,,113000,,,,,,,J. Dempsey,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,105748,,,,,,,J. Conan,,,10,Back Row,,,,,,5
+,,,Wales,,,,,120767,,,,,,,L. Rees-Zammit,,,6,Back Three,,,,,,5
+,,,England,,,,,222623,,,,,,,T. Curry,,,10,Back Row,,,,,,5
+,,,Scotland,,,,,159599,,,,,,,M. Fagerson,,,10,Back Row,,,,,,5
+,,,Scotland,,,,,221466,,,,,,,B. Kinghorn,,,6,Back Three,,,,,,5
+,,,Wales,,,,,119132,,,,,,,A. Wainwright,,,10,Back Row,,,,,,5
+,,,France,,,,,198942,,,,,,,C. Ollivon,,,10,Back Row,,,,,,5
+,,,Scotland,,,,,164150,,,,,,,D. Graham,,,6,Back Three,,,,,,5
+,,,Scotland,,,,,172455,,,,,,,D. van der Merwe,,,6,Back Three,,,,,,5
+,,,Ireland,,,,,126800,,,,,,,J. van der Flier,,,10,Back Row,,,,,,5
+,,,France,,,,,177800,,,,,,,M. Guillard,,,11,Second Row,,,,,,5
+,,,Italy,,,,,161390,,,,,,,M. Zuliani,,,10,Back Row,,,,,,5
+,,,Scotland,,,,,110170,,,,,,,K. Steyn,,,6,Back Three,,,,,,5
+,,,Ireland,,,,,100659,,,,,,,J. Crowley,,,8,Fly Half,,,,,,5
+,,,France,,,,,111408,,,,,,,F. Cros,,,10,Back Row,,,,,,5
+,,,England,,,,,155409,,,,,,,M. Itoje,,,11,Second Row,,,,,,5
+,,,Italy,,,,,156253,,,,,,,P. Garbisi,,,8,Fly Half,,,,,,5
+,,,France,,,,,244532,,,,,,,T. Attissogbe,,,6,Back Three,,,,,,5
+,,,Ireland,,,,,172351,,,,,,,S. McCloskey,,,7,Centre,,,,,,5
+,,,Scotland,,,,,146480,,,,,,,S. Tuipulotu,,,7,Centre,,,,,,5
+,,,England,,,,,189326,,,,,,,M. Smith,,,8,Fly Half,,,,,,5
+,,,Scotland,,,,,188057,,,,,,,B. White,,,9,Scrum Half,,,,,,5
+,,,England,,,,,131724,,,,,,,O. Lawrence,,,7,Centre,,,,,,5
+,,,Wales,,,,,237272,,,,,,,D. Jenkins,,,11,Second Row,,,,,,5
+,,,Scotland,,,,,196669,,,,,,,Z. Fagerson,,,12,Prop,,,,,,5
+,,,Italy,,,,,118165,,,,,,,G. Nicotera,,,13,Hooker,,,,,,5
+,,,Italy,,,,,174318,,,,,,,M. Ioane,,,6,Back Three,,,,,,5
+,,,Italy,,,,,120989,,,,,,,A. Capuozzo,,,6,Back Three,,,,,,5
+,,,England,,,,,106142,,,,,,,L. Cowan-Dickie,,,13,Hooker,,,,,,5
+,,,Italy,,,,,123723,,,,,,,D. Fischetti,,,12,Prop,,,,,,5
+,,,France,,,,,175065,,,,,,,A. Jelonch,,,10,Back Row,,,,,,5
+,,,Wales,,,,,212902,,,,,,,D. Lake,,,13,Hooker,,,,,,5
+,,,France,,,,,237225,,,,,,,E. Gailleton,,,7,Centre,,,,,,5
+,,,France,,,,,134112,,,,,,,E. Meafou,,,11,Second Row,,,,,,5
+,,,England,,,,,165007,,,,,,,E. Genge,,,12,Prop,,,,,,5
+,,,England,,,,,161516,,,,,,,H. Arundell,,,6,Back Three,,,,,,5
+,,,England,,,,,112684,,,,,,,G. Pepper,,,10,Back Row,,,,,,5
+,,,France,,,,,117303,,,,,,,P. Mauvaka,,,13,Hooker,,,,,,5
+,,,England,,,,,144635,,,,,,,O. Chessum,,,11,Second Row,,,,,,5
+,,,France,,,,,222388,,,,,,,Y. Moefana,,,7,Centre,,,,,,5
+,,,France,,,,,241689,,,,,,,N. Depoortere,,,7,Centre,,,,,,5
+,,,Ireland,,,,,241698,,,,,,,S. Prendergast,,,8,Fly Half,,,,,,5
+,,,Scotland,,,,,141860,,,,,,,E. Ashman,,,13,Hooker,,,,,,5
+,,,Ireland,,,,,223413,,,,,,,J. McCarthy,,,11,Second Row,,,,,,5
+,,,France,,,,,244767,,,,,,,O. Jegou,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,118531,,,,,,,R. Kelleher,,,13,Hooker,,,,,,5
+,,,England,,,,,160801,,,,,,,J. George,,,13,Hooker,,,,,,5
+,,,England,,,,,137626,,,,,,,F. Smith,,,8,Fly Half,,,,,,5
+,,,Ireland,,,,,175150,,,,,,,R. Baloucoune,,,6,Back Three,,,,,,5
+,,,Wales,,,,,133163,,,,,,,T. Williams,,,9,Scrum Half,,,,,,5
+,,,Wales,,,,,235183,,,,,,,A. Mann,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,107434,,,,,,,T. O'Brien,,,6,Back Three,,,,,,5
+,,,Ireland,,,,,157406,,,,,,,B. Aki,,,7,Centre,,,,,,5
+,,,Scotland,,,,,196773,,,,,,,P. Schoeman,,,12,Prop,,,,,,5
+,,,Italy,,,,,208272,,,,,,,N. Cannone,,,11,Second Row,,,,,,5
+,,,Wales,,,,,225777,,,,,,,B. Thomas,,,7,Centre,,,,,,5
+,,,Ireland,,,,,219828,,,,,,,G. Ringrose,,,7,Centre,,,,,,5
+,,,Wales,,,,,240455,,,,,,,D. Edwards,,,8,Fly Half,,,,,,5
+,,,Italy,,,,,130487,,,,,,,N. Brex,,,7,Centre,,,,,,5
+,,,Italy,,,,,209105,,,,,,,L. Lynagh,,,6,Back Three,,,,,,5
+,,,Ireland,,,,,229826,,,,,,,J. Osborne,,,6,Back Three,,,,,,5
+,,,Italy,,,,,103440,,,,,,,F. Ruzza,,,11,Second Row,,,,,,5
+,,,England,,,,,177559,,,,,,,A. Mitchell,,,9,Scrum Half,,,,,,5
+,,,England,,,,,173801,,,,,,,A. Coles,,,11,Second Row,,,,,,5
+,,,Wales,,,,,243190,,,,,,,B. Murray,,,6,Back Three,,,,,,5
+,,,England,,,,,134796,,,,,,,J. Heyes,,,12,Prop,,,,,,5
+,,,Ireland,,,,,193134,,,,,,,N. Timoney,,,10,Back Row,,,,,,5
+,,,England,,,,,240631,,,,,,,C. Cunningham-South,,,10,Back Row,,,,,,5
+,,,Italy,,,,,136875,,,,,,,G. Lucchesi,,,13,Hooker,,,,,,5
+,,,Italy,,,,,130282,,,,,,,T. Allan,,,8,Fly Half,,,,,,5
+,,,Ireland,,,,,145361,,,,,,,H. Keenan,,,6,Back Three,,,,,,5
+,,,France,,,,,104627,,,,,,,J. Gros,,,12,Prop,,,,,,5
+,,,Scotland,,,,,243508,,,,,,,T. Jordan,,,7,Centre,,,,,,5
+,,,France,,,,,250067,,,,,,,F. Brau-Boirie,,,7,Centre,,,,,,5
+,,,England,,,,,200195,,,,,,,F. Dingwall,,,7,Centre,,,,,,5
+,,,Scotland,,,,,100192,,,,,,,J. Bayliss,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,113444,,,,,,,T. Furlong,,,12,Prop,,,,,,5
+,,,France,,,,,176585,,,,,,,T. Flament,,,11,Second Row,,,,,,5
+,,,Wales,,,,,137453,,,,,,,J. Adams,,,6,Back Three,,,,,,5
+,,,Scotland,,,,,210801,,,,,,,S. Cummings,,,11,Second Row,,,,,,5
+,,,Wales,,,,,218331,,,,,,,J. Evans,,,8,Fly Half,,,,,,5
+,,,England,,,,,150081,,,,,,,F. Steward,,,6,Back Three,,,,,,5
+,,,England,,,,,111662,,,,,,,B. Spencer,,,9,Scrum Half,,,,,,5
+,,,Scotland,,,,,222920,,,,,,,G. Brown,,,11,Second Row,,,,,,5
+,,,Wales,,,,,119955,,,,,,,R. Carre,,,12,Prop,,,,,,5
+,,,France,,,,,249797,,,,,,,K. Gourgues,,,7,Centre,,,,,,5
+,,,France,,,,,182885,,,,,,,P. Barassi,,,7,Centre,,,,,,5
+,,,Scotland,,,,,133065,,,,,,,A. Hastings,,,8,Fly Half,,,,,,5
+,,,Ireland,,,,,115762,,,,,,,F. Bealham,,,12,Prop,,,,,,5
+,,,Italy,,,,,192476,,,,,,,S. Ferrari,,,12,Prop,,,,,,5
+,,,England,,,,,183874,,,,,,,E. Daly,,,6,Back Three,,,,,,5
+,,,Wales,,,,,105892,,,,,,,A. Beard,,,11,Second Row,,,,,,5
+,,,Wales,,,,,144545,,,,,,,B. Carter,,,11,Second Row,,,,,,5
+,,,France,,,,,216116,,,,,,,P. Boudehent,,,10,Back Row,,,,,,5
+,,,France,,,,,109697,,,,,,,N. le Garrec,,,9,Scrum Half,,,,,,5
+,,,France,,,,,206243,,,,,,,L. Barre,,,6,Back Three,,,,,,5
+,,,Ireland,,,,,144570,,,,,,,J. O'Brien,,,6,Back Three,,,,,,5
+,,,Italy,,,,,134407,,,,,,,A. Fusco,,,9,Scrum Half,,,,,,5
+,,,Italy,,,,,128750,,,,,,,A. Zambonin,,,11,Second Row,,,,,,5
+,,,Ireland,,,,,203381,,,,,,,J. Ryan,,,11,Second Row,,,,,,5
+,,,Wales,,,,,110319,,,,,,,N. Smith,,,12,Prop,,,,,,5
+,,,Italy,,,,,236609,,,,,,,L. Pani,,,6,Back Three,,,,,,5
+,,,Scotland,,,,,224905,,,,,,,G. Horne,,,9,Scrum Half,,,,,,5
+,,,France,,,,,244170,,,,,,,L. Nouchi,,,10,Back Row,,,,,,5
+,,,England,,,,,113737,,,,,,,J. van Poortvliet,,,9,Scrum Half,,,,,,5
+,,,England,,,,,149322,,,,,,,T. Roebuck,,,6,Back Three,,,,,,5
+,,,Ireland,,,,,105642,,,,,,,C. Casey,,,9,Scrum Half,,,,,,5
+,,,Wales,,,,,249307,,,,,,,E. Mee,,,6,Back Three,,,,,,5
+,,,France,,,,,138386,,,,,,,B. Serin,,,9,Scrum Half,,,,,,5
+,,,France,,,,,187175,,,,,,,G. Villiere,,,6,Back Three,,,,,,5
+,,,Ireland,,,,,122020,,,,,,,J. Stockdale,,,6,Back Three,,,,,,5
+,,,Italy,,,,,236602,,,,,,,T. di Bartolomeo,,,13,Hooker,,,,,,5
+,,,Ireland,,,,,198565,,,,,,,C. Prendergast,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,199383,,,,,,,C. Frawley,,,8,Fly Half,,,,,,5
+,,,England,,,,,138016,,,,,,,H. Slade,,,7,Centre,,,,,,5
+,,,England,,,,,110793,,,,,,,C. Murley,,,6,Back Three,,,,,,5
+,,,France,,,,,179735,,,,,,,C. Woki,,,10,Back Row,,,,,,5
+,,,France,,,,,243604,,,,,,,G. Drean,,,6,Back Three,,,,,,5
+,,,Scotland,,,,,109816,,,,,,,R. Hutchinson,,,7,Centre,,,,,,5
+,,,France,,,,,244412,,,,,,,G. Arfeuil,,,6,Back Three,,,,,,5
+,,,France,,,,,253274,,,,,,,U. Seunes,,,8,Fly Half,,,,,,5
+,,,Ireland,,,,,229863,,,,,,,C. Izuchukwu,,,11,Second Row,,,,,,5
+,,,Scotland,,,,,144180,,,,,,,O. Smith,,,7,Centre,,,,,,5
+,,,Scotland,,,,,156550,,,,,,,M. Bradbury,,,10,Back Row,,,,,,5
+,,,Scotland,,,,,240478,,,,,,,G. Hiddleston,,,13,Hooker,,,,,,5
+,,,Italy,,,,,236566,,,,,,,S. Gesi,,,6,Back Three,,,,,,5
+,,,Wales,,,,,139232,,,,,,,G. Thomas,,,12,Prop,,,,,,5
+,,,Italy,,,,,229647,,,,,,,M. Page-Relo,,,9,Scrum Half,,,,,,5
+,,,Scotland,,,,,109816,,,,,,,R. Hutchinson,,,7,Centre,,,,,,5
+,,,Scotland,,,,,144180,,,,,,,O. Smith,,,7,Centre,,,,,,5
+,,,Scotland,,,,,129286,,,,,,,D. Cherry,,,13,Hooker,,,,,,5
+,,,Scotland,,,,,240478,,,,,,,G. Hiddleston,,,13,Hooker,,,,,,5
+,,,Wales,,,,,182170,,,,,,,R. Elias,,,13,Hooker,,,,,,5
+,,,England,,,,,158302,,,,,,,B. Rodd,,,12,Prop,,,,,,5
+,,,Italy,,,,,236606,,,,,,,L. Marin,,,8,Fly Half,,,,,,5
+,,,Wales,,,,,187169,,,,,,,A. Griffin,,,12,Prop,,,,,,5
+,,,Scotland,,,,,218848,,,,,,,G. Turner,,,13,Hooker,,,,,,5
+,,,Wales,,,,,237271,,,,,,,E. James,,,7,Centre,,,,,,5
+,,,Italy,,,,,206390,,,,,,,P. Dimcheff,,,13,Hooker,,,,,,5
+,,,France,,,,,189190,,,,,,,M. Lamothe,,,13,Hooker,,,,,,5
+,,,Wales,,,,,214124,,,,,,,J. Botham,,,10,Back Row,,,,,,5
+,,,Wales,,,,,190215,,,,,,,K. Hardy,,,9,Scrum Half,,,,,,5
+,,,France,,,,,190812,,,,,,,G. Colombe,,,12,Prop,,,,,,5
+,,,Italy,,,,,237231,,,,,,,M. Spagnolo,,,12,Prop,,,,,,5
+,,,Italy,,,,,123396,,,,,,,G. Bertaccini,,,7,Centre,,,,,,5
+,,,Scotland,,,,,156101,,,,,,,G. Gilchrist,,,11,Second Row,,,,,,5
+,,,Wales,,,,,175275,,,,,,,T. Francis,,,12,Prop,,,,,,5
+,,,France,,,,,165194,,,,,,,A. Roumat,,,10,Back Row,,,,,,5
+,,,Wales,,,,,103056,,,,,,,M. Grady,,,7,Centre,,,,,,5
+,,,France,,,,,186184,,,,,,,J. Brennan,,,11,Second Row,,,,,,5
+,,,Ireland,,,,,197246,,,,,,,T. Stewart,,,13,Hooker,,,,,,5
+,,,Ireland,,,,,159083,,,,,,,T. Farrell,,,7,Centre,,,,,,5
+,,,Ireland,,,,,188115,,,,,,,H. Byrne,,,8,Fly Half,,,,,,5
+,,,Italy,,,,,110891,,,,,,,S. Varney,,,9,Scrum Half,,,,,,5
+,,,Italy,,,,,201405,,,,,,,G. da Re,,,8,Fly Half,,,,,,5
+,,,Scotland,,,,,171323,,,,,,,J. Gray,,,11,Second Row,,,,,,5
+,,,Scotland,,,,,180778,,,,,,,K. Rowe,,,6,Back Three,,,,,,5
+,,,Scotland,,,,,149746,,,,,,,S. McDowall,,,7,Centre,,,,,,5
+,,,Scotland,,,,,136509,,,,,,,F. Burke,,,8,Fly Half,,,,,,5
+,,,Ireland,,,,,224426,,,,,,,T. O'Toole,,,12,Prop,,,,,,5
+,,,Wales,,,,,124858,,,,,,,J. Macleod,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,196853,,,,,,,T. Clarkson,,,12,Prop,,,,,,5
+,,,Wales,,,,,216823,,,,,,,O. Cracknell,,,10,Back Row,,,,,,5
+,,,Wales,,,,,237266,,,,,,,H. Deaves,,,10,Back Row,,,,,,5
+,,,Wales,,,,,197546,,,,,,,J. Hawkins,,,7,Centre,,,,,,5
+,,,Italy,,,,,153725,,,,,,,P. Odogwu,,,6,Back Three,,,,,,5
+,,,Scotland,,,,,236957,,,,,,,M. Williamson,,,11,Second Row,,,,,,5
+,,,Ireland,,,,,243648,,,,,,,E. Edogbo,,,11,Second Row,,,,,,5
+,,,Italy,,,,,174824,,,,,,,G. Zilocchi,,,12,Prop,,,,,,5
+,,,England,,,,,160844,,,,,,,R. Quirke,,,9,Scrum Half,,,,,,5
+,,,France,,,,,207407,,,,,,,D. Bamba,,,12,Prop,,,,,,5
+,,,France,,,,,200911,,,,,,,T. Laclayat,,,12,Prop,,,,,,5
+,,,Wales,,,,,240573,,,,,,,R. Woodman,,,10,Back Row,,,,,,5
+,,,Italy,,,,,174208,,,,,,,R. Favretto,,,11,Second Row,,,,,,5
+,,,Italy,,,,,238037,,,,,,,D. Odiase,,,10,Back Row,,,,,,5
+,,,Scotland,,,,,175403,,,,,,,E. Millar-Mills,,,12,Prop,,,,,,5
+,,,England,,,,,111794,,,,,,,T. Dan,,,13,Hooker,,,,,,5
+,,,Ireland,,,,,198451,,,,,,,M. Milne,,,12,Prop,,,,,,5
+,,,England,,,,,170455,,,,,,,G. Fisilau,,,10,Back Row,,,,,,5
+,,,England,,,,,175826,,,,,,,J. Kenningham,,,10,Back Row,,,,,,5
+,,,France,,,,,174159,,,,,,,D. Priso,,,12,Prop,,,,,,5
+,,,France,,,,,175146,,,,,,,R. Neti,,,12,Prop,,,,,,5
+,,,France,,,,,244152,,,,,,,T. Matiu,,,10,Back Row,,,,,,5
+,,,Ireland,,,,,198451,,,,,,,M. Milne,,,12,Prop,,,,,,5
+,,,Ireland,,,,,176354,,,,,,,N. Doak,,,9,Scrum Half,,,,,,5
+,,,Ireland,,,,,237244,,,,,,,J. Postlethwaite,,,7,Centre,,,,,,5
+,,,Italy,,,,,216977,,,,,,,A. Izekor,,,10,Back Row,,,,,,5
+,,,Italy,,,,,159960,,,,,,,M. Gallagher,,,6,Back Three,,,,,,5
+,,,Italy,,,,,207699,,,,,,,D. Mazza,,,7,Centre,,,,,,5
+,,,Italy,,,,,238030,,,,,,,S. Locatelli,,,10,Back Row,,,,,,5
+,,,Scotland,,,,,153525,,,,,,,R. Sutherland,,,12,Prop,,,,,,5
+,,,Scotland,,,,,250743,,,,,,,F. Douglas,,,10,Back Row,,,,,,5
+,,,Scotland,,,,,100557,,,,,,,G. Warr,,,9,Scrum Half,,,,,,5
+,,,Wales,,,,,125247,,,,,,,O. Watkin,,,7,Centre,,,,,,5
+,,,Wales,,,,,202399,,,,,,,K. Assiratti,,,12,Prop,,,,,,5
+,,,Wales,,,,,119506,,,,,,,R. Morgan-Williams,,,9,Scrum Half,,,,,,5
+,,,Wales,,,,,165885,,,,,,,G. Hamer-Webb,,,6,Back Three,,,,,,5
+,,,Wales,,,,,233245,,,,,,,L. Hennessey,,,7,Centre,,,,,,5
+,,,Ireland,,,,,174268,,,,,,,J. Loughman,,,12,Prop,,,,,,5
+,,,Scotland,,,,,214265,,,,,,,N. McBeth,,,12,Prop,,,,,,5
+,,,France,,,,,158534,,,,,,,D. Aldegheri,,,12,Prop,,,,,,5
+,,,England,,,,,102707,,,,,,,T. Davison,,,12,Prop,,,,,,5
+,,,Italy,,,,,236573,,,,,,,A. Garbisi,,,9,Scrum Half,,,,,,5
+,,,Italy,,,,,172284,,,,,,,M. Hasa,,,12,Prop,,,,,,5
+,,,Wales,,,,,137071,,,,,,,L. Belcher,,,13,Hooker,,,,,,5
+,,,England,,,,,163209,,,,,,,G. Kloska,,,12,Prop,,,,,,5
+,,,Ireland,,,,,250771,,,,,,,B. Ward,,,10,Back Row,,,,,,5
+,,,Wales,,,,,196875,,,,,,,F. Thomas,,,11,Second Row,,,,,,5
+,,,England,,,,,124901,,,,,,,A. Clark,,,11,Second Row,,,,,,5
+,,,England,,,,,187951,,,,,,,E. Iyogun,,,12,Prop,,,,,,5
+,,,France,,,,,202570,,,,,,,T. Staniforth,,,11,Second Row,,,,,,5
+,,,Scotland,,,,,172959,,,,,,,D. Rae,,,12,Prop,,,,,,5
+,,,Scotland,,,,,207013,,,,,,,A. Craig,,,11,Second Row,,,,,,5
+,,,Wales,,,,,167563,,,,,,,S. Wainwright,,,12,Prop,,,,,,5
+,,,France,,,,,175123,,,,,,,T. Ramos,,,6,Back Three,,,,,,6
+,,,Ireland,,,,,167132,,,,,,,C. Doris,,,10,Back Row,,,,,,6
+,,,France,,,,,137493,,,,,,,A. Dupont,,,9,Scrum Half,,,,,,6
+,,,France,,,,,237223,,,,,,,L. Bielle-Biarrey,,,6,Back Three,,,,,,6
+,,,England,,,,,209612,,,,,,,B. Earl,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,211240,,,,,,,D. Sheehan,,,13,Hooker,,,,,,6
+,,,France,,,,,190344,,,,,,,M. Jalibert,,,8,Fly Half,,,,,,6
+,,,England,,,,,102642,,,,,,,G. Ford,,,8,Fly Half,,,,,,6
+,,,Italy,,,,,229557,,,,,,,T. Menoncello,,,7,Centre,,,,,,6
+,,,Italy,,,,,197335,,,,,,,L. Cannone,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,147486,,,,,,,T. Beirne,,,11,Second Row,,,,,,6
+,,,Scotland,,,,,153489,,,,,,,H. Jones,,,7,Centre,,,,,,6
+,,,England,,,,,156918,,,,,,,T. Freeman,,,6,Back Three,,,,,,6
+,,,England,,,,,104322,,,,,,,S. Underhill,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,216173,,,,,,,J. Gibson-Park,,,9,Scrum Half,,,,,,6
+,,,Scotland,,,,,187820,,,,,,,R. Darge,,,10,Back Row,,,,,,6
+,,,England,,,,,239634,,,,,,,H. Pollock,,,10,Back Row,,,,,,6
+,,,Scotland,,,,,157863,,,,,,,F. Russell,,,8,Fly Half,,,,,,6
+,,,Ireland,,,,,109852,,,,,,,J. Lowe,,,6,Back Three,,,,,,6
+,,,Italy,,,,,120191,,,,,,,M. Lamaro,,,10,Back Row,,,,,,6
+,,,France,,,,,150335,,,,,,,J. Marchand,,,13,Hooker,,,,,,6
+,,,Scotland,,,,,113000,,,,,,,J. Dempsey,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,105748,,,,,,,J. Conan,,,10,Back Row,,,,,,6
+,,,Wales,,,,,120767,,,,,,,L. Rees-Zammit,,,6,Back Three,,,,,,6
+,,,England,,,,,222623,,,,,,,T. Curry,,,10,Back Row,,,,,,6
+,,,Scotland,,,,,159599,,,,,,,M. Fagerson,,,10,Back Row,,,,,,6
+,,,Scotland,,,,,221466,,,,,,,B. Kinghorn,,,6,Back Three,,,,,,6
+,,,Wales,,,,,119132,,,,,,,A. Wainwright,,,10,Back Row,,,,,,6
+,,,France,,,,,198942,,,,,,,C. Ollivon,,,10,Back Row,,,,,,6
+,,,Scotland,,,,,164150,,,,,,,D. Graham,,,6,Back Three,,,,,,6
+,,,Scotland,,,,,172455,,,,,,,D. van der Merwe,,,6,Back Three,,,,,,6
+,,,Ireland,,,,,126800,,,,,,,J. van der Flier,,,10,Back Row,,,,,,6
+,,,France,,,,,177800,,,,,,,M. Guillard,,,11,Second Row,,,,,,6
+,,,Italy,,,,,161390,,,,,,,M. Zuliani,,,10,Back Row,,,,,,6
+,,,Scotland,,,,,110170,,,,,,,K. Steyn,,,6,Back Three,,,,,,6
+,,,Ireland,,,,,100659,,,,,,,J. Crowley,,,8,Fly Half,,,,,,6
+,,,France,,,,,111408,,,,,,,F. Cros,,,10,Back Row,,,,,,6
+,,,England,,,,,155409,,,,,,,M. Itoje,,,11,Second Row,,,,,,6
+,,,Italy,,,,,156253,,,,,,,P. Garbisi,,,8,Fly Half,,,,,,6
+,,,France,,,,,244532,,,,,,,T. Attissogbe,,,6,Back Three,,,,,,6
+,,,Ireland,,,,,172351,,,,,,,S. McCloskey,,,7,Centre,,,,,,6
+,,,Scotland,,,,,146480,,,,,,,S. Tuipulotu,,,7,Centre,,,,,,6
+,,,England,,,,,189326,,,,,,,M. Smith,,,8,Fly Half,,,,,,6
+,,,Scotland,,,,,188057,,,,,,,B. White,,,9,Scrum Half,,,,,,6
+,,,England,,,,,131724,,,,,,,O. Lawrence,,,7,Centre,,,,,,6
+,,,Wales,,,,,237272,,,,,,,D. Jenkins,,,11,Second Row,,,,,,6
+,,,Scotland,,,,,196669,,,,,,,Z. Fagerson,,,12,Prop,,,,,,6
+,,,Italy,,,,,118165,,,,,,,G. Nicotera,,,13,Hooker,,,,,,6
+,,,Italy,,,,,174318,,,,,,,M. Ioane,,,6,Back Three,,,,,,6
+,,,Italy,,,,,120989,,,,,,,A. Capuozzo,,,6,Back Three,,,,,,6
+,,,England,,,,,106142,,,,,,,L. Cowan-Dickie,,,13,Hooker,,,,,,6
+,,,Italy,,,,,123723,,,,,,,D. Fischetti,,,12,Prop,,,,,,6
+,,,France,,,,,175065,,,,,,,A. Jelonch,,,10,Back Row,,,,,,6
+,,,Wales,,,,,212902,,,,,,,D. Lake,,,13,Hooker,,,,,,6
+,,,France,,,,,237225,,,,,,,E. Gailleton,,,7,Centre,,,,,,6
+,,,France,,,,,134112,,,,,,,E. Meafou,,,11,Second Row,,,,,,6
+,,,England,,,,,165007,,,,,,,E. Genge,,,12,Prop,,,,,,6
+,,,England,,,,,161516,,,,,,,H. Arundell,,,6,Back Three,,,,,,6
+,,,England,,,,,112684,,,,,,,G. Pepper,,,10,Back Row,,,,,,6
+,,,France,,,,,117303,,,,,,,P. Mauvaka,,,13,Hooker,,,,,,6
+,,,England,,,,,144635,,,,,,,O. Chessum,,,11,Second Row,,,,,,6
+,,,France,,,,,222388,,,,,,,Y. Moefana,,,7,Centre,,,,,,6
+,,,France,,,,,241689,,,,,,,N. Depoortere,,,7,Centre,,,,,,6
+,,,Ireland,,,,,241698,,,,,,,S. Prendergast,,,8,Fly Half,,,,,,6
+,,,Scotland,,,,,141860,,,,,,,E. Ashman,,,13,Hooker,,,,,,6
+,,,Ireland,,,,,223413,,,,,,,J. McCarthy,,,11,Second Row,,,,,,6
+,,,France,,,,,244767,,,,,,,O. Jegou,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,118531,,,,,,,R. Kelleher,,,13,Hooker,,,,,,6
+,,,England,,,,,160801,,,,,,,J. George,,,13,Hooker,,,,,,6
+,,,England,,,,,137626,,,,,,,F. Smith,,,8,Fly Half,,,,,,6
+,,,Ireland,,,,,175150,,,,,,,R. Baloucoune,,,6,Back Three,,,,,,6
+,,,Wales,,,,,133163,,,,,,,T. Williams,,,9,Scrum Half,,,,,,6
+,,,Wales,,,,,235183,,,,,,,A. Mann,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,107434,,,,,,,T. O'Brien,,,6,Back Three,,,,,,6
+,,,Ireland,,,,,157406,,,,,,,B. Aki,,,7,Centre,,,,,,6
+,,,Scotland,,,,,196773,,,,,,,P. Schoeman,,,12,Prop,,,,,,6
+,,,Italy,,,,,208272,,,,,,,N. Cannone,,,11,Second Row,,,,,,6
+,,,Wales,,,,,225777,,,,,,,B. Thomas,,,7,Centre,,,,,,6
+,,,Ireland,,,,,219828,,,,,,,G. Ringrose,,,7,Centre,,,,,,6
+,,,Wales,,,,,240455,,,,,,,D. Edwards,,,8,Fly Half,,,,,,6
+,,,Italy,,,,,130487,,,,,,,N. Brex,,,7,Centre,,,,,,6
+,,,Italy,,,,,209105,,,,,,,L. Lynagh,,,6,Back Three,,,,,,6
+,,,Ireland,,,,,229826,,,,,,,J. Osborne,,,6,Back Three,,,,,,6
+,,,Italy,,,,,103440,,,,,,,F. Ruzza,,,11,Second Row,,,,,,6
+,,,England,,,,,177559,,,,,,,A. Mitchell,,,9,Scrum Half,,,,,,6
+,,,England,,,,,173801,,,,,,,A. Coles,,,11,Second Row,,,,,,6
+,,,Wales,,,,,243190,,,,,,,B. Murray,,,6,Back Three,,,,,,6
+,,,England,,,,,134796,,,,,,,J. Heyes,,,12,Prop,,,,,,6
+,,,Ireland,,,,,193134,,,,,,,N. Timoney,,,10,Back Row,,,,,,6
+,,,England,,,,,240631,,,,,,,C. Cunningham-South,,,10,Back Row,,,,,,6
+,,,Italy,,,,,136875,,,,,,,G. Lucchesi,,,13,Hooker,,,,,,6
+,,,Italy,,,,,130282,,,,,,,T. Allan,,,8,Fly Half,,,,,,6
+,,,Ireland,,,,,145361,,,,,,,H. Keenan,,,6,Back Three,,,,,,6
+,,,France,,,,,104627,,,,,,,J. Gros,,,12,Prop,,,,,,6
+,,,Scotland,,,,,243508,,,,,,,T. Jordan,,,7,Centre,,,,,,6
+,,,France,,,,,250067,,,,,,,F. Brau-Boirie,,,7,Centre,,,,,,6
+,,,England,,,,,200195,,,,,,,F. Dingwall,,,7,Centre,,,,,,6
+,,,Scotland,,,,,100192,,,,,,,J. Bayliss,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,113444,,,,,,,T. Furlong,,,12,Prop,,,,,,6
+,,,France,,,,,176585,,,,,,,T. Flament,,,11,Second Row,,,,,,6
+,,,Wales,,,,,137453,,,,,,,J. Adams,,,6,Back Three,,,,,,6
+,,,Scotland,,,,,210801,,,,,,,S. Cummings,,,11,Second Row,,,,,,6
+,,,Wales,,,,,218331,,,,,,,J. Evans,,,8,Fly Half,,,,,,6
+,,,England,,,,,150081,,,,,,,F. Steward,,,6,Back Three,,,,,,6
+,,,England,,,,,111662,,,,,,,B. Spencer,,,9,Scrum Half,,,,,,6
+,,,Scotland,,,,,222920,,,,,,,G. Brown,,,11,Second Row,,,,,,6
+,,,Wales,,,,,119955,,,,,,,R. Carre,,,12,Prop,,,,,,6
+,,,France,,,,,249797,,,,,,,K. Gourgues,,,7,Centre,,,,,,6
+,,,France,,,,,182885,,,,,,,P. Barassi,,,7,Centre,,,,,,6
+,,,Scotland,,,,,133065,,,,,,,A. Hastings,,,8,Fly Half,,,,,,6
+,,,Ireland,,,,,115762,,,,,,,F. Bealham,,,12,Prop,,,,,,6
+,,,Italy,,,,,192476,,,,,,,S. Ferrari,,,12,Prop,,,,,,6
+,,,England,,,,,183874,,,,,,,E. Daly,,,6,Back Three,,,,,,6
+,,,Wales,,,,,105892,,,,,,,A. Beard,,,11,Second Row,,,,,,6
+,,,Wales,,,,,144545,,,,,,,B. Carter,,,11,Second Row,,,,,,6
+,,,France,,,,,216116,,,,,,,P. Boudehent,,,10,Back Row,,,,,,6
+,,,France,,,,,109697,,,,,,,N. le Garrec,,,9,Scrum Half,,,,,,6
+,,,France,,,,,206243,,,,,,,L. Barre,,,6,Back Three,,,,,,6
+,,,Ireland,,,,,144570,,,,,,,J. O'Brien,,,6,Back Three,,,,,,6
+,,,Italy,,,,,134407,,,,,,,A. Fusco,,,9,Scrum Half,,,,,,6
+,,,Italy,,,,,128750,,,,,,,A. Zambonin,,,11,Second Row,,,,,,6
+,,,Ireland,,,,,203381,,,,,,,J. Ryan,,,11,Second Row,,,,,,6
+,,,Wales,,,,,110319,,,,,,,N. Smith,,,12,Prop,,,,,,6
+,,,Italy,,,,,236609,,,,,,,L. Pani,,,6,Back Three,,,,,,6
+,,,Scotland,,,,,224905,,,,,,,G. Horne,,,9,Scrum Half,,,,,,6
+,,,France,,,,,244170,,,,,,,L. Nouchi,,,10,Back Row,,,,,,6
+,,,England,,,,,113737,,,,,,,J. van Poortvliet,,,9,Scrum Half,,,,,,6
+,,,England,,,,,149322,,,,,,,T. Roebuck,,,6,Back Three,,,,,,6
+,,,Ireland,,,,,105642,,,,,,,C. Casey,,,9,Scrum Half,,,,,,6
+,,,Wales,,,,,249307,,,,,,,E. Mee,,,6,Back Three,,,,,,6
+,,,France,,,,,138386,,,,,,,B. Serin,,,9,Scrum Half,,,,,,6
+,,,France,,,,,187175,,,,,,,G. Villiere,,,6,Back Three,,,,,,6
+,,,Ireland,,,,,122020,,,,,,,J. Stockdale,,,6,Back Three,,,,,,6
+,,,Italy,,,,,236602,,,,,,,T. di Bartolomeo,,,13,Hooker,,,,,,6
+,,,Ireland,,,,,198565,,,,,,,C. Prendergast,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,199383,,,,,,,C. Frawley,,,8,Fly Half,,,,,,6
+,,,England,,,,,138016,,,,,,,H. Slade,,,7,Centre,,,,,,6
+,,,England,,,,,110793,,,,,,,C. Murley,,,6,Back Three,,,,,,6
+,,,France,,,,,179735,,,,,,,C. Woki,,,10,Back Row,,,,,,6
+,,,France,,,,,243604,,,,,,,G. Drean,,,6,Back Three,,,,,,6
+,,,Scotland,,,,,109816,,,,,,,R. Hutchinson,,,7,Centre,,,,,,6
+,,,France,,,,,244412,,,,,,,G. Arfeuil,,,6,Back Three,,,,,,6
+,,,France,,,,,253274,,,,,,,U. Seunes,,,8,Fly Half,,,,,,6
+,,,Ireland,,,,,229863,,,,,,,C. Izuchukwu,,,11,Second Row,,,,,,6
+,,,Scotland,,,,,144180,,,,,,,O. Smith,,,7,Centre,,,,,,6
+,,,Scotland,,,,,156550,,,,,,,M. Bradbury,,,10,Back Row,,,,,,6
+,,,Scotland,,,,,240478,,,,,,,G. Hiddleston,,,13,Hooker,,,,,,6
+,,,Italy,,,,,236566,,,,,,,S. Gesi,,,6,Back Three,,,,,,6
+,,,Wales,,,,,139232,,,,,,,G. Thomas,,,12,Prop,,,,,,6
+,,,Italy,,,,,229647,,,,,,,M. Page-Relo,,,9,Scrum Half,,,,,,6
+,,,Scotland,,,,,109816,,,,,,,R. Hutchinson,,,7,Centre,,,,,,6
+,,,Scotland,,,,,144180,,,,,,,O. Smith,,,7,Centre,,,,,,6
+,,,Scotland,,,,,129286,,,,,,,D. Cherry,,,13,Hooker,,,,,,6
+,,,Scotland,,,,,240478,,,,,,,G. Hiddleston,,,13,Hooker,,,,,,6
+,,,Wales,,,,,182170,,,,,,,R. Elias,,,13,Hooker,,,,,,6
+,,,England,,,,,158302,,,,,,,B. Rodd,,,12,Prop,,,,,,6
+,,,Italy,,,,,236606,,,,,,,L. Marin,,,8,Fly Half,,,,,,6
+,,,Wales,,,,,187169,,,,,,,A. Griffin,,,12,Prop,,,,,,6
+,,,Scotland,,,,,218848,,,,,,,G. Turner,,,13,Hooker,,,,,,6
+,,,Wales,,,,,237271,,,,,,,E. James,,,7,Centre,,,,,,6
+,,,Italy,,,,,206390,,,,,,,P. Dimcheff,,,13,Hooker,,,,,,6
+,,,France,,,,,189190,,,,,,,M. Lamothe,,,13,Hooker,,,,,,6
+,,,Wales,,,,,214124,,,,,,,J. Botham,,,10,Back Row,,,,,,6
+,,,Wales,,,,,190215,,,,,,,K. Hardy,,,9,Scrum Half,,,,,,6
+,,,France,,,,,190812,,,,,,,G. Colombe,,,12,Prop,,,,,,6
+,,,Italy,,,,,237231,,,,,,,M. Spagnolo,,,12,Prop,,,,,,6
+,,,Italy,,,,,123396,,,,,,,G. Bertaccini,,,7,Centre,,,,,,6
+,,,Scotland,,,,,156101,,,,,,,G. Gilchrist,,,11,Second Row,,,,,,6
+,,,Wales,,,,,175275,,,,,,,T. Francis,,,12,Prop,,,,,,6
+,,,France,,,,,165194,,,,,,,A. Roumat,,,10,Back Row,,,,,,6
+,,,Wales,,,,,103056,,,,,,,M. Grady,,,7,Centre,,,,,,6
+,,,France,,,,,186184,,,,,,,J. Brennan,,,11,Second Row,,,,,,6
+,,,Ireland,,,,,197246,,,,,,,T. Stewart,,,13,Hooker,,,,,,6
+,,,Ireland,,,,,159083,,,,,,,T. Farrell,,,7,Centre,,,,,,6
+,,,Ireland,,,,,188115,,,,,,,H. Byrne,,,8,Fly Half,,,,,,6
+,,,Italy,,,,,110891,,,,,,,S. Varney,,,9,Scrum Half,,,,,,6
+,,,Italy,,,,,201405,,,,,,,G. da Re,,,8,Fly Half,,,,,,6
+,,,Scotland,,,,,171323,,,,,,,J. Gray,,,11,Second Row,,,,,,6
+,,,Scotland,,,,,180778,,,,,,,K. Rowe,,,6,Back Three,,,,,,6
+,,,Scotland,,,,,149746,,,,,,,S. McDowall,,,7,Centre,,,,,,6
+,,,Scotland,,,,,136509,,,,,,,F. Burke,,,8,Fly Half,,,,,,6
+,,,Ireland,,,,,224426,,,,,,,T. O'Toole,,,12,Prop,,,,,,6
+,,,Wales,,,,,124858,,,,,,,J. Macleod,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,196853,,,,,,,T. Clarkson,,,12,Prop,,,,,,6
+,,,Wales,,,,,216823,,,,,,,O. Cracknell,,,10,Back Row,,,,,,6
+,,,Wales,,,,,237266,,,,,,,H. Deaves,,,10,Back Row,,,,,,6
+,,,Wales,,,,,197546,,,,,,,J. Hawkins,,,7,Centre,,,,,,6
+,,,Italy,,,,,153725,,,,,,,P. Odogwu,,,6,Back Three,,,,,,6
+,,,Scotland,,,,,236957,,,,,,,M. Williamson,,,11,Second Row,,,,,,6
+,,,Ireland,,,,,243648,,,,,,,E. Edogbo,,,11,Second Row,,,,,,6
+,,,Italy,,,,,174824,,,,,,,G. Zilocchi,,,12,Prop,,,,,,6
+,,,England,,,,,160844,,,,,,,R. Quirke,,,9,Scrum Half,,,,,,6
+,,,France,,,,,207407,,,,,,,D. Bamba,,,12,Prop,,,,,,6
+,,,France,,,,,200911,,,,,,,T. Laclayat,,,12,Prop,,,,,,6
+,,,Wales,,,,,240573,,,,,,,R. Woodman,,,10,Back Row,,,,,,6
+,,,Italy,,,,,174208,,,,,,,R. Favretto,,,11,Second Row,,,,,,6
+,,,Italy,,,,,238037,,,,,,,D. Odiase,,,10,Back Row,,,,,,6
+,,,Scotland,,,,,175403,,,,,,,E. Millar-Mills,,,12,Prop,,,,,,6
+,,,England,,,,,111794,,,,,,,T. Dan,,,13,Hooker,,,,,,6
+,,,Ireland,,,,,198451,,,,,,,M. Milne,,,12,Prop,,,,,,6
+,,,England,,,,,170455,,,,,,,G. Fisilau,,,10,Back Row,,,,,,6
+,,,England,,,,,175826,,,,,,,J. Kenningham,,,10,Back Row,,,,,,6
+,,,France,,,,,174159,,,,,,,D. Priso,,,12,Prop,,,,,,6
+,,,France,,,,,175146,,,,,,,R. Neti,,,12,Prop,,,,,,6
+,,,France,,,,,244152,,,,,,,T. Matiu,,,10,Back Row,,,,,,6
+,,,Ireland,,,,,198451,,,,,,,M. Milne,,,12,Prop,,,,,,6
+,,,Ireland,,,,,176354,,,,,,,N. Doak,,,9,Scrum Half,,,,,,6
+,,,Ireland,,,,,237244,,,,,,,J. Postlethwaite,,,7,Centre,,,,,,6
+,,,Italy,,,,,216977,,,,,,,A. Izekor,,,10,Back Row,,,,,,6
+,,,Italy,,,,,159960,,,,,,,M. Gallagher,,,6,Back Three,,,,,,6
+,,,Italy,,,,,207699,,,,,,,D. Mazza,,,7,Centre,,,,,,6
+,,,Italy,,,,,238030,,,,,,,S. Locatelli,,,10,Back Row,,,,,,6
+,,,Scotland,,,,,153525,,,,,,,R. Sutherland,,,12,Prop,,,,,,6
+,,,Scotland,,,,,250743,,,,,,,F. Douglas,,,10,Back Row,,,,,,6
+,,,Scotland,,,,,100557,,,,,,,G. Warr,,,9,Scrum Half,,,,,,6
+,,,Wales,,,,,125247,,,,,,,O. Watkin,,,7,Centre,,,,,,6
+,,,Wales,,,,,202399,,,,,,,K. Assiratti,,,12,Prop,,,,,,6
+,,,Wales,,,,,119506,,,,,,,R. Morgan-Williams,,,9,Scrum Half,,,,,,6
+,,,Wales,,,,,165885,,,,,,,G. Hamer-Webb,,,6,Back Three,,,,,,6
+,,,Wales,,,,,233245,,,,,,,L. Hennessey,,,7,Centre,,,,,,6
+,,,Ireland,,,,,174268,,,,,,,J. Loughman,,,12,Prop,,,,,,6
+,,,Scotland,,,,,214265,,,,,,,N. McBeth,,,12,Prop,,,,,,6
+,,,France,,,,,158534,,,,,,,D. Aldegheri,,,12,Prop,,,,,,6
+,,,England,,,,,102707,,,,,,,T. Davison,,,12,Prop,,,,,,6
+,,,Italy,,,,,236573,,,,,,,A. Garbisi,,,9,Scrum Half,,,,,,6
+,,,Italy,,,,,172284,,,,,,,M. Hasa,,,12,Prop,,,,,,6
+,,,Wales,,,,,137071,,,,,,,L. Belcher,,,13,Hooker,,,,,,6
+,,,England,,,,,163209,,,,,,,G. Kloska,,,12,Prop,,,,,,6
+,,,Ireland,,,,,250771,,,,,,,B. Ward,,,10,Back Row,,,,,,6
+,,,Wales,,,,,196875,,,,,,,F. Thomas,,,11,Second Row,,,,,,6
+,,,England,,,,,124901,,,,,,,A. Clark,,,11,Second Row,,,,,,6
+,,,England,,,,,187951,,,,,,,E. Iyogun,,,12,Prop,,,,,,6
+,,,France,,,,,202570,,,,,,,T. Staniforth,,,11,Second Row,,,,,,6
+,,,Scotland,,,,,172959,,,,,,,D. Rae,,,12,Prop,,,,,,6
+,,,Scotland,,,,,207013,,,,,,,A. Craig,,,11,Second Row,,,,,,6
+,,,Wales,,,,,167563,,,,,,,S. Wainwright,,,12,Prop,,,,,,6

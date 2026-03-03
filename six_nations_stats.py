@@ -94,41 +94,38 @@ def get_player_stats(page_index: int = 0, page_size: int = PAGE_SIZE, club = Non
         return None
 
 
-def fetch_all_stats(club = None) -> List[Dict[str, Any]]:
-    """
-    Fetch all player stats by paginating through all results
-    
-    Args:
-        club: Club filter (None = all clubs)
-    
-    Returns:
-        List of all player records
-    """
-    all_players = []
-    page_index = 0
-    
-    while True:
-        print(f"Fetching page {page_index}...")
-        data = get_player_stats(page_index=page_index, page_size=PAGE_SIZE, club=club)
-        
-        if not data or not data.get("joueurs"):  # Changed from "data" to "joueurs"
-            print("No more data to fetch")
-            break
-        
-        players = data.get("joueurs", [])  # Changed from "data" to "joueurs"
-        all_players.extend(players)
-        
-        total = data.get("total", 0)
-        print(f"  Retrieved {len(players)} players (total: {total})")
-        
-        # Check if we've fetched all players
-        if len(all_players) >= total:
-            break
-        
-        page_index += 1
-    
-    print(f"\nTotal players fetched: {len(all_players)}")
-    return all_players
+def fetch_all_stats(club=None) -> List[Dict[str, Any]]:
+    all_players_weeks = []
+
+    for journee in range(1, 7):
+        print(f"\nFetching gameweek {journee}...")
+        page_index = 0
+        gameweek_players = []
+
+        while True:
+            data = get_player_stats(page_index=page_index, page_size=PAGE_SIZE, club=club, journee=journee)
+
+            if not data or not data.get("joueurs"):
+                print("No more data to fetch")
+                break
+
+            players = data.get("joueurs", [])
+            for player in players:
+                player['gameweek'] = journee
+            gameweek_players.extend(players)
+
+            total = data.get("total", 0)
+            print(f"  Page {page_index}: Retrieved {len(players)} players (total so far: {len(gameweek_players)})")
+
+            if len(gameweek_players) >= total:
+                break
+
+            page_index += 1
+
+        all_players_weeks.extend(gameweek_players)
+
+    print(f"\nTotal players fetched: {len(all_players_weeks)}")
+    return all_players_weeks
 
 
 def flatten_player_data(players: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -150,6 +147,7 @@ def flatten_player_data(players: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             "Club": player.get("club"),
             "Position": player.get("position"),
             "Position Name": POSITION_NAMES.get(str(player.get("position")), "Unknown"),
+            "gameweek" : player.get("gameweek"),
         }
         
         # Add all stats/criteres
@@ -208,7 +206,7 @@ def main():
     if players:
         # Save to both JSON and CSV
         save_to_json(players, "data/six_nations_stats.json")
-        save_to_csv(players, "data/six_nations_stats2.csv")
+        save_to_csv(players, "data/six_nations_stats.csv")
         
         print("\n" + "=" * 60)
         print("✓ Data download complete!")
