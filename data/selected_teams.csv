@@ -1,1 +1,91 @@
-Position,Name,Nation,Points,Team,Captain
+Position,Name,Nation,Points,Captain,Gameweek
+Prop,D. Fischetti,Italy,19.00,No,GW1
+Prop,M. Milne,Ireland,18.00,No,GW1
+Hooker,G. Nicotera,Italy,20.00,No,GW1
+Second Row,M. Guillard,France,42.00,No,GW1
+Second Row,T. Beirne,Ireland,39.00,No,GW1
+Back Row,L. Cannone,Italy,44.00,No,GW1
+Back Row,B. Earl,England,50.00,No,GW1
+Back Row,J. Dempsey,Scotland,40.00,No,GW1
+Scrum Half,A. Dupont,France,30.00,No,GW1
+Fly Half,G. Ford,England,110.00,Yes,GW1
+Centre,T. Menoncello,Italy,34.00,No,GW1
+Centre,S. McCloskey,Ireland,27.00,No,GW1
+Back Three,T. Freeman,England,50.00,No,GW1
+Back Three,L. Bielle-Biarrey,France,51.00,No,GW1
+Back Three,H. Arundell,England,46.00,No,GW1
+Prop,R. Carre,Wales,29.00,No,GW2
+Prop,A. Griffin,Wales,13.00,No,GW2
+Hooker,G. Nicotera,Italy,31.00,No,GW2
+Second Row,D. Jenkins,Wales,21.00,No,GW2
+Second Row,M. Guillard,France,31.00,No,GW2
+Back Row,J. Conan,Ireland,43.00,No,GW2
+Back Row,M. Zuliani,Italy,41.00,No,GW2
+Back Row,B. Earl,England,40.00,No,GW2
+Scrum Half,B. White,Scotland,28.00,No,GW2
+Fly Half,M. Jalibert,France,174.00,Yes,GW2
+Centre,F. Brau-Boirie,France,56.00,No,GW2
+Centre,H. Jones,Scotland,49.00,No,GW2
+Back Three,T. Attissogbe,France,49.00,No,GW2
+Back Three,J. Lowe,Ireland,47.00,No,GW2
+Back Three,R. Baloucoune,Ireland,45.00,No,GW2
+Prop,R. Carre,Wales,29.00,No,GW3
+Prop,N. Smith,Wales,24.00,No,GW3
+Hooker,D. Sheehan,Ireland,43.00,No,GW3
+Second Row,E. Meafou,France,61.00,No,GW3
+Second Row,B. Carter,Wales,27.00,No,GW3
+Back Row,C. Doris,Ireland,38.00,No,GW3
+Back Row,A. Mann,Wales,36.00,No,GW3
+Back Row,R. Darge,Scotland,45.00,No,GW3
+Scrum Half,J. Gibson-Park,Ireland,126.00,Yes,GW3
+Fly Half,F. Russell,Scotland,35.00,No,GW3
+Centre,E. Gailleton,France,45.00,No,GW3
+Centre,O. Lawrence,England,31.00,No,GW3
+Back Three,T. Ramos,France,56.00,No,GW3
+Back Three,R. Baloucoune,Ireland,41.00,No,GW3
+Back Three,K. Steyn,Scotland,36.00,No,GW3
+Prop,R. Carre,Wales,37.00,No,GW4
+Prop,J. Gros,France,25.00,No,GW4
+Hooker,D. Lake,Wales,32.00,No,GW4
+Second Row,D. Jenkins,Wales,32.00,No,GW4
+Second Row,T. Beirne,Ireland,32.00,No,GW4
+Back Row,J. Botham,Wales,53.00,No,GW4
+Back Row,J. Conan,Ireland,136.00,Yes,GW4
+Back Row,O. Jegou,France,47.00,No,GW4
+Scrum Half,B. White,Scotland,21.00,No,GW4
+Fly Half,J. Crowley,Ireland,39.00,No,GW4
+Centre,T. Menoncello,Italy,54.00,No,GW4
+Centre,S. McCloskey,Ireland,32.00,No,GW4
+Back Three,K. Steyn,Scotland,61.00,No,GW4
+Back Three,L. Bielle-Biarrey,France,49.00,No,GW4
+Back Three,D. Graham,Scotland,47.00,No,GW4
+Prop,T. O'Toole,Ireland,32.00,No,GW5
+Prop,E. Genge,England,20.00,No,GW5
+Hooker,D. Sheehan,Ireland,43.00,No,GW5
+Second Row,O. Chessum,England,53.00,No,GW5
+Second Row,M. Itoje,England,29.00,No,GW5
+Back Row,C. Doris,Ireland,54.00,No,GW5
+Back Row,A. Wainwright,Wales,136.00,Yes,GW5
+Back Row,R. Darge,Scotland,48.00,No,GW5
+Scrum Half,A. Dupont,France,30.00,No,GW5
+Fly Half,M. Jalibert,France,44.00,No,GW5
+Centre,T. Menoncello,Italy,44.00,No,GW5
+Centre,S. McCloskey,Ireland,36.00,No,GW5
+Back Three,L. Bielle-Biarrey,France,68.00,No,GW5
+Back Three,T. Freeman,England,33.00,No,GW5
+Back Three,D. Graham,Scotland,31.00,No,GW5
+Prop,P. Schoeman,Scotland,68.00,No,GW_All
+Prop,R. Carre,Wales,115.00,No,GW_All
+Hooker,D. Lake,Wales,110.00,No,GW_All
+Second Row,O. Chessum,England,124.00,No,GW_All
+Second Row,T. Beirne,Ireland,152.00,No,GW_All
+Back Row,A. Wainwright,Wales,172.00,No,GW_All
+Back Row,C. Doris,Ireland,194.00,No,GW_All
+Back Row,R. Darge,Scotland,176.00,No,GW_All
+Scrum Half,A. Dupont,France,155.00,No,GW_All
+Fly Half,M. Jalibert,France,197.00,No,GW_All
+Centre,S. McCloskey,Ireland,170.00,No,GW_All
+Centre,T. Menoncello,Italy,184.00,No,GW_All
+Back Three,K. Steyn,Scotland,175.00,No,GW_All
+Back Three,L. Bielle-Biarrey,France,468.00,Yes,GW_All
+Back Three,T. Ramos,France,225.00,No,GW_All

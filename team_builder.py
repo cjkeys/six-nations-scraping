@@ -53,6 +53,12 @@ def read_players_from_csv(filename: str = "data/six_nations_stats.csv") -> List[
     except Exception as e:
         print(f"Error reading CSV: {e}")
         return []
+    
+def createGroupedPlayersDict(players_dict):
+    players_df = pd.DataFrame(players_dict)
+    players_df['Pts'] = pd.to_numeric(players_df['Pts'])
+    grouped_players_df = players_df.groupby(['Name', 'Club', 'Position', 'Position Name', 'ID'], as_index=False)['Pts'].sum().round(2)
+    return grouped_players_df.to_dict(orient='records')
 
 
 def build_optimal_team(players: List[Dict[str, Any]], excluded_ids: set = None, limit_nations: bool = True) -> Dict[str, Any]:
@@ -135,6 +141,9 @@ def build_optimal_team(players: List[Dict[str, Any]], excluded_ids: set = None, 
     
     # Find the captain (highest scorer)
     captain = max(team, key=lambda p: p.get("avg_points", 0)) if team else None
+
+    if captain:
+        captain['avg_points'] = captain['avg_points'] * 2
     
     # Build result dictionary with counts
     club_counts = {}
@@ -148,10 +157,7 @@ def build_optimal_team(players: List[Dict[str, Any]], excluded_ids: set = None, 
     
     # Calculate total points with captain bonus
     total_points = sum(p.get("avg_points", 0) for p in team)
-    if captain:
-        # Captain gets double points, so add their points once more
-        total_points += captain.get("avg_points", 0)
-    
+
     avg_points = total_points / len(team) if team else 0
     max_points = captain.get("avg_points", 0)
     
@@ -247,7 +253,7 @@ def save_teams_to_csv(team_results: List[Dict[str, Any]], filename: str = "data/
     
     try:
         with open(output_path, 'w', newline='', encoding='utf-8') as f:
-            fieldnames = ["Position", "Name", "Nation", "Points", "Team", "Captain"]
+            fieldnames = ["Position", "Name", "Nation", "Points","Captain","Gameweek"]
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(all_team_data)
@@ -270,7 +276,7 @@ def main():
     
     # Build first optimal team
 
-    gameweeks = [1,2,3]
+    gameweeks = [1,2,3,4,5]
     all_weeks = []
     for gw in gameweeks:
         players_gw = [p for p in players if int(p['gameweek']) == gw]
@@ -278,6 +284,11 @@ def main():
         print("Total Points:", result.get("total_points", 0))
         result['gameweek'] = gw
         all_weeks.append(result)
+
+    optimal_team_all = build_optimal_team(createGroupedPlayersDict(players))
+    optimal_team_all['gameweek'] = "_All"
+
+    all_weeks.append(optimal_team_all)
     
     # # Build second team excluding players from first team
     # excluded_ids = set(p.get("ID") for p in team1_result['team'])
@@ -292,6 +303,7 @@ def main():
     
     # Save teams to CSV and HTML
     save_teams_to_csv(all_weeks, "data/selected_teams.csv")
+    save_teams_to_csv([optimal_team_all], "data/selected_team_all_weeks.csv")
     #save_teams_to_html(team1_result, team2_result, "data/selected_teams.html")
     #save_team_to_html_table(team1_result, "data/selected_team_table.html")
 
